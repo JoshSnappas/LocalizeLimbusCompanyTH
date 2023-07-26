@@ -18,7 +18,7 @@ LimbusCompany I18N mod
    
    - คลิ๊ก-ขวาที่ชื่อเกม Limbus Company ในคลังของ Steam และคลิ๊ก "จัดการ" - "เปิดหาไฟล์ภายในเครื่อง"  จากนั้น แตกไฟล์ในโฟลเดอร์เกม **โดยที่ไม่ต้องสร้างโฟลเดอร์ใหม่**
 ### 2. วิธีติดตั้งฟอนต์
-   - ดาวน์โหลดไฟล์ TMP ฟอนต์ จาก [LLC_ThaiFontAsset![](https://img.shields.io/github/release/1ookilo/LLC_ThaiFontAsset.svg?label=Update%20Time)](https://github.com/1ookilo/LLC_ThaiFontAsset) และแตกไฟล์ zip นี้เข้าไปในโฟลเดอร์เกม
+   - ดาวน์โหลดไฟล์ TMP ฟอนต์ จาก [LLC_ThaiFontAsset![](https://img.shields.io/github/release/1ookilo/LLC_ThaiFontAsset.svg?label=Update%20Time)](https://github.com/1ookilo/LLC_ThaiFontAsset) และแตกไฟล์ในโฟลเดอร์เกม
 ### 3. วิธีติดตั้งม็อด i18N
    - ดาวน์โหลดม็อดตัวเต็มจาก [Release](https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases) และแตกไฟล์ในโฟลเดอร์เกม
 
