@@ -6,7 +6,7 @@
 # LocalizeLimbusCompany
 LimbusCompany I18N mod
 
-[![Version](https://img.shields.io/github/release/1ookilo/LocalizeLimbusCompanyTH.svg?label=Version)](../../../releases/latest)
+[![Version](https://img.shields.io/github/release/1ookilo/LocalizeLimbusCompanyTH.svg?label=Version)](../../../releases/latest) [![Localize Limbus Chat Group](https://img.shields.io/badge/Join-FBGroup-blue?logo=facebook)](https://www.facebook.com/groups/904151950781298)
 
 [简体中文](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany) | [繁體中文](https://github.com/SmallYuanSY/LocalizeLimbusCompany) | [Русский](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS) | ภาษาไทย | [English](./.github/EN_README.md)
 </div>
@@ -17,9 +17,9 @@ LimbusCompany I18N mod
    - ดาวน์โหลด ModLoader เวอร์ชั่น v0.6.1 หรือสูงกว่าจาก [MelonLoader](https://github.com/LavaGang/MelonLoader)
    
    - คลิ๊ก-ขวาที่ชื่อเกม Limbus Company ในคลังของ Steam และคลิ๊ก "จัดการ" - "เปิดหาไฟล์ภายในเครื่อง"  จากนั้น แตกไฟล์ในโฟลเดอร์เกม **โดยที่ไม่ต้องสร้างโฟลเดอร์ใหม่**
-### 2. วิธีติดตั้งฟอนต์
+### 2. ติดตั้งฟอนต์
    - ดาวน์โหลดไฟล์ TMP ฟอนต์ จาก [LLC_ThaiFontAsset![](https://img.shields.io/github/release/1ookilo/LLC_ThaiFontAsset.svg?label=Update%20Time)](https://github.com/1ookilo/LLC_ThaiFontAsset) และแตกไฟล์ในโฟลเดอร์เกม
-### 3. วิธีติดตั้งม็อด i18N
+### 3. ติดตั้งม็อด i18N
    - ดาวน์โหลดม็อดตัวเต็มจาก [Release](https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases) และแตกไฟล์ในโฟลเดอร์เกม
 
    - หากเคยติดตั้งตัวเต็มมาก่อนแล้วให้ดาวน์โหลดตัว OTA และแตกไฟล์ทับไฟล์เก่าในโฟลเดอร์เกมได้เลย  
