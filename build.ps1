@@ -12,12 +12,12 @@ dotnet build src/LimbusLocalize_ml_ilcpp.sln -c ML
 New-Item -Path "$Path" -Name "LimbusLocalize" -ItemType "directory" -Force
 New-Item -Path "$Path/LimbusLocalize" -Name "Mods" -ItemType "directory" -Force
 New-Item -Path "$Path/LimbusLocalize/Mods" -Name "Localize" -ItemType "directory" -Force
-Copy-Item -Path Localize/CN $Path/LimbusLocalize/Mods/Localize -Force -Recurse
+Copy-Item -Path Localize/TH $Path/LimbusLocalize/Mods/Localize -Force -Recurse
 Copy-Item -Path Localize/Readme $Path/LimbusLocalize/Mods/Localize -Force -Recurse
 Copy-Item -Path $Path/LimbusLocalize.dll -Destination $Path/LimbusLocalize/Mods -Force
 7z a -t7z "$Path/LimbusLocalize_$version.7z" "./$Path/LimbusLocalize/*" -mx=9 -ms
 $tag=$(git describe --tags --abbrev=0)
-$changedFiles=$(git diff --name-only HEAD $tag -- Localize/CN/)
+$changedFiles=$(git diff --name-only HEAD $tag -- Localize/TH/)
 $changedFiles2=$(git diff --name-only HEAD $tag -- Localize/Readme/)
 # OTA
 New-Item -Path "$Path" -Name "LimbusLocalize_OTA" -ItemType "directory" -Force
@@ -25,13 +25,13 @@ New-Item -Path "$Path/LimbusLocalize_OTA" -Name "Mods" -ItemType "directory" -Fo
 Copy-Item -Path $Path/LimbusLocalize.dll -Destination $Path/LimbusLocalize_OTA/Mods -Force
 New-Item -Path "$Path/LimbusLocalize_OTA/Mods" -Name "Localize" -ItemType "directory" -Force
 New-Item -Path "$Path/LimbusLocalize_OTA/Mods/Localize" -Name "Readme" -ItemType "directory" -Force
-New-Item -Path "$Path/LimbusLocalize_OTA/Mods/Localize" -Name "CN" -ItemType "directory" -Force
+New-Item -Path "$Path/LimbusLocalize_OTA/Mods/Localize" -Name "TH" -ItemType "directory" -Force
 # Copy the changed files to the release directory
 $changedFilesList = $changedFiles -split " "
 foreach ($file in $changedFilesList) {
     if (Test-Path -Path $file) {
-        $destination = "$Path/LimbusLocalize_OTA/Mods/Localize/CN/$file"
-        $destination = $destination.Replace("Localize/CN/Localize/CN/", "Localize/CN/")
+        $destination = "$Path/LimbusLocalize_OTA/Mods/Localize/TH/$file"
+        $destination = $destination.Replace("Localize/TH/Localize/TH/", "Localize/TH/")
         $destinationDirectory = Split-Path -Path $destination -Parent
         if (!(Test-Path -Path $destinationDirectory)) {
             New-Item -ItemType Directory -Force -Path $destinationDirectory

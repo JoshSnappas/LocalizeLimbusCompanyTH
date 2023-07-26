@@ -26,11 +26,11 @@ namespace LimbusLocalize
         public static LLC_Manager Instance;
         public LLC_Manager(IntPtr ptr) : base(ptr) { }
 
-        public static void OpenGlobalPopup(string description, string title = null, string close = "取消", string confirm = "确认", Action confirmEvent = null, Action closeEvent = null)
+        public static void OpenGlobalPopup(string description, string title = null, string close = "ยกเลิก", string confirm = "ยืนยัน", Action confirmEvent = null, Action closeEvent = null)
         {
             if (!GlobalGameManager.Instance) { return; }
             TextOkUIPopup globalPopupUI = GlobalGameManager.Instance.globalPopupUI;
-            TMP_FontAsset fontAsset = LCB_Chinese_Font.tmpchinesefonts[0];
+            TMP_FontAsset fontAsset = LCB_Thai_Font.tmpchinesefonts[0];
             if (fontAsset)
             {
                 TextMeshProUGUI btn_canceltmp = globalPopupUI.btn_cancel.GetComponentInChildren<TextMeshProUGUI>(true);
@@ -65,7 +65,7 @@ namespace LimbusLocalize
             foreach (FileInfo fileInfo in directory.GetFiles())
             {
                 var value = File.ReadAllText(fileInfo.FullName);
-                string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileInfo.FullName).Remove(0, 3);
+                string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileInfo.FullName);
                 Localizes[fileNameWithoutExtension] = value;
             }
             foreach (DirectoryInfo directoryInfo in directory.GetDirectories())

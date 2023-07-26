@@ -39,9 +39,9 @@ namespace LimbusLocalize
             NoticeUIInstance.btn_eventNotice._onClick.AddListener(eventNotice_onClick);
             NoticeUIInstance.btn_systemNotice._onClick.AddListener(systemNotice_onClick);
             NoticeUIInstance.btn_systemNotice.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
-            NoticeUIInstance.btn_systemNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "更新公告";
+            NoticeUIInstance.btn_systemNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "Update Notice";
             NoticeUIInstance.btn_eventNotice.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
-            NoticeUIInstance.btn_eventNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "公告";
+            NoticeUIInstance.btn_eventNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "Announcement";
         }
         public static void Open()
         {

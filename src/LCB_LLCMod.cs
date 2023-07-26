@@ -15,8 +15,8 @@ namespace LimbusLocalize
         public static string GamePath;
         public const string NAME = "LimbusLocalizeMod";
         public const string VERSION = "0.5.9";
-        public const string AUTHOR = "Bright";
-        public const string LLCLink = "https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany";
+        public const string AUTHOR = "base: Bright, version: Seiryu";
+        public const string LLCLink = "https://github.com/1ookilo/LocalizeLimbusCompanyTH";
         public static MelonPreferences_Category LLC_Settings = MelonPreferences.CreateCategory("LLC", "LLC Settings");
         public static Action<string, Action> LogFatalError { get; set; }
         public static Action<string> LogError { get; set; }
@@ -34,17 +34,20 @@ namespace LimbusLocalize
             {
                 LLC_UpdateChecker.StartAutoUpdate();
                 HarmonyLib.Harmony harmony = new("LimbusLocalizeMod");
-                if (LLC_Chinese_Setting.IsUseChinese.Value)
+                if (LLC_Thai_Setting.IsUseChinese.Value)
                 {
-                    LLC_Manager.InitLocalizes(new DirectoryInfo(ModPath + "/Localize/CN"));
-                    harmony.PatchAll(typeof(LCB_Chinese_Font));
+                    LLC_Manager.InitLocalizes(new DirectoryInfo(ModPath + "/Localize/TH"));
+                    harmony.PatchAll(typeof(LCB_Thai_Font));
                     harmony.PatchAll(typeof(LLC_ReadmeManager));
                     harmony.PatchAll(typeof(LLC_LoadingManager));
                     harmony.PatchAll(typeof(LLC_SpriteUI));
                 }
                 harmony.PatchAll(typeof(LLC_Manager));
-                harmony.PatchAll(typeof(LLC_Chinese_Setting));
-                if (!LCB_Chinese_Font.AddChineseFont(ModPath + "/tmpchinesefont"))
+                harmony.PatchAll(typeof(LLC_Thai_Setting));
+                if (!LCB_Thai_Font.AddChineseFont(ModPath + "/tmpchinesefont"))
+                    LogFatalError("You Not Have Chinese Font, Please Read GitHub Readme To Download\n你没有下载中文字体,请阅读GitHub的Readme下载", OpenLLCURL);
+
+                if (!LCB_Thai_Font.AddThaiFont(ModPath + "/tmpthaifont"))
                     LogFatalError("You Not Have Chinese Font, Please Read GitHub Readme To Download\n你没有下载中文字体,请阅读GitHub的Readme下载", OpenLLCURL);
             }
             catch (Exception e)

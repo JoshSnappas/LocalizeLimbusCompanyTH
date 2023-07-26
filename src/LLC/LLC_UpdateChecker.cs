@@ -24,7 +24,7 @@ namespace LimbusLocalize
         }
         static void CheckModUpdate()
         {
-            UnityWebRequest www = UnityWebRequest.Get("https://api.github.com/repos/LocalizeLimbusCompany/LocalizeLimbusCompany/releases");
+            UnityWebRequest www = UnityWebRequest.Get("https://api.github.com/repos/1ookilo/LocalizeLimbusCompanyTH/releases");
             www.timeout = 4;
             www.SendWebRequest();
             while (!www.isDone)
@@ -40,7 +40,7 @@ namespace LimbusLocalize
                 {
                     string updatelog = (latest2ReleaseTag == "v" + LCB_LLCMod.VERSION ? "LimbusLocalize_OTA_" : "LimbusLocalize_") + latestReleaseTag;
                     Updatelog += updatelog + ".7z ";
-                    string download = "https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany/releases/download/" + latestReleaseTag + "/" + updatelog + ".7z";
+                    string download = "https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases/download/" + latestReleaseTag + "/" + updatelog + ".7z";
                     var dirs = download.Split('/');
                     string filename = LCB_LLCMod.GamePath + "/" + dirs[^1];
                     if (!File.Exists(filename))
@@ -54,7 +54,7 @@ namespace LimbusLocalize
         }
         static void CheckChineseFontAssetUpdate()
         {
-            UnityWebRequest www = UnityWebRequest.Get("https://api.github.com/repos/LocalizeLimbusCompany/LLC_ChineseFontAsset/releases/latest");
+            UnityWebRequest www = UnityWebRequest.Get("https://api.github.com/repos/1ookilo/LLC_ThaiFontAsset/releases/latest");
             string FilePath = LCB_LLCMod.ModPath + "/tmpchinesefont";
             var LastWriteTime = File.Exists(FilePath) ? int.Parse(new FileInfo(FilePath).LastWriteTime.ToString("yyMMdd")) : 0;
             www.SendWebRequest();
@@ -66,7 +66,7 @@ namespace LimbusLocalize
             {
                 string updatelog = "tmpchinesefont_" + latestReleaseTag;
                 Updatelog += updatelog + ".7z ";
-                string download = "https://github.com/LocalizeLimbusCompany/LLC_ChineseFontAsset/releases/download/" + latestReleaseTag + "/" + updatelog + ".7z";
+                string download = "https://github.com/1ookilo/LLC_ThaiFontAsset/releases/download/" + latestReleaseTag + "/" + updatelog + ".7z";
                 var dirs = download.Split('/');
                 string filename = LCB_LLCMod.GamePath + "/" + dirs[^1];
                 if (!File.Exists(filename))
