@@ -4,9 +4,9 @@
    - ดาวน์โหลด ModLoader เวอร์ชั่น v0.6.1 หรือสูงกว่าจาก [MelonLoader](https://github.com/LavaGang/MelonLoader)
    
    - คลิ๊ก-ขวาที่ชื่อเกม Limbus Company ในคลังของ Steam และคลิ๊ก "จัดการ" - "เปิดหาไฟล์ภายในเครื่อง"  จากนั้น แตกไฟล์ zip นี้เข้าไปในโฟลเดอร์เกม **โดยที่ไม่ต้องสร้างโฟลเดอร์ใหม่**
-### 2. วิธีติดตั้งฟอนต์
+### 2. ติดตั้งฟอนต์
    - ดาวน์โหลดไฟล์ TMP ฟอนต์ จาก [LLC_ThaiFontAsset![](https://img.shields.io/github/release/1ookilo/LLC_ThaiFontAsset.svg?label=Update%20Time)](https://github.com/1ookilo/LLC_ThaiFontAsset) และแตกไฟล์ zip นี้เข้าไปในโฟลเดอร์เกม
-### 3. วิธีติดตั้งม็อด i18N
+### 3. ติดตั้งม็อด i18N
    - ดาวน์โหลดม็อดตัวเต็มจาก [Release](https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases) และแตกไฟล์ zip นี้เข้าไปในโฟลเดอร์เกม
 
    - หากรู้อยู่แล้วว่าต้องทำยังไง ให้ดาวน์โหลด OTA และแตกไฟล์ทับไฟล์เก่าแค่บางไฟล์     
