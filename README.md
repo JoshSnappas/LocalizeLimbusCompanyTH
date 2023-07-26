@@ -8,7 +8,7 @@ LimbusCompany I18N mod
 
 [![Version](https://img.shields.io/github/release/1ookilo/LocalizeLimbusCompanyTH.svg?label=Version)](../../../releases/latest)
 
-[简体中文](../../..) | [繁體中文](https://github.com/SmallYuanSY/LocalizeLimbusCompany) | [Русский](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS) | ภาษาไทย | [English](./.github/EN_README.md)
+[简体中文](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany) | [繁體中文](https://github.com/SmallYuanSY/LocalizeLimbusCompany) | [Русский](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS) | ภาษาไทย | [English](./.github/EN_README.md)
 </div>
 
 # วิธีติดตั้ง
