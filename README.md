@@ -25,7 +25,8 @@ LimbusCompany I18N mod
    - หากรู้อยู่แล้วว่าต้องทำยังไง ให้ดาวน์โหลด OTA และแตกไฟล์ทับไฟล์เก่าแค่บางไฟล์     
    
 # ลิงค์เพิ่มเติม
-- [ลิงค์โปรเจคใน ParaTranz](https://paratranz.cn/projects/7797) สถานะกำลังทยอยอัพไฟล์แปลให้อยู่
+- [ลิงค์โปรเจคแปลใน ParaTranz](https://paratranz.cn/projects/7797)
+  
 # Disclaimer
 - **Using this mod is free.** 
 - **This mod is allowed by Project Moon.** This mod is whitelisted by Project Moon Offical。You can read [`this post`](https://github.com/orgs/LocalizeLimbusCompany/discussions/70) to learn more.
