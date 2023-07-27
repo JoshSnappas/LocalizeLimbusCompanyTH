@@ -20,9 +20,7 @@ LimbusCompany I18N mod
 ### 2. ติดตั้งฟอนต์
    - ดาวน์โหลดไฟล์ TMP ฟอนต์ จาก [LLC_ThaiFontAsset![](https://img.shields.io/github/release/1ookilo/LLC_ThaiFontAsset.svg?label=Update%20Time)](https://github.com/1ookilo/LLC_ThaiFontAsset) และแตกไฟล์ในโฟลเดอร์เกม
 ### 3. ติดตั้งม็อด i18N
-   - ดาวน์โหลดม็อดตัวเต็มจาก [Release](https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases) และแตกไฟล์ในโฟลเดอร์เกม
-
-   - หากเคยติดตั้งตัวเต็มมาก่อนแล้วให้ดาวน์โหลดตัว OTA และแตกไฟล์ทับไฟล์เก่าในโฟลเดอร์เกมได้เลย  
+   - ดาวน์โหลดม็อดตัวเต็มจาก [Release](https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases) และแตกไฟล์ในโฟลเดอร์เกม 
    
 # ลิงค์เพิ่มเติม
 - [ลิงค์โปรเจคแปลใน ParaTranz](https://paratranz.cn/projects/7797)

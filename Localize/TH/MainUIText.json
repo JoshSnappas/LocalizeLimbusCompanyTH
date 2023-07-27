@@ -2,27 +2,27 @@
   "dataList": [
     {
       "id": "mainui_main_button0",
-      "content": "หน้าต่าง"
+      "content": "Window"
     },
     {
       "id": "mainui_main_button1",
-      "content": "เหล่าคนบาป"
+      "content": "Sinners"
     },
     {
       "id": "mainui_main_button2",
-      "content": "โรงภาพยนต์"
+      "content": "Theater"
     },
     {
       "id": "mainui_main_button3",
-      "content": "ออกรถ"
+      "content": "Drive"
     },
     {
       "id": "mainui_main_button4",
-      "content": "เอคแทร็ค"
+      "content": "Extract"
     },
     {
       "id": "mainui_main_button5",
-      "content": "จัดการ"
+      "content": "Dispense"
     },
     {
       "id": "mainui_main_exp",
@@ -142,7 +142,7 @@
     },
     {
       "id": "mainui_ok",
-      "content": "ยืนยัน"
+      "content": "Confirm"
     },
     {
       "id": "mainui_battleresult_victory",
@@ -166,7 +166,7 @@
     },
     {
       "id": "mainui_cancel",
-      "content": "ยกเลิก"
+      "content": "Cancel"
     },
     {
       "id": "mainui_select",
@@ -526,7 +526,7 @@
     },
     {
       "id": "mainui_buy",
-      "content": "ยืนยัน"
+      "content": "Confirm"
     },
     {
       "id": "mainui_use",
@@ -774,11 +774,11 @@
     },
     {
       "id": "mainui_settings",
-      "content": "ตั้งค่า"
+      "content": "Settings"
     },
     {
       "id": "mainui_environment_settings",
-      "content": "ตั้งค่า"
+      "content": "Settings"
     },
     {
       "id": "mainui_back",
@@ -1447,6 +1447,18 @@
     {
       "id": "required_count",
       "content": "Required"
+    },
+    {
+      "id": "on_event_reward_grace_period",
+      "content": "Reward Reception Period"
+    },
+    {
+      "id": "user_level_maximum_notice",
+      "content": "Reached Max Level."
+    },
+    {
+      "id": "user_level_limit_increase_notice",
+      "content": "※ The Max Manager Level may be raised with future updates."
     }
   ]
 }

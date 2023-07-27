@@ -175,10 +175,18 @@ namespace LimbusLocalize
                     underlayColor.b *= num;
                 }
                 underlayColor = __instance.underlayHdrColorOn ? __instance.underlayHdrColor : underlayColor;
-                if (underlayColor.g > 0f || underlayColor.b > 0f)
+                if (underlayColor.r > 0f || underlayColor.g > 0f || underlayColor.b > 0f)
                     __instance._text.color = underlayColor;
             }
             return false;
+        }
+
+        [HarmonyPatch(typeof(BattleSkillViewUIInfo), nameof(BattleSkillViewUIInfo.Init))]
+        [HarmonyPrefix]
+        private static void BattleSkillViewUIInfoInit(BattleSkillViewUIInfo __instance)
+        {
+            __instance._materialSetter_abText.underlayColor = Color.clear;
+            __instance._materialSetter_skillText.underlayColor = Color.clear;
         }
         #endregion
         #region 载入汉化
