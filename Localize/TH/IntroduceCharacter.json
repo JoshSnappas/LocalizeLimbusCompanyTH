@@ -2,74 +2,74 @@
   "dataList": [
     {
       "id": "이상",
-      "name": "Yi Sang",
-      "description": "Formerly the youngest chief researcher at the [REDACTED] Wing,\nthis Sinner possesses higher intelligence compared to most others.\nWe estimate that everyday conversation with this Sinner will prove difficult\nfor managers selected by our current screening process.\nAvoiding communication altogether will pose a risk on its own, however.\nIf the Sinner remains silent for a long time, that means he is currently processing a line of deliberate thought;\nwe recommend waiting patiently for him.",
+      "name": "อี้ซัง",
+      "description": "ในอดีตเคยเป็นหัวหน้านักวิจัยที่อายุน้อยที่สุด ณ [ข้อมูลถูกลบ] วิง\nคนบาปคนนี้ครอบครองสติปัญญาที่สูงหากเทียบกับคนอื่น ๆ\nเราประมาณการไว้ว่า การมีบทสนทนาประจำวันกับคนบาปคนนี้คงเป็นเรื่องยาก\nสำหรับผู้จัดการที่ถูกเลือกโดยวิธีคัดกรองในปัจจุบันของเรา\nอย่างไรก็ตาม การหลีกเลี่ยงการสื่อสารก็จะทำให้เกิดความเสี่ยงของมันเองด้วยเช่นกัน\nหากคนบาปคนนี้เงียบไปเป็นเวลานาน แปลว่าเขากำลังประมวลความคิดอย่างตรึกตรองอยู่\nเราขอแนะนำให้รอเขาคนนี้อย่างใจเย็น",
       "sentence": ""
     },
     {
       "id": "파우스트",
-      "name": "Faust",
-      "description": "The Sinner who developed the engine of Mephistopheles, the bus operated by Limbus Company.\nShe claims that there is no one in the City who could rival her library of knowledge and wisdom,\nand she isn't necessarily wrong.\nYou might find her high and mighty attitude when she allows you to converse with her displeasing,\nbut as seen with how she treats everyone with subtle gestures of arrogance, there is no hope of her parting with it, ever.\nWe recommend simply nodding once and getting over it.\nEven though she has an unparalleled genius, we can't quite figure out how to use this one.\nPerhaps you could be the one to find out?",
+      "name": "เฟาสต์",
+      "description": "คนบาปผู้พัฒนาเครื่องยนต์ของเมฟิสโตเฟเลส รถบัสที่ดำเนินการโดยลิมบัสคอมพานี\nเธอเคลมว่าไม่มีใครในเดอะซิตี้ที่สามารถเทียบเคียงคลังสมุดแห่งความรู้และปัญญาของเธอได้ และนั่นก็ไม่ได้ผิดสักทีเดียว\nคุณอาจรู้สึกไม่พอใจกับท่าทีดูสูงส่งและยิ่งใหญ่นั้นยามที่เธออนุญาตให้คุณได้ร่วมพูดคุยด้วย \nแต่ดูจากการที่เธอปฏิบัติต่อทุกคนด้วยท่าทางแฝงความเย่อหยิ่งนั้นแล้ว คงหวังให้เธอพรากจากมันไปไม่ได้แล้วล่ะ\nเราขอแนะนำให้คุณแค่พยักหน้าครั้งนึงแล้วเมิน ๆ มันไปซะ\nแม้ว่าเธอจะมีความอัจฉริยะที่ไม่มีใครเคียงได้ เราก็ยังไม่รู้วิธีที่จะใช้งานพนักงานคนนี้อยู่ดี\nบางทีคุณอาจเป็นคนหาคำตอบนั้นได้ก็ได้นะ?",
       "sentence": ""
     },
     {
       "id": "돈키호테",
-      "name": "Don Quixote",
-      "description": "There is no Sinner that can outmatch this one's level of passion if we were to measure it.\nAn avid aficionada of all things Fixer, she adorns herself with a variety of Fixer-related merchandise.\nThey won't affect her performance in combat one way or another,\nso there is no need for you to restrict her from keeping her decorations.\nShe is deeply immersed in the role of a righteous Fixer,\nhence the exaggerated mannerisms akin to those of an actor. (Has such a thing ever existed, really?)\nIt's advised to play along with her for a smooth mission.",
+      "name": "ดอน กิโฆเต้",
+      "description": "หากวัดกันแล้ว คงไม่มีคนบาปคนนี้ที่สามารถแข่งแพชชั่นได้เท่ากับคนคนนี้อีก \nเธอเป็นแฟนคลับมักมากตัวยงของทุกสิ่งที่เกี่ยวข้องกับฟิกเซอร์ และประดับประดาตัวเองด้วยสินค้าเหล่านั้นเต็มไปหมด \nพวกมันไม่ส่งผลถึงความสามารถในการต่อสู้ คุณจึงไม่จำเป็นที่จะต้องให้เธอเก็บของตกแต่งเหล่านั้นลง \nอีกทั้งเธอยังจมลึกกับการรับบทเป็นฟิกเซอร์ผู้เที่ยงธรรม \nและมีท่าทางกิริยาเกินจริงใกล้เคียงกับนักแสดงด้วย (ของแบบนั้นยังมีอยู่จริง ๆ เหรอนั่น?) \nขอแนะนำให้เล่นตามนั้นเธอไปเพื่อทำให้ภารกิจง่ายยิ่งขึ้น ",
       "sentence": ""
     },
     {
       "id": "료슈",
-      "name": "Ryōshū",
-      "description": "As they say, every person has their own creed—and it's only right to respect it as the Executive Manager.\nBut with some creeds, you will have difficulty in even simply pretending to sympathize.\nYou will have noticed that the Sinner in question is a silent chain-smoker\nwhose eyes shine with a euphoric gleam only during battle.\nShe believes that senselessly destroying the enemy's heads is an uncultured act and a step backward for art.\n[CAUTION]: This Sinner's background is one that even our company may have trouble handling;\nit is advised against making her breed personal resentment towards you.",
+      "name": "เรียวชู",
+      "description": "ตามที่เขาว่ากัน ทุกคนต่างมีความเชื่อเป็นของตัวเอง และในฐานะผู้จัดการคุณก็ควรจะเคารพมันด้วย\nแต่บางความเชื่อก็คงทำให้คุณมีช่วงเวลาที่ลำบากในการที่จะแกล้งเข้าอกเข้าใจเสียด้วยซ้ำ\nคุณจะเห็นว่าคนบาปดังกล่าวเป็นสิงห์อมควันเงียบ ๆ\nซึ่งจะมีแววตาเปล่งประกายสุขเพียงเวลาต่อสู้เท่านั้น\nเธอเชื่อว่าการตะบี้ตะบันทำลายหัวข้าศึกรังแต่จะเป็นการกระทำไร้การอบรมสอนสั่งและถือเป็นการถอยหลังกลับของงานศิลปะ\n[ระวัง]: ภูมิหลังของคนบาปคนนี้ถือเป็นหนึ่งในคนที่แม้แต่บริษัทเราก็รับมือได้ยาก\nโปรดพยายามอย่าให้เธอมีความบาดหมางกับคุณให้มากที่สุด\n",
       "sentence": ""
     },
     {
       "id": "뫼르소",
-      "name": "Meursault",
-      "description": "Wants clear and concise commands, requiring no judgement on his part.",
+      "name": "เมอร์โซลท์",
+      "description": "ต้องการคำสั่งที่ชัดเจนและกระชับ ในส่วนของเขาไม่จำเป็นที่จะต้องรับการตัดสินอะไร",
       "sentence": ""
     },
     {
       "id": "홍루",
-      "name": "Hong Lu",
-      "description": "A Sinner who had lived an affluent life before becoming our company's asset.\nAs such, he has a certain admiration for a free life;\nbut occasionally, he may make ignorant and unsavory questions in regards\nto the food cooked by a certain other Sinner or other aspects of the low-lives' lowly culture.\nThis can cause significant irritation for the other Sinners.\nHowever, it is important to note that no sarcastic undertones are contained in his curiosity-driven inquiries,\nso it is ill-advised to let them get physical over it.",
+      "name": "หงลู่",
+      "description": "คนบาปที่เคยใช้ชีวิตแสนมั่งคั่งก่อนกลายเป็นสินทรัพย์ของบริษัทเรา\nด้วยเหตุนี้ เขาจึงมีความชื่นชอบในชีวิตซึ่งเป็นอิสระ\nแต่ในบางครั้ง เขาอาจถามคำถามแสนโง่เขลาและน่ารังเกียจเกี่ยวกับ\nอาหารที่ปรุงโดยคนบาปคนอื่น หรือด้านอื่น ๆ ที่เกี่ยวข้องกับวัฒนธรรมของสิ่งมีชีวิตต่ำช้า\nซึ่งอาจสร้างความไม่พอใจอย่างเห็นได้ชัดให้กับคนบาปคนอื่น ๆ\nอย่างไรก็ตามแต่ สิ่งสำคัญที่ควรรู้ไว้คือไม่มีความเยาะเย้ยแอบแฝงในคำถามที่ถูกชักนำโดยความอยากรู้ของเขา\nฉะนั้นจึงไม่ควรให้มีการใช้กำลังเกินกว่าเหตุกับเรื่องดังกล่าว",
       "sentence": ""
     },
     {
       "id": "히스클리프",
-      "name": "Heathcliff",
-      "description": "This Sinner prefers to take action rather than wait for logic to dictate his course.\nHis thoughts and feelings are blatantly visible in his demeanor, and he has no intention of hiding them;\nhis brashness may cause headaches (or physical injury leading to a headache) in the process of forming a relationship.\nPlease do note that this is not an indication of serious damage to the Sinner's thought process.\nIf his fit of rage persists, please contact the human resources department.\nOnce you realize that he is the type that tends to be simple-minded,\nyou'll have an easier time handling him.",
+      "name": "ฮีธคลิฟฟ์",
+      "description": "คนบาปคนนี้เลือกเริ่มปฏิบัติสิ่งต่าง ๆ ทันทีมากกว่าจะรอใช้เหตุผลเพื่อกำหนดทางเดินของเขา\nทั้งความคิดและความรู้สึกสามารถมองเห็นและสัมผัสได้อย่างชัดเจนผ่านท่าทีของเขา และเขาก็ไม่มีเจตนาจะปิงบังด้วย\nการไม่ไต่ตรองอะไรแบบนี้อาจส่งผลให้เกิดอาการปวดหัว (หรืออาการบาดเจ็บที่ศีรษะจนนำไปสู่การปวดหัว) ในขณะสร้างปฏิสัมพันธ์ด้วย\nโปรดทราบว่านี่ไม่ใช่ตัวชี้วัดถึงความเสียหายรุนแรงต่อกระบวนการคิดของคนบาปคนนี้\nหากเขายังคงโกรธอยู่ ขอให้ติดต่อแผนกทรัพยากรมนุษย์\nเมื่อคุณตระหนักได้ว่าเขาเป็นคนประเภทที่มักคิดอะไรง่าย ๆ\nคุณก็จะสามารถรับมือกับเขาได้ง่ายขึ้นเยอะ",
       "sentence": ""
     },
     {
       "id": "이스마엘",
-      "name": "Ishmael",
-      "description": "You may be disheartened by the defective state of many of your Sinners,\nbut do not worry; this Sinner is one of the few who can carry out most missions without much complaint.\nShe is likely to make reasonable judgements, so it is a good idea to start conversations\nwhile looking her way if you're seeking sound advice.\nHowever, you mustn't forget: this Sinner has survived an absurd voyage in a far and wide body of water.\nHer patience may run deep, but once you take a wrong turn with her,\nit will be a difficult task to regain her trust.",
+      "name": "อิชมาเอล",
+      "description": "คุณอาจท้อแท้ใจกับสภาวะบกพร่องจากเหล่าคนบาปจำนวนมากของคุณ\nแต่อย่าได้กังวลไป คนบาปคนนี้เป็นหนึ่งในไม่กี่คนที่จะทำหน้าที่ที่ได้รับส่วนใหญ่โดยไม่ปริปากบ่นมาก\nเธอมีแนวโน้มที่จะตัดสินอะไรอย่างมีเหตุผล เพราะฉะนั้นมันจึงเป็นความคิดที่ดีที่จะเริ่มบทสนทนา\nในขณะที่มองไปทางเธอหากคุณอยากได้คำแนะนำ\nยังไงก็ตามแต่ ขออย่าให้คุณได้ลืมสิ่งนี้ ว่าคนบาปคนนี้รอดชีวิตจากการเดินทางในผืนน้ำอันกว้างใหญ่ไพรสาร\nความอดทนของเธออาจมีอยู่มาก แต่หากคุณตัดสินใจไปคนละทางกับเธอแล้ว\nมันจะยากที่จะได้รับความไว้วางใจนั้นอีกครั้ง",
       "sentence": ""
     },
     {
       "id": "로쟈",
-      "name": "Rodion",
-      "description": "The unfortunate traits of being Backstreets-born are apparent in this Sinner.\nShe loves money, gambling, and betting—so it is advised to pay close attention to her as the manager.\nShe tends to deflect orders with an unimpressive wink or a silly joke;\nwe recommend taking a stern stance at times to remind her that you are her superior.\nHer mood may be down at irregular intervals.\nThere is nothing you can do to aid her in that state, so we recommend waiting for it to pass.",
+      "name": "โรดิอน",
+      "description": "ลักษณะอัปมงคงของการเกิดเป็นชาวแบ็คสตรีทปรากฏชัดเจนในคนบาปคนนี้\nเธอชอบเงิน การพนัน และการเดิมพัน จึงขอแนะนำให้จับตาดูเธออย่างใกล้ชิดในฐานะผู้จัดการ\nอีกทั้งเธอมีแนวโน้มที่จะบ่ายเบี่ยงคำสั่งด้วยการขยิบตาอันไม่น่าประทับใจหรือเล่นมุกตลก\nจึงขอให้ใช้ท่าทีเข้มงวดเพื่อเตือนให้เธอรู้ว่าคุณเป็นหัวหน้าของเธอ\nอารมณ์ของเธออาจดิ่งลงในช่วงเวลาไม่สม่ำเสมอ\nซึ่งคุณไม่สามารถทำอะไรเพื่อเยียวยาได้ จึงขอแนะนำให้ช่วงเวลานั้นผ่านพ้นไปเอง",
       "sentence": ""
     },
     {
       "id": "싱클레어",
-      "name": "Sinclair",
-      "description": "Even with the volatile nature of human growth around his age taken into consideration,\nthis Sinner seems to get particularly startled or frown when spoken to.\nHe isn't used to real combat at the moment,\nmeaning that he may struggle to keep himself together at the sight of something as mild as spilt innards at first.\nAs there may be those with violent tendencies among your crew,\nwe recommend taking an approach focused on positive reinforcement with this Sinner.\nHe appears to possess a murderous gaze that he himself isn't aware of;\nthis is a hopeful sign that he has the potential to grow into an expert of our company's profession with the right stimuli.",
+      "name": "ซินแคลร์",
+      "description": "แม้จะนำความผันผวนในธรรมชาติการเติบโตมนุษย์วัยเขามาพิจารณาแล้ว\nคนบาปคนนี้ก็ดูจะตกใจหรือขมวดคิ้วเป็นพิเศษในตอนที่คุยด้วย\nในตอนนี้เขายังไม่ชินมือกับการต่อสู้จริงมากนัก\nซึ่งแปลว่าเขาอาจทุลักทุเลไปบ้างกับการตั้งสติเมื่อเห็นอะไรพื้นฐานอย่างอวัยวะภายในฉีกขาดในช่วงแรก\nเนื่องจากอาจมีพวกที่มีแนวโน้มเป็นคนหัวรุนแรงอยู่ในกลุ่มของคุณ\nเราขอแนะนำให้เข้าหาและสร้างสัมพันธ์ทางบวกกับคนบาปคนนี้\nเขาเหมือนจะมีแววตาอำมหิตไม่รู้ตัวซุกซ่อนเอาไว้\nซึ่งเป็นสัญญาณที่ดีว่าเขามีศักยภาพพอจะกลายเป็นผู้เชี่ยวชาญของบริษัทเราหากได้รับการกระตุ้นอย่างถูกทาง",
       "sentence": ""
     },
     {
       "id": "오티스",
-      "name": "Outis",
-      "description": "This Sinner could serve as an excellent advisor depending on your capability.\nHowever, she also has a meddlesome tendency, so it is recommended to keep her satisfied with short replies of agreement.\nShe is an expert when it comes to tactics and various pearls of wisdom about life,\nmaking her advice all the more valuable for your mission.\nIn addition, she possesses a vast knowledge of workshop technologies;\nyou could trust her with simple repairs of the bus.\n[NOTICE]: Unlike the other Sinners, accessing records pertaining to the past of this Sinner is not permitted.\n[WARNING]: Keep an eye on this Sinner and beware that she does not exercise her cunning intellect\nfor purposes other than completing our company's mission.",
+      "name": "โอทิส",
+      "description": "คนบาปคนนี้สามารถเป็นผู้ให้คำปรึกษาชั้นเลิศได้ตามความสามารถของคุณ\nอย่างไรก็ตามแต่ เธอก็มีแนวโน้มที่จะเป็นพวกปากเสีย จึงขอแนะนำให้ตอบรับเห็นด้วยกลับไปสั้น ๆ เพื่อให้เธอพอใจ\nเธอเป็นผู้เชี่ยวชาญในเรื่องของยุทธวิธีและคำปรึกษาอันแสนชาญฉลาดเกี่ยวกับชีวิต\nทำให้คำแนะนำของเธอยิ่งมีคุณค่าสำหรับภารกิจของคุณ\nเพิ่มเติมคือ เธอมีความรู้กว้างขวางเกี่ยวกับเทคโนโลยีเวิร์คช็อป\nจึงสามารถไว้วางใจให้ซ่อมแซมรถบัสอย่างง่ายได้\n[ข้อสังเกต]: ต่างจากคนบาปคนอื่น การเข้าถึงข้อมูลอดีตของคนบาปคนนี้นั้นไม่ได้รับอนุญาต\n[คำเตือน]: โปรดจับตาดูคนบาปคนนี้และระวังไม่ให้เธอฝึกฝนในการใช้สติปัญญาเจ้าเล่ห์หลักแหลม\nเพื่อการอื่นนอกจากการทำภารกิจของบริษัทเราให้สำเร็จ",
       "sentence": ""
     },
     {
       "id": "그레고르",
-      "name": "Gregor",
-      "description": "This Sinner is relatively easy to handle in terms of personality.\nHowever, an upsurge of emotion or a sudden change of environment\nmay cause parts or the whole of his body to transform into insectile\n(notably akin to a carapace, resembling that of the _________) tissues.\nIf you do not wish to be a rude manager (not that you're obligated to be nice),\nwe recommend keeping your facial expression in check so that your disgust is not visible to him.\nHe sometimes uses cynical language, but he can still be reasoned with,\nand you can get around him without much difficulty as long as you learn the knack of it.",
+      "name": "เกรเกอร์",
+      "description": "คนบาปคนนี้สามารถรับมือได้ง่ายในด้านของนิสัยใจคอ\nอย่างไรก็ตามแต่ การเพิ่มพูนของอารมณ์หรือการเปลี่ยนแปลงกะทันหันของสิ่งแวดล้อมรอบตัว\nอาจทำให้อวัยวะบางส่วนหรือทั้งร่างของเขากลายร่างจนมีเนื้อเยื่อแมลงได้\n(โดยเฉพาะส่วนที่คล้ายเปลือกแข็งสะดุดตา ซึ่งคล้ายกันกับ■■■■)\nหากคุณไม่อยากเป็นผู้จัดการไร้มารยาท (ก็ไม่ใช่ว่าคุณต้องทำตัวดีล่ะนะ)\nเราขอแนะนำให้ตรวจสอบสีหน้าของตัวเองอยู่เสมอ เพื่อไม่ให้เขาเห็นใบหน้าคล้ายรังเกียจ\nแม้บางครั้งจะใช้ภาษาแซะเหยียดหยามบ้าง แต่ก็ยังใช้เหตุผลด้วยได้\nและเมื่อจับทางได้แล้ว คุณก็สามารถใช้เวลาร่วมกับเขาได้อย่างไม่ยากเย็นนัก",
       "sentence": ""
     }
   ]

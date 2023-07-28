@@ -2,38 +2,38 @@
   "dataList": [
     {
       "id": "battle_awaken_21201_1",
-      "desc": "E.G.O Activation",
-      "dlg": "My arm… had changed."
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "แขนของฉัน... มันเปลี่ยนไป"
     },
     {
       "id": "battle_awaken_21202_1",
-      "desc": "E.G.O Activation",
-      "dlg": "Listen, you sure you can stand after this?"
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "ฟังนะ แน่ใจนะว่าจะยืนไหวหลังจากรับนี่ไปน่ะ?"
     },
     {
       "id": "battle_erosion_21202_1",
-      "desc": "E.G.O Corrosion",
-      "dlg": "Together… we are in rot."
+      "desc": "E.G.O ถูกกัดกร่อน",
+      "dlg": "เรามา... เน่าเปื่อยไปด้วยกันนี่ล่ะ"
     },
     {
       "id": "battle_awaken_21203_1",
-      "desc": "E.G.O Activation",
-      "dlg": "How’s about I read you a tale?"
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "ให้ฉันเล่านิทานให้ฟังหน่อยไหมล่ะ?"
     },
     {
       "id": "battle_erosion_21203_1",
-      "desc": "E.G.O Corrosion",
-      "dlg": "Too late… They’ve all been captivated."
+      "desc": "E.G.O ถูกกัดกร่อน",
+      "dlg": "สายไปแล้ว... ต้องมนต์ไปกันหมดแล้ว"
     },
     {
       "id": "battle_awaken_21204_1",
-      "desc": "E.G.O Activation",
-      "dlg": "Alright, try enduring this... It'll fry you just enough to kill."
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "เอาล่ะ ลองทนนี่ดู... ให้มันทอดแกทั้งเป็นนั่นแหละ"
     },
     {
       "id": "battle_erosion_21204_1",
-      "desc": "E.G.O Corrosion",
-      "dlg": "Muheheheheh... Are you the new test subject?"
+      "desc": "E.G.O ถูกกัดกร่อน",
+      "dlg": "หึหึหึ... แกเป็นตัวทดลองตัวใหม่ใช่ไหม?"
     }
   ]
 }

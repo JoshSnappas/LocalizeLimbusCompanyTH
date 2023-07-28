@@ -1,6 +1,16 @@
 {
   "noticeList": [
     {
+      "id": 1191,
+      "version": 0,
+      "type": 1,
+      "startDate": "2023-07-28T00:00:00.000Z",
+      "endDate": "2023-12-31T23:00:00.000Z",
+      "sprNameList": [],
+      "title_KR": "รายชื่อนักแปล",
+      "content_KR": "{\"list\":[{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Asonakun</size>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Noppanan Khamduang</size>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>endertania </size>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>FumeiC2 </size>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>Joseph Marker</size>\"},{\"formatKey\":\"SubTitle\",\"formatValue\":\"<size=49>feeldy123 </size>\"}]}"
+    },
+    {
       "id": 1192,
       "version": 0,
       "type": 1,
@@ -37,8 +47,8 @@
       "startDate": "2023-07-21T08:00:00.000Z",
       "endDate": "2023-12-31T23:00:00.000Z",
       "sprNameList": [],
-      "title_KR": "Mod V0.5.9",
-      "content_KR": "{\"list\":[{\"formatKey\":\"Text\",\"formatValue\":\"# v0.5.9\\n- 汉化内容跟进\\n  - 同步4 的汉化内容 更新\\n    - 注意:部分“效果”的用词可能不统一，我们已经加紧校对和统一\\n  - Cinq协会 5科 科长 堂吉诃德的汉化内容 更新\\n  - 其他内容跟进\"}]}"
+      "title_KR": "Mod V0.0.1",
+      "content_KR": "{\"list\":[{\"formatKey\":\"Text\",\"formatValue\":\"# v0.0.1\\n- \"}]}"
     },
     {
       "id": 2914,
@@ -47,8 +57,8 @@
       "startDate": "2023-07-14T08:00:00.000Z",
       "endDate": "2023-12-31T23:00:00.000Z",
       "sprNameList": [],
-      "title_KR": "Mod V0.5.8",
-      "content_KR": "{\"list\":[{\"formatKey\":\"Text\",\"formatValue\":\"# v0.5.8\\n- 汉化内容跟进\\n  - 镜像迷宫#2 镜中之镜 - 困难 的汉化内容 更新\\n  - 其他内容跟进\"}]}"
+      "title_KR": "Mod V0.0.2",
+      "content_KR": "{\"list\":[{\"formatKey\":\"Text\",\"formatValue\":\"# v0.0.2\\n แปลไปแล้ว Localize 6.19%\\n  Localize/BattleAnnoucerDlg 29.31%\\n  Localize/BgmLyrics 66.11%\\n Localize/EGOVoiceDig 24.55%\\n Localize/PersonalityVoiceDlg 3.43%\\n Localize/StoryData 1.91% \"}]}"
     }
   ]
 }

@@ -2,37 +2,37 @@
   "dataList": [
     {
       "id": "battle_awaken_20201_1",
-      "desc": "E.G.O Activation",
-      "dlg": "Faust knows all outcomes."
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "เฟาสต์รู้ผลลัพธ์ทั้งหมด"
     },
     {
       "id": "battle_awaken_20202_1",
-      "desc": "E.G.O Activation",
-      "dlg": "This battle will conclude with victory."
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "การต่อสู้นี้จะจบลงด้วยชัยชนะ"
     },
     {
       "id": "battle_awaken_20203_1",
-      "desc": "E.G.O Activation",
-      "dlg": "Pierce… to the profundities of the heart…"
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "แทง.... ให้ลึกสุดขั้วหัวใจ..."
     },
     {
       "id": "battle_erosion_20202_1",
-      "desc": "E.G.O Corrosion",
-      "dlg": "Even if I must disgorge everything…"
+      "desc": "E.G.O ถูกกัดกร่อน",
+      "dlg": "แม้จะต้องละทิ้งทุกสิ่ง..."
     },
     {
       "id": "battle_erosion_20203_1",
-      "desc": "E.G.O Corrosion",
-      "dlg": "Come here… I’ll hug you tight…"
+      "desc": "E.G.O ถูกกัดกร่อน",
+      "dlg": "มาสิ… ฉันจะกอดเธอให้แน่น…"
     },
     {
       "id": "battle_awaken_20204_1",
-      "desc": "E.G.O Activation",
-      "dlg": "Lightning: Fully charged."
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "อสนีบาต: ชาร์จสมบูรณ์"
     },
     {
       "id": "battle_erosion_20204_1",
-      "desc": "E.G.O Corrosion",
+      "desc": "E.G.O ถูกกัดกร่อน",
       "dlg": ""
     }
   ]

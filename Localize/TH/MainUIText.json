@@ -2,27 +2,27 @@
   "dataList": [
     {
       "id": "mainui_main_button0",
-      "content": "Window"
+      "content": "หน้าต่าง"
     },
     {
       "id": "mainui_main_button1",
-      "content": "Sinners"
+      "content": "เหล่าคนบาป"
     },
     {
       "id": "mainui_main_button2",
-      "content": "Theater"
+      "content": "โรงภาพยนต์"
     },
     {
       "id": "mainui_main_button3",
-      "content": "Drive"
+      "content": "ออกรถ"
     },
     {
       "id": "mainui_main_button4",
-      "content": "Extract"
+      "content": "เอคแทร็ค"
     },
     {
       "id": "mainui_main_button5",
-      "content": "Dispense"
+      "content": "จัดการ"
     },
     {
       "id": "mainui_main_exp",
@@ -774,11 +774,11 @@
     },
     {
       "id": "mainui_settings",
-      "content": "Settings"
+      "content": "ตั้งค่า"
     },
     {
       "id": "mainui_environment_settings",
-      "content": "Settings"
+      "content": "ตั้งค่า"
     },
     {
       "id": "mainui_back",

@@ -2,25 +2,25 @@
   "dataList": [
     {
       "id": 800101,
-      "title": "백설선택지1",
-      "eventDesc": "A heart torn into thousands of pieces must be kept from all eyes, thus it burrowed into the ground and tangled itself.\n\nYet, someone has to pull up these thorny roots,\nas there is no wound that can remain unearthed.\n\nThe Sinners gave each other looks.\nBeing coiled in piercing, sharp pain was something to avoid even in one’s dreams.",
-      "prevDesc": "The floor’s vines are a hassle.\nMaybe there’ll be a chance to get rid of them?",
-      "behaveDesc": "The dry earth must be upturned.\nWhich Sinner was up to the task?",
+      "title": "สโนไวท์ ตัวเลือก 1",
+      "eventDesc": "หัวใจที่ถูกฉีกเป็นพันๆ ชิ้นต้องถูกกันไว้จากสายตา ดังนั้นมันจึงมุดลงไปในดินและพันกันยุ่งเหยิง.\n\nถึงกระนั้นก็ต้องมีคนดึงรากที่มีหนามเหล่านี้ขึ้นมา, \nแต่ไม่มีบาดแผลใดที่สามารถรักษาให้หายได้.\n\nคนบาปมองหน้ากัน. \nการถูกม้วน ทิ่มแทง ความเจ็บปวดอันแหลมคมเป็นสิ่งที่หลีกเลี่ยงไม่ได้แม้แต่ในความฝัน.",
+      "prevDesc": "เถาวัลย์ที่พื้นยากที่จะข้ามผ่าน. \nอาจจะมีโอกาสที่จะกำจัดพวกมัน?",
+      "behaveDesc": "ต้องพลิกแผ่นดินที่แห้งแล้ง\nให้คนบาปคนไหนทำงานนี้?",
       "successDesc": [
-        "{0} walked with shaky steps.\nWith bare hands, they dug up the roots.\n\nIn their hands were the doubts of others.\nThe Sinner realized…\n\nThat while the injury may heal, distrust might take deep root in their heart."
+        "{0} เดินด้วยก้าวที่สั่นคลอน.\nพวกเขาขุดรากด้วยมือเปล่า.\n\nในมือของพวกเขาคือความสงสัยของผู้อื่น.\nคนบาปก็ได้ตระหนักว่า…\n\nแม้ว่าอาการบาดเจ็บจะหายดี แต่ความไม่ไว้วางใจอาจหยั่งรากลึกในใจพวกเขา"
       ],
       "failureDesc": [
-        "{0} could not uproot anything.\nIt was no easy task, after all—entangled so tightly together, one couldn’t make heads or tails of it.\n\nClutching itself, the durable web of fiber continued to expand,\nand the Sinners will continue to suffer."
+        "{0} ไม่สามารถถอนสิ่งใดๆได้.\nมันไม่ง่ายเลย. —เมื่อพันกันแน่น ก็ไม่สามารถขยับได้เลย \n\nเมื่อยึดตัวเองไว้ใยที่ทนทานก็ขยายออกไปเรื่อยๆ, \nและคนบาปจะต้องทนทุกข์ต่อไป"
       ]
     },
     {
       "id": 800102,
-      "title": "백설선택지2",
-      "eventDesc": "The ground began to tremor ever so slightly.\nThe Sinners remained quiet, but they could read from each other’s glances the single thought they shared:\n“Shouldn’t one of us step up to endure the pain so that the rest will be spared from suffering?”",
-      "prevDesc": "백설 선택지 2 뜰 예정",
-      "behaveDesc": "A small crack was found in the ground.\nWho will be the one to seal it?",
+      "title": "สโนว์ไวท์ ตัวเลือก 2",
+      "eventDesc": "พื้นดินเริ่มสั่นสะเทือนเล็กน้อย .\nคนบาปยังคงเงียบ แม้จะไม่มีคำพูด นักโทษก็สามารถอ่านสายตาของกันและกันได้.\n\"ไม่ควรที่ความเจ็บปวดของคนเพียงคนเดียวจะดีกว่าความเจ็บปวดของทุกคน หรือเปล่า?\"",
+      "prevDesc": "สโนไวท์ ตัวเลือก 2 เร็วๆนี้",
+      "behaveDesc": "มีรอยแตกถูกพบบนพื้น.\nจะให้ใครปิดมัน?",
       "successDesc": [
-        "The root impales {0}’s chest and extends skyward.\nThe Sinner gasps for air, but that’s none of your business."
+        "รากทิ่มหน้าอกของ {0} และขยายขึ้นสู่ท้องฟ้า.\nคนบาปพยายามจะหายใจ แต่นั่นไม่ใช่ธุระของคุณ"
       ],
       "failureDesc": [
         "The roots whisper as they skewer each Sinner:\n“All of us should feel the pain.”\n“Just as your sadness throws gloom over me, so should pain be felt equally.”\nThe thousands of roots, a unified whole, piercing into everyone’s flesh."

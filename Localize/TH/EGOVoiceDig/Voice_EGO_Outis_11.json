@@ -2,38 +2,38 @@
   "dataList": [
     {
       "id": "battle_erosion_21102_1",
-      "desc": "E.G.O Corrosion",
-      "dlg": "Just a little more…"
+      "desc": "E.G.O ถูกกัดกร่อน",
+      "dlg": "อีกนิดเดียว...."
     },
     {
       "id": "battle_awaken_21101_1",
-      "desc": "E.G.O Activation",
-      "dlg": "The odyssey had a purpose…"
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "การเดินทางย่อมมีเป้าประสงค์..."
     },
     {
       "id": "battle_awaken_21102_1",
-      "desc": "E.G.O Activation",
-      "dlg": "If this is to seize victory…"
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "ถ้านี่สามารถฉวยชัยชนะได้........."
     },
     {
       "id": "battle_awaken_21103_1",
-      "desc": "E.G.O Activation",
-      "dlg": "Karma shall find its way back to you, and rest atop your head."
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "กรรมทั้งหมดจะย้อนกลับมา ตกที่ศีรษะของท่าน"
     },
     {
       "id": "battle_erosion_21103_1",
-      "desc": "E.G.O Corrosion",
-      "dlg": "Fall silent… As if there were no suffering in the first place…"
+      "desc": "E.G.O ถูกกัดกร่อน",
+      "dlg": "เงียบลง… ราวกับว่าไม่มีความทุกข์ใด ๆ มาตั้งแต่แรก…"
     },
     {
       "id": "battle_awaken_21104_1",
-      "desc": "E.G.O Activation",
-      "dlg": "I don't need... any pointless attention!"
+      "desc": "E.G.O ถูกใช้งาน",
+      "dlg": "ฉันไม่ต้องการ... ความสนใจที่ไร้จุดหมาย!"
     },
     {
       "id": "battle_erosion_21104_1",
-      "desc": "E.G.O Corrosion",
-      "dlg": "Don't—leave me this time..."
+      "desc": "E.G.O ถูกกัดกร่อน",
+      "dlg": "ค—ครั้งนี้ อย่าทิ้งชั้นไป..."
     }
   ]
 }

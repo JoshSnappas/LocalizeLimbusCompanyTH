@@ -2,127 +2,119 @@
   "dataList": [
     {
       "id": "1",
-      "content": "Standard Extraction"
+      "content": "การสกัดมาตรฐาน"
     },
     {
       "id": "2",
-      "content": "Assured Extraction: 3★ Identity"
+      "content": "รับประกันการสกัด: ตัวตนระดับ 3★"
     },
     {
       "id": "3",
-      "content": "New Manager’s Welcome Extraction"
+      "content": "การสกัดต้อนรับผู้จัดการหน้าใหม่"
     },
     {
       "id": "4",
-      "content": "[Season 1] Assured Extraction: 3★ Identity"
+      "content": "[ซีซัน 1] รับประกันการสกัด: ตัวตนระดับ 3★"
     },
     {
       "id": "101",
-      "content": "Target Extraction: Gregor"
+      "content": "เป้าหมายการสกัด: เกรเกอร์"
     },
     {
       "id": "102",
-      "content": "New Target Extraction: N Corp. #1"
+      "content": "เป้าหมายการสกัดใหม่: N คอร์ป. #1"
     },
     {
       "id": "103",
-      "content": "Target Extraction: Rodion"
+      "content": "เป้าหมายการสกัด: โรดิอน"
     },
     {
       "id": "104",
-      "content": "New Target Extraction: N Corp. #2"
+      "content": "เป้าหมายการสกัดใหม่: N คอร์ป. #2"
     },
     {
       "id": "105",
-      "content": "Target Extraction: Heathcliff"
+      "content": "เป้าหมายการสกัด: ฮีธคลิฟฟ์"
     },
     {
       "id": "106",
-      "content": "New Target Extraction: Seven S6 Director Outis & Liu S5 Hong Lu"
+      "content": "เป้าหมายการสกัดใหม่: ผู้กำกับเซเว่นเขต 6 โอทิส & ลิ่วเขต 5 หงลู่"
     },
     {
       "id": "107",
-      "content": "Target Extraction: Don Quixote"
+      "content": "เป้าหมายการสกัด: ดอน กิโฆเต้"
     },
     {
       "id": "108",
-      "content": "New Target Extraction: Hell’s Chicken"
+      "content": "เป้าหมายการสกัดใหม่: เฮลล์ ชิคเก้น"
     },
     {
       "id": "109",
-      "content": "Target Extraction: Hong Lu"
+      "content": "เป้าหมายการสกัด: หงลู่"
     },
     {
       "id": "110",
-      "content": "New Target Extraction: N Corp. #3"
+      "content": "เป้าหมายการสกัดใหม่: N คอร์ป. #3"
     },
     {
       "id": "111",
-      "content": "Target Extraction: Faust"
+      "content": "เป้าหมายการสกัด: เฟาสต์"
     },
     {
       "id": "112",
-      "content": "Target Extraction: Dimension Shredder for Yi Sang & Hong Lu"
+      "content": "เป้าหมายการสกัด: ผู้ผ่าสะบั้นมิติ อี้ซัง & หงลู่"
     },
     {
       "id": "113",
-      "content": "Target Extraction: Meursault"
+      "content": "เป้าหมายการสกัด: เมอร์โซลท์"
     },
     {
       "id": "114",
-      "content": "New Target Extraction: Rosespanner Workshop"
+      "content": "เป้าหมายการสกัดใหม่: เวิร์คช็อปโรสสแปนเนอร์"
     },
     {
       "id": "5",
-      "content": "[Season 2] Assured Extraction: 3★ Identity"
+      "content": "[ซีซัน 2] รับประกันการสกัด: ตัวตนระดับ 3★"
     },
     {
       "id": "115",
-      "content": "New Target Extraction: Technology Liberation Alliance & Rosespanner Workshop"
+      "content": "เป้าหมายการสกัดใหม่: กลุ่มพันธมิตรปลดแอกเทคโนโลยี & เวิร์คช็อปโรสสแปนเนอร์"
     },
     {
       "id": "116",
-      "content": "Target Extraction: Outis"
+      "content": "เป้าหมายการสกัด: โอทิส"
     },
     {
       "id": "117",
-      "content": "New Target Extraction: Technology Liberation Alliance #2"
+      "content": "เป้าหมายการสกัดใหม่: กลุ่มพันธมิตรปลดแอกเทคโนโลยี #2"
     },
     {
       "id": "118",
-      "content": "Target Extraction: Sinclair"
+      "content": "เป้าหมายการสกัด: ซินแคลร์"
     },
     {
       "id": "119",
-      "content": "New Target Extraction: K Corp & Technology Liberation Alliance #3"
+      "content": "เป้าหมายการสกัดใหม่: K คอร์ป & กลุ่มพันธมิตรปลดแอกเทคโนโลยี #3"
     },
     {
       "id": "120",
-      "content": "Target Extraction: Red Eyes & Red Eyes (Open)"
+      "content": "เป้าหมายการสกัด: เนตรสีชาด & เนตรสีชาด (ลืมตาเปิด)"
     },
     {
       "id": "121",
-      "content": "New Target Extraction: Liu South Section 4 Ishmael"
+      "content": "เป้าหมายการสกัดใหม่: ลิ่วแห่งเขต 4 ทางใต้ อิชมาเอล"
     },
     {
       "id": "122",
-      "content": "Target Extraction: Yi Sang"
+      "content": "เป้าหมายการสกัด: อี้ซัง"
     },
     {
       "id": "123",
-      "content": "New Target Extraction: R Corp. 4th Pack Rhino Meursault & Zwei South Section 5 Rodion"
+      "content": "เป้าหมายการสกัดใหม่: R คอร์ป. แรดฝูง 4 เมอร์โซลท์ & สไวแห่งเขต 5 ทางใต้ โรดิอน"
     },
     {
       "id": "124",
-      "content": "New Target Extraction: Cinq South Section 5 Director Don Quixote"
-    },
-    {
-      "id": "125",
-      "content": "Target Extraction: Ryōshū"
-    },
-    {
-      "id": "126",
-      "content": "New Target Extraction: Identity & E.G.O - S.E.A"
+      "content": "เป้าหมายการสกัดใหม่: ผู้กำกับแซงค์เขต 5 ทางใต้ ดอน กิโฆเต้"
     }
   ]
 }

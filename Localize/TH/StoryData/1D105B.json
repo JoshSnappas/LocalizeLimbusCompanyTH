@@ -2,211 +2,211 @@
   "dataList": [
     {
       "id": 0,
-      "place": "District 4 - LC Branch Interior",
+      "place": "เขต 4 - ภายในสาขา LC",
       "model": "로쟈",
-      "content": "Ah~ That felt real good."
+      "content": "อ๊า~ รู้สึกดีจัง"
     },
     {
       "id": 1,
       "model": "단테",
-      "content": "<I’m dying here…>"
+      "content": "〈ฉันกำลังจะตายแล้ว...〉"
     },
     {
       "id": 2,
       "model": "아야",
-      "teller": "Aya",
-      "title": "Grade 8 Fixer",
-      "content": "What an amazing clock you’ve got~ I haven’t seen that technology anywhere."
+      "teller": "อายะ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "นาฬิกานั่นของคุณดูเจ๋งดีนะ~ ไม่เคยเห็นเทคโนโลยีแบบนั้นที่ไหนมาก่อนเลย"
     },
     {
       "id": 3,
       "model": "홉킨스",
-      "teller": "Hopkins",
-      "title": "Grade 8 Fixer",
-      "content": "That has to be on the level of a S-Singularity… What Wing could be responsible…"
+      "teller": "ฮอพกินส์",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "นั่นน่าจะเป็นเลเวลเดียวกับ ซ-ซิงกูลาริตี้แน่... ปีกไหนรับผิดชอบกันนะ..."
     },
     {
       "id": 4,
-      "content": "Hopkins greedily stared at my head."
+      "content": "ฮอพกินส์มองมาที่ศีรษะของฉันอย่างละโมบ"
     },
     {
       "id": 5,
-      "content": "I really tried to ignore it, but looking at his stuffed pockets again…"
+      "content": "ถึงแม้ฉันจะพยายามเมินแล้ว แต่พอดูกระเป๋าที่ใส่ของแน่นอีกครั้งแล้ว..."
     },
     {
       "id": 6,
       "model": "로쟈",
-      "content": "Dante? Why are you clutching your head like that?"
+      "content": "ดันเต้? ทำไมกุมหัวแน่นอย่างนั้นซะล่ะ?"
     },
     {
       "id": 7,
       "model": "단테",
-      "content": "<I—It’s nothing.>"
+      "content": "〈ม-ไม่มีอะไร〉"
     },
     {
       "id": 8,
       "model": "이상",
-      "content": "Miss Faust, can our manager not restore the lives of our guides using the clock’s power?"
+      "content": "คุณเฟาสต์ ให้คุณผู้จัดการของเราฟื้นคืนชีวิตของคนนำทางเราด้วยพลังนาฬิกาไม่ได้เหรอ?"
     },
     {
       "id": 9,
       "model": "파우스트",
-      "content": "The clock will only work for us Sinners."
+      "content": "นาฬิกานั่นได้ผลแค่เราเหล่าคนบาปค่ะ"
     },
     {
       "id": 10,
       "model": "아야",
-      "teller": "Aya",
-      "title": "Grade 8 Fixer",
-      "content": "Aw, gee~ I s’pose that’s for the better."
+      "teller": "อายะ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "อ๋อย~ แต่เป็นงั้นก็คงดีที่สุดล่ะนะ"
     },
     {
       "id": 11,
       "model": "아야",
-      "teller": "Aya",
-      "title": "Grade 8 Fixer",
-      "content": "Imagine you’re dragged right back to life with a gaping hole in your stomach. Wouldn’t that suck?"
+      "teller": "อายะ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "ลองคิดดูสิว่าโดนลากกลับมามีชีวิตทั้งที่ท้องมีรูโบ๋ ไม่คิดว่ามันห่วยแตกเหรอ?"
     },
     {
       "id": 12,
       "model": "아야",
-      "teller": "Aya",
-      "title": "Grade 8 Fixer",
-      "content": "Nah, y’know what, you’re lucky if a hole is punched in your gut. You’d be a goner in seconds―"
+      "teller": "อายะ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "นี่ รู้ไรมะ ถ้าโชคดีรูนั่นก็คงทะลุไส้ในซะเกลี้ยง แล้วก็คงตายในไม่กี่วิ―"
     },
     {
       "id": 13,
       "model": "단테",
-      "content": "<Huh…? Wait―!>"
+      "content": "<หืม...? เดี๋ยว―!> "
     },
     {
       "id": 14,
       "model": "쓰러진아야",
-      "teller": "Aya",
-      "title": "Grade 8 Fixer",
-      "content": "Ah."
+      "teller": "อายะ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "อะ"
     },
     {
       "id": 15,
-      "content": "A hard tentacle erupts from the wall and penetrates Aya’s abdomen in an instant."
+      "content": "รยางค์แข็งปะทุออกมาจากผนัง และเสียบทะลุช่องท้องของอายะในทันที"
     },
     {
       "id": 16,
       "model": "오티스",
-      "content": "All units, prepare for battle."
+      "content": "ทุกหน่วย เตรียมตัวพร้อมรบ"
     },
     {
       "id": 17,
       "model": "쓰러진아야",
-      "teller": "Aya",
-      "title": "Grade 8 Fixer",
-      "content": "…What’d I tell you?"
+      "teller": "อายะ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "...ฉันบอกอะไรพวกคุณไปนะ?"
     },
     {
       "id": 18,
       "model": "쓰러진아야",
-      "teller": "Aya",
-      "title": "Grade 8 Fixer",
-      "content": "I’ve always… been a… lucky girl…"
+      "teller": "อายะ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "ฉันน่ะเป็น... เด็กสาวโชคดี... มาตลอด..."
     },
     {
       "id": 19,
       "model": "유리",
-      "teller": "Yuri",
-      "title": "Grade 8 Fixer",
-      "content": "AYA!!"
+      "teller": "ยูริ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "อายะ!!"
     },
     {
       "id": 20,
       "model": "이상",
-      "content": "Her life has departed."
+      "content": "ชีวิตของเธอถูกพรากจากไปเสียแล้ว"
     },
     {
       "id": 21,
       "model": "그레고르",
-      "content": "……"
+      "content": "……."
     },
     {
       "id": 22,
       "model": "그레고르",
-      "content": "Come, now... You’ll have to keep it together, especially in times like these, yeah?"
+      "content": "มาเร็ว ต...ตอนนี้ทุกคนต้องตั้งสติกันก่อนโดยเฉพาะในเวลาแบบนี้ ใช่ไหม?"
     },
     {
       "id": 23,
       "model": "유리",
-      "teller": "Yuri",
-      "title": "Grade 8 Fixer",
-      "content": "B-But…"
+      "teller": "ยูริ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "ต-แต่..."
     },
     {
       "id": 24,
       "model": "파우스트",
-      "content": "The attack is under an unusual form. It’s likely that we are facing an Abnormality."
+      "content": "การโจมตีครั้งนี้ดูแปลกจากปกติ ดูเหมือนว่าเราจะเจอกับสิ่งเหนือธรรมชาติเข้านะคะ"
     },
     {
       "id": 25,
       "model": "오티스",
-      "content": "Manager. Your command, please."
+      "content": "ผู้จัดการ ขอคำสั่งด้วยค่ะ"
     },
     {
       "id": 26,
-      "content": "I felt pity for Yuri; she looked at Aya’s corpse and then back to us with tears. Nevertheless…"
+      "content": "ฉันรู้สึกสงสารยูริ เธอมองไปยังศพของอายะก่อนหันกลับมาหาเราด้วยน้ำตา แต่ถึงอย่างนั้น..."
     },
     {
       "id": 27,
       "model": "단테",
-      "content": "<…Yuri, Hopkins, and Aya. Those three I can’t revive.>"
+      "content": "〈…ยูริ ฮอพกินส์ และอายะ พวกเขาสามคนเป็นคนที่ฉันชุบชีวิตไม่ได้〉"
     },
     {
       "id": 28,
       "model": "단테",
-      "content": "<We have to fight now if we don’t want any more casualties.>"
+      "content": "<ตอนนี้เราต้องสู้แล้วถ้าไม่อยากให้มีคนเจ็บเพิ่ม>"
     },
     {
       "id": 29,
       "model": "오티스",
-      "content": "A wise decision, Manager."
+      "content": "เป็นการตัดสินใจที่ฉลาดมากค่ะ ท่านผู้จัดการ"
     },
     {
       "id": 30,
       "model": "홉킨스",
-      "teller": "Hopkins",
-      "title": "Grade 8 Fixer",
-      "content": "You can make sense of that ticking…?"
+      "teller": "ฮอพกินส์",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "เข้าใจเสียงติ๊กต่อกนั้นด้วยเหรอ...?"
     },
     {
       "id": 31,
-      "content": "Outis gave Hopkins a fiery glare, but soon reminded herself of her priorities and breathed in to shout."
+      "content": "โอทิสขึงตามองแรงใส่ฮอพกินส์ แต่ไม่นานก็เตือนตัวเองถึงลำดับความสำคัญ ก่อนจะหายใจเข้าแล้วตะโกน"
     },
     {
       "id": 32,
       "model": "오티스",
-      "content": "…It’s the manager’s order, lackeys!"
+      "content": "...นี่เป็นคำสั่งของท่านผู้จัดการ เจ้าพวกปลายแถว!"
     },
     {
       "id": 33,
       "model": "오티스",
-      "content": "You will surround the enemy in formation. The target is the Uniform ahead!"
+      "content": "เราจะตั้งขบวนล้อมศัตรูเอาไว้ เป้าหมายคือศัตรูที่อยู่ตรงหน้า!"
     },
     {
       "id": 34,
       "model": "유리",
-      "teller": "Yuri",
-      "title": "Grade 8 Fixer",
-      "content": "…Okay."
+      "teller": "ยูริ",
+      "title": "ฟิกเซอร์เกรด 8",
+      "content": "...โอเค"
     },
     {
       "id": 35,
       "model": "그레고르",
-      "content": "To be honest… I’m not sure if you can say that thing has a “form”."
+      "content": "ตามตรงนะ... ฉันไม่แน่ใจด้วยซ้ำว่าไอ้ที่อยู่ตรงหน้ามันมี \"รูปร่าง\" รึเปล่า"
     },
     {
       "id": 36,
-      "content": "Slowly encroaching vines, followed by the shadow of a figure that looks to be several times taller than a human."
+      "content": "เถาวัลย์เลื้อยคลานมาอย่างเชื่องช้า ตามด้วยร่างเงาสูงกว่ามนุษย์หลายเท่าตัว"
     },
     {
       "id": 37,
-      "content": "It… was approaching, begetting fright unlike any foe we’ve faced up until now."
+      "content": "มัน... กำลังใกล้เข้ามา สร้างความหวาดกลัวต่างจากศัตรูใดที่เคยเผชิญมาจนถึงตอนนี้"
     }
   ]
 }

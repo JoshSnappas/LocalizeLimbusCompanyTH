@@ -2,31 +2,31 @@
   "dataList": [
     {
       "id": "umida_stagebutton_not_clear_cp4",
-      "content": "Clear 4-54 to Unlock"
+      "content": "เคลียร์ด่าน 4-54 เพื่อปลดล็อก"
     },
     {
       "id": "umida_stagebutton_normal",
-      "content": "Gather Scrap"
+      "content": "รวบรวมเศษอะไหล่"
     },
     {
       "id": "umida_stagebutton_end_event",
-      "content": "Event Closed"
+      "content": "อีเวนท์ปิด"
     },
     {
       "id": "umida_storybutton_before_start",
-      "content": "Clear 4.5-1 to Unlock"
+      "content": "เคลียร์ด่าน 4.5-1 เพื่อปลดล็อก"
     },
     {
       "id": "umida_storybutton_normal",
-      "content": "Recollect"
+      "content": "รำลึก"
     },
     {
       "id": "umida_exchange_scrap",
-      "content": "Scrap Box"
+      "content": "กล่องเศษอะไหล่"
     },
     {
       "id": "umida_scrap_guide_title",
-      "content": "Extraordinary Scrap"
+      "content": "เศษอะไหล่ไม่ธรรมดา"
     },
     {
       "id": "umida_scrap_guide_desc",
@@ -34,11 +34,11 @@
     },
     {
       "id": "umida_rewardpage_desc",
-      "content": "Clear Event Stages, Main Story Stages, or Dungeons to earn <color=#f8c200>[Bus-modifying Scrap]</color>.\n\nYou can redeem various rewards from the <color=#f8c200>[Scrap Box]</color> based on the number of <color=#f8c200>[Bus-modifying Scrap]</color> you have."
+      "content": "เคลียร์ด่านอีเวนท์ ด่านเนื้อเรื่องหลักหรือดันเจี้ยนเพื่อรับ <color=#f8c200>[เศษอะไหล่ดัดแปลงบัส]</color> คุณสามารถรับรางวัลมากมายได้จาก <color=#f8c200>[กล่องเศษอะไหล่]</color> ตามจำนวนของ <color=#f8c200>[เศษอะไหล่ดัดแปลงบัส]</color> ที่คุณมี"
     },
     {
       "id": "umida_scrap_counter_label",
-      "content": "Scrap Collected"
+      "content": "เศษอะไหล่ที่รวบรวมได้"
     }
   ]
 }

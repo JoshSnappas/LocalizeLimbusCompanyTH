@@ -2,27 +2,27 @@
   "dataList": [
     {
       "id": 1,
-      "name": "Dante"
+      "name": "ดันเต้"
     },
     {
       "id": 2,
-      "name": "Gregor"
+      "name": "เกรเกอร์"
     },
     {
       "id": 3,
-      "name": "Charon"
+      "name": "คารอน"
     },
     {
       "id": 4,
-      "name": "Sinclair"
+      "name": "ซินแคลร์"
     },
     {
       "id": 5,
-      "name": "Rodion"
+      "name": "โรดิอน"
     },
     {
       "id": 6,
-      "name": "Yi Sang"
+      "name": "อี้ซัง"
     }
   ]
 }

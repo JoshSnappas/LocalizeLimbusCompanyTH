@@ -2,11 +2,11 @@
   "dataList": [
     {
       "id": "1",
-      "content": "Clear within {0} turns"
+      "content": "เคลียร์ภายใน {0} เทิร์น"
     },
     {
       "id": "2",
-      "content": "Suppress the Dungeon Boss"
+      "content": "ปราบปรามบอสดันเจี้ยน"
     }
   ]
 }

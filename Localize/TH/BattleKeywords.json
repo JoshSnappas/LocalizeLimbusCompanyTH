@@ -2,64 +2,64 @@
   "dataList": [
     {
       "id": "AreaAtk",
-      "name": "AoE Attack",
-      "desc": "Targets 2 or more foes."
+      "name": "การโจมตีวงกว้าง",
+      "desc": "เล็งศัตรู 2 ตัวหรือมากกว่า"
     },
     {
       "id": "Enhancement",
-      "name": "Attack Power Up",
-      "desc": "Attack skills gain final Power by the effect’s Count for one turn."
+      "name": "ค่าพลังโจมตีเพิ่มขึ้น",
+      "desc": "สกิลโจมตีจะได้ค่าพลังในตอนท้ายเพิ่มขึ้นตามจำนวนนับของเอฟเฟกต์เป็นเวลาหนึ่งเทิร์น"
     },
     {
       "id": "Agility",
-      "name": "Haste",
-      "desc": "Speed increases by the effect’s Count for one turn."
+      "name": "รีบเร่ง",
+      "desc": "ค่าความเร็วเพิ่มขึ้นตามจำนวนนับเป็นเวลาหนึ่งเทิร์น"
     },
     {
       "id": "Endurance",
-      "name": "Defense Power Up",
-      "desc": "Defense skills gain final Power by the effect’s Count for one turn."
+      "name": "ค่าพลังป้องกันเพิ่มขึ้น",
+      "desc": "สกิลป้องกันจะได้ค่าพลังในตอนท้ายเพิ่มขึ้นตามจำนวนนับของเอฟเฟกต์เป็นเวลาหนึ่งเทิร์น"
     },
     {
       "id": "Reduction",
-      "name": "Attack Power Down",
-      "desc": "Attack skills lose final Power by the effect’s Count for one turn."
+      "name": "ค่าพลังโจมตีลดลง",
+      "desc": "สกิลโจมตีจะเสียค่าพลังในตอนท้ายลดลงตามจำนวนนับของเอฟเฟกต์เป็นเวลาหนึ่งเทิร์น"
     },
     {
       "id": "Binding",
-      "name": "Bind",
-      "desc": "Speed decreases by the effect’s Count for one turn."
+      "name": "ผูกมัด",
+      "desc": "ค่าความเร็วจะลดลงตามจำนวนนับของเอฟเฟกต์เป็นเวลาหนึ่งเทิร์น"
     },
     {
       "id": "Vulnerable",
-      "name": "Fragile",
-      "desc": "Take more damage from skills based on the effect’s Count for one turn. (Max 10)",
+      "name": "เปราะบาง",
+      "desc": "ได้รับดาเมจจากสกิลมากขึ้นตามจำนวนนับของเอฟเฟกต์เป็นเวลาหนึ่งเทิร์น (สูงสุด 10)",
       "summary": "+{0}0% Damage Taken"
     },
     {
       "id": "Taunt",
-      "name": "Taunt",
+      "name": "ยั่วยุ",
       "desc": ""
     },
     {
       "id": "Stun",
-      "name": "Stun",
+      "name": "สตั้น",
       "desc": ""
     },
     {
       "id": "ElectricShock",
-      "name": "Shock",
+      "name": "ช็อก",
       "desc": "Take more damage by the effect’s Count."
     },
     {
       "id": "Burn",
-      "name": "Burn",
-      "desc": "At the end of the turn, take fixed damage by the effect’s Count, then halve it."
+      "name": "เผาไหม้",
+      "desc": "เมื่อสิ้นสุดเทิร์น จะได้รับดาเมจคงที่ตามจำนวนนับของเอฟเฟกต์ จากนั้นก็หารครึ่ง"
     },
     {
       "id": "Bleeding",
-      "name": "Bleed",
-      "desc": "When attacking, take fixed damage equal to (Count)% of current HP, then halve it."
+      "name": "เลือดไหล",
+      "desc": "เมื่อโจมตี จะได้รับดาเมจคงที่เท่ากับ (จำนวนนับ)% ของเลือดปัจจุบัน จากนั้นหารครึ่ง"
     },
     {
       "id": "Target",
@@ -88,8 +88,8 @@
     },
     {
       "id": "Charge",
-      "name": "Charge",
-      "desc": "Resource used by certain skills for additional effects. Its Count can go up to 20. Count lowers by 1 at the end of each turn."
+      "name": "ชาร์จ",
+      "desc": "ทรัพยากรที่จะถูกใช้ในบางสกิลเพื่อสร้างเอฟเฟกต์เพิ่มเติม จำนวนนับสามารถเพิ่มขึ้นถึง 20 และจะลดลงทีละ 1 เมื่อจบเทิร์น"
     },
     {
       "id": "DamageOverTime",
@@ -98,26 +98,26 @@
     },
     {
       "id": "ResultEnhancement",
-      "name": "Attack Power Up",
+      "name": "ค่าพลังโจมตีเพิ่มขึ้น",
       "desc": "Attack skills gain final Power by the effect’s Count for one turn.",
       "summary": "ATK Skill Final Power +{0}"
     },
     {
       "id": "Protection",
-      "name": "Protection",
-      "desc": "Take less damage from skills based on the effect’s Count for one turn. (Max 10)",
+      "name": "การคุ้มครอง",
+      "desc": "ได้รับดาเมจจากสกิลลดลงตามจำนวนนับของเอฟเฟกต์เป็นเวลาหนึ่งเทิร์น (สูงสุด 10)",
       "summary": "-{0}0% Damage Taken"
     },
     {
       "id": "AttackDmgUp",
-      "name": "Damage Up",
-      "desc": "Deal more damage with skills based on the effect’s Count for one turn. (Max 10)",
+      "name": "ความเสียหายเพิ่มขึ้น",
+      "desc": "สร้างความเสียหายด้วยสกิลเพิ่มขึ้นตามจำนวนนับของเอฟเฟกต์เป็นเวลาหนึ่งเทิร์น (สูงสุด 10)",
       "summary": "+{0}0% Damage Dealt"
     },
     {
       "id": "DefenseUp",
-      "name": "Defense Level Up",
-      "desc": "Defense Level increases based on the effect's Potency for one turn.",
+      "name": "ค่าพลังป้องกันเพิ่มขึ้น",
+      "desc": "ค่าพลังป้องกันเพิ่มขึ้นตามจำนวนศักยภาพของเอฟเฟกต์เป็นเวลาหนึ่งเทิร์น",
       "summary": "Defense Level +{0}"
     },
     {
@@ -195,33 +195,33 @@
     },
     {
       "id": "Combustion",
-      "name": "Burn",
-      "desc": "At the end of the turn, take fixed damage by the effect’s Potency.\nThen, reduce its Count by 1."
+      "name": "เผาไหม้",
+      "desc": "เมื่อสิ้นสุดเทิร์น จะได้รับดาเมจคงที่ตามจำนวนค่าศักยภาพของเอฟเฟกต์\nจากนั้นลดจำนวนนับลง 1"
     },
     {
       "id": "Laceration",
-      "name": "Bleed",
-      "desc": "When tossing an attack Coin, take fixed damage by the effect’s Potency.\nThen, reduce its Count by 1."
+      "name": "เลือดไหล",
+      "desc": "เมื่อทอยเหรียญโจมตี จะได้รับดาเมจคงที่ตามจำนวนศักยภาพของเอฟเฟกต์\nจากนั้นลดจำนวนนับลง 1"
     },
     {
       "id": "Vibration",
-      "name": "Tremor",
-      "desc": "When attacked by skills that burst Tremor, raise the Stagger Threshold by the effect’s Potency.\nAt the end of the turn, reduce the Count by 1."
+      "name": "สั่นเทา",
+      "desc": "เมื่อถูกโจมตีด้วยสกิลที่ระเบิดการสั่นเทา จะเพิ่มเกณฑ์โซเซให้สูงขึ้นตามค่าศักยภาพของเอฟเฟกต์\nเมื่อสิ้นสุดเทิร์น จะลดจำนวนนับลง 1"
     },
     {
       "id": "Burst",
-      "name": "Rupture",
-      "desc": "When hit by an attack, take fixed damage by the effect’s Potency.\nThen, reduce its Count by 1."
+      "name": "แตกร้าว",
+      "desc": "เมื่อถูกโจมตี จะได้รับดาเมจคงที่ตามค่าศักยภาพของเอฟเฟกต์\nจากนั้น ลดจำนวนนับลง 1"
     },
     {
       "id": "Sinking",
-      "name": "Sinking",
-      "desc": "When hit by an attack, take fixed SP damage by the effect’s Potency.\n(Units with no Sanity take Gloom damage instead.)\nThen, reduce its Count by 1."
+      "name": "จมดิ่ง",
+      "desc": "เมื่อถูกโจมตี ค่าสติจะได้รับความเสียหายคงที่ตามค่าศักยภาพของเอฟเฟกต์\n(ตัวละครที่ไม่มีค่าสติจะได้รับความเสียหายเศร้าโศกแทน)\nจากนั้น ลดจำนวนนับลง 1"
     },
     {
       "id": "Breath",
-      "name": "Poise",
-      "desc": "On hit, gain a Potency-based chance to deal critical damage, reducing the Count by 1 if successful.\nAt the end of the turn, reduce the Count by 1."
+      "name": "ทรงตัว",
+      "desc": "เมื่อโจมตี จะมีโอกาสสร้างดาเมจคริติคอลขึ้นกับค่าศักยภาพที่มี จากนั้นจะลดจำนวนนับลง 1 เมื่อสำเร็จ\nเมื่อจบเทิร์น จะลดจำนวนนับลง 1"
     },
     {
       "id": "BloodPocket",
@@ -230,8 +230,8 @@
     },
     {
       "id": "WaterPocket",
-      "name": "Fluid Sac",
-      "desc": "Heals HP based on the Count."
+      "name": "ถุงของเหลว",
+      "desc": "ฟื้นฟูเลือดตามจำนวนนับ"
     },
     {
       "id": "DogThunder",
@@ -245,8 +245,8 @@
     },
     {
       "id": "Operation",
-      "name": "Surgery",
-      "desc": "Die when Count reaches 5.\nReduce Max HP by 20% (per Count).\nDeal 20% (per Count) more damage.\nAt the start of the turn, gain Haste by the effect’s Count."
+      "name": "ผ่าตัด",
+      "desc": "ตายเมื่อจำนวนนับถึง 5\nลดเลือดสูงสุด 20% (ต่อจำนวนนับ)\nสร้างความเสียหายเพิ่มขึ้น 20% (ต่อจำนวนนับ)\nเมื่อเริ่มเทิร์น จะได้รับค่าความเร็วตามจำนวนนับของเอฟเฟกต์"
     },
     {
       "id": "Emergency_Operation",
@@ -260,18 +260,18 @@
     },
     {
       "id": "PinkRibbon",
-      "name": "Pink Ribbons",
-      "desc": "At the end of the turn, if at 5+ Potency, remove this effect and apply ‘Desirous’ next turn."
+      "name": "ริบบิ้นสีชมพู",
+      "desc": "เมื่อสิ้นสุดเทิร์น หากมีค่าศักยภาพ 5+ จะลบเอฟเฟกต์นี่ออกและใช้เอฟเฟกต์ \"ความปรารถนา\" ในเทิร์นต่อไป"
     },
     {
       "id": "Greedy",
-      "name": "Desirous",
-      "desc": "At the start of the turn, gain 10 Bind.\nAll phys. resistances change to ‘Fatal’.\nAttack Skill Power +2.\nDefense Skill Power -2."
+      "name": "ความปรารถนา",
+      "desc": "เมื่อเริ่มต้นเทิร์น ได้รับสถานะผูกมัด 10\nการต้านทานการโจมตีทางกายภาพทั้งหมดเปลี่ยนเป็น \"ร้ายแรง\"\nค่าพลังสกิลโจมตี +2\nค่าพลังสกิลป้องกัน -2"
     },
     {
       "id": "PinkRibbon_Ishmael",
-      "name": "Pink Ribbons",
-      "desc": "Count increases by 1 whenever the affected unit tosses an attack skill Coin.\nAt the end of the turn, inflict Bind by the effect’s Count, then remove the effect."
+      "name": "ริบบิ้นสีชมพู",
+      "desc": "จำนวนนับเพิ่มขึ้น 1 เมื่อตัวละครที่ได้รับทอยเหรียญของสกิลโจมตี\nเมื่อสิ้นสุดเทิร์น จะสร้างเอฟเฟกต์ผูกมัดตามจำนวนนับของเอฟเฟกต์ และนำเอฟเฟกต์นี้ออก"
     },
     {
       "id": "Muckworm",

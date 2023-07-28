@@ -2,59 +2,59 @@
   "dataList": [
     {
       "id": "1",
-      "content": "It costs Enkephalin Modules to claim rewards after completing a Mirror Dungeon expedition."
+      "content": "ต้องใช้โมดูลเอนเคอฟาลินเพื่อรับรางวัลหลังสำเร็จการสำรวจดันเจี้ยนกระจกเงา"
     },
     {
       "id": "2",
-      "content": "Every skill consists of at least 1 Coin."
+      "content": "ทุกสกิลจะมีอยู่อย่างน้อย 1 เหรียญ"
     },
     {
       "id": "3",
-      "content": "A Coin’s Power may increase or decrease depending on the face it lands on."
+      "content": "แต้มเหรียญจะเพิ่มหรือลดขึ้นอยู่กับหน้าที่ออก"
     },
     {
       "id": "4",
-      "content": "Coin faces also affect the activation of certain skill effects."
+      "content": "บางครั้งหน้าเหรียญก็ส่งผลถึงการทำงานของบางสกิลเอฟเฟกต์"
     },
     {
       "id": "5",
-      "content": "Units can fall into a state of Panic when their Sanity falls below a certain threshold."
+      "content": "ตัวละครในสนามรบสามารถเข้าสู่สภาวะตื่นตระหนกได้เมื่อค่าสติต่ำกว่าระดับหนึ่ง"
     },
     {
       "id": "6",
-      "content": "Sinners with low Sanity will be corroded by E.G.O."
+      "content": "คนบาปที่มีค่าสติต่ำจะถูก E.G.O. สึกกร่อน"
     },
     {
       "id": "7",
-      "content": "Corroded Sinners will lash out indiscriminately, so be careful."
+      "content": "คนบาปที่ถูกสึกกร่อนจะโจมตีตามอำเภอใจ โปรดจงระวัง"
     },
     {
       "id": "8",
-      "content": "A status effect’s Potency indicates how much damage it will deal."
+      "content": "ค่าศักยภาพของเอฟเฟกต์จะบ่งบอกว่ามันสามารถสร้างความเสียหายได้เท่าไหร่"
     },
     {
       "id": "9",
-      "content": "After use, skills are converted into E.G.O resources corresponding to their Sin Affinity."
+      "content": "หลังจากใช้งาน สกิลจะถูกเปลี่ยนเป็นทรัพยากร E.G.O ที่สอดคล้องกับธาตุบาปของสกิลนั้น ๆ"
     },
     {
       "id": "10",
-      "content": "Defeating an Abnormality multiple times raises its Observation Level, allowing you to better damage it in future encounters."
+      "content": "การจัดการศัตรูเหนือธรรมชาติหลายครั้งจะเพิ่มค่าสังเกตการณ์ ทำให้คุณโจมตีมันได้ดียิ่งขึ้นเมื่อเผชิญหน้าในอนาคต"
     },
     {
       "id": "11",
-      "content": "Skills that require resources will be canceled if the character is missing the required amount."
+      "content": "สกิลที่ต้องการใช้ทรัพยากรจะถูกยกเลิกหากขาดจำนวนที่ต้องการ"
     },
     {
       "id": "12",
-      "content": "Speed is randomly determined within a given range each turn."
+      "content": "ค่าความเร็วจะถูกสุ่มตามขอบเขตที่มีให้ในแต่ละเทิร์น"
     },
     {
       "id": "13",
-      "content": "Speed determines the formation of units in combat."
+      "content": "ค่าความเร็วจะกำหนดรูปแบบขบวนของตัวละครในการต่อสู้"
     },
     {
       "id": "14",
-      "content": "At the start of battle, your characters assume the Sin Resistances of the lowest grade E.G.O they have equipped."
+      "content": "เมื่อเริ่มการต่อสู้ ตัวละครจะอ้างอิงการแพ้ทางธาตุบาปตาม E.G.O ระดับต่ำที่สุดที่สวมใส่อยู่"
     },
     {
       "id": "15",
@@ -62,83 +62,83 @@
     },
     {
       "id": "16",
-      "content": "A generated Defense skill will fill in the Sinner’s bottom skill slot, replacing the current skill or E.G.O."
+      "content": "การใช้สกิลป้องกันจะถูกเติมในช่องสกิลช่องล่าง และแทนที่สกิลหรือ E.G.O ปัจจุบัน"
     },
     {
       "id": "17",
-      "content": "Cancelling E.G.O before using it will return its resources."
+      "content": "การยกเลิก E.G.O ก่อนใช้งานจะคืนทรัพยากรที่ใช้ไปให้"
     },
     {
       "id": "18",
-      "content": "If 2+ skills of the same Sin are in a chain, Sin Resonance activates, strengthening your attacks."
+      "content": "หากมีการใช้สกิลที่มีธาตุบาปตรงกัน 2 สกิลขึ้นไป จะทำให้การการสั่นพ้องบาปเพื่อเสริมพลังการโจมตี"
     },
     {
       "id": "19",
-      "content": "If 3+ skills of the same Sin are in direct succession, Absolute Resonance activates, GREATLY strengthening your attacks."
+      "content": "หากมีการใช้สกิลที่มีธาตุบาปตรงกัน 3 สกิลขึ้นไปแบบติดต่อกัน จะทำให้การสั่นพ้องสมบูรณ์ทำงาน เสริมการโจมตีอย่างมาก"
     },
     {
       "id": "20",
-      "content": "The longer a Clash goes on, the higher the victor’s final damage will be."
+      "content": "ยิ่งการประชันยืดเยื้อมากเท่าไหร่ ความเสียหายที่ผู้ชนะการประชันสร้างก็จะยิ่งเพิ่มขึ้น"
     },
     {
       "id": "21",
-      "content": "When a character’s health falls below the Stagger Threshold, they become vulnerable to all attacks and can’t act until the end of the following turn."
+      "content": "เมื่อเลือดของตัวละครต่ำกว่าขีดเกณฑ์โซเซ จะทำให้พวกเขาเปราะบางต่อการโจมตีทั้งหมดและทำอะไรไม่ได้จนกว่าจะจบเทิร์นดังกล่าว"
     },
     {
       "id": "22",
-      "content": "In Dungeons, you can heal up and save your progress at Checkpoints."
+      "content": "ในดันเจี้ยน คุณสามารถรักษาและบันทึกความคืบหน้าได้ที่จุดเช็คพอยท์"
     },
     {
       "id": "23",
-      "content": "Every Identity has a Combat Passive and a Support Passive."
+      "content": "ทุกตัวตนจะมีพาสซีพต่อสู้และพาสซีพสนับสนุน"
     },
     {
       "id": "24",
-      "content": "Identities participating in combat use Combat Passives."
+      "content": "ตัวตนที่เข้าสู่การต่อสู้จะใช้พาสซีพต่อสู้"
     },
     {
       "id": "25",
-      "content": "Sinners who are not directly participating in battle will provide aid with their Support Passives."
+      "content": "ตัวตนที่ไม่ได้เข้าสู่การต่อสู้โดยตรงจะให้การช่วยเหลือด้วยพาสซีพสนับสนุน"
     },
     {
       "id": "26",
-      "content": "An Abnormality’s Parts may have differing Resistances and behavior."
+      "content": "แต่ละส่วนของศัตรูเหนือธรรมชาติจะมีค่าการต้านทานและพฤติกรรมต่างกันไป"
     },
     {
       "id": "27",
-      "content": "When confronting Abnormalities in Focused Encounters, you may come across situations requiring you to make a choice; depending on the outcome, you might receive various effects or even E.G.O Gifts."
+      "content": "เมื่อเจอกับศัตรูเหนือธรรมชาติในการเผชิญหน้าแบบโฟกัส คุณอาจเจอสถานการณ์ที่ต้องตัดสินใจบางอย่าง โดยจะสามารถได้รับเอฟเฟกต์ต่าง ๆ หรือของขวัญ E.G.O ขึ้นกับผลลัพธ์ที่ได้"
     },
     {
       "id": "28",
-      "content": "It’s still possible to pass a check even without the requisite Sin."
+      "content": "ยังเป็นไปได้ที่จะผ่านการตรวจสอบแม้จะไม่มีธาตุบาปที่ต้องการ"
     },
     {
       "id": "29",
-      "content": "You can obtain E.G.O Gifts from both checks and battles as you progress through a Dungeon."
+      "content": "คุณสามารถได้รับของขวัญ E.G.O ผ่านการตรวจสอบหรือสนามรบในขณะที่คุณก้าวต่อไปในดันเจี้ยน"
     },
     {
       "id": "30",
-      "content": "When an enemy runs out of Sanity and falls into Panic, they suffer negative effects."
+      "content": "เมื่อศัตรูสูญเสียค่าสติทั้งหมดและตกลงสู่สภาวะตื่นตระหนก พวกเขาจะประสบกับเอฟเฟกต์ด้านลบ"
     },
     {
       "id": "31",
-      "content": "If a Staggered character’s HP falls below the next Stagger Threshold, they’ll take extra damage."
+      "content": "หากเลือดของตัวละครที่โซเซต่ำกว่าเกณฑ์โซเซขั้นต่อไป พวกเขาจะได้รับความเสียหายเพิ่มขึ้น"
     },
     {
       "id": "32",
-      "content": "A status effect’s Count indicates how long it will last or how many times it will activate during combat."
+      "content": "จำนวนนับของเอฟเฟกต์จะบอกว่าเอฟเฟกต์เหล่านั้นจะอยู่นานอีกกี่เทิร์น หรือทำงานอีกกี่ครั้งในการต่อสู้"
     },
     {
       "id": "33",
-      "content": "E.G.O skills are placed at the bottom of a Sinner’s column."
+      "content": "สกิล E.G.O จะอยู่ด้านล่างในแนวสกิลของคนบาป"
     },
     {
       "id": "34",
-      "content": "Clashes occur when two attack skills of the same Power target each other."
+      "content": "การประชันจะเริ่มต้นขึ้น เมื่อสกิลโจมตีสองสกิลที่มีค่าพลังเท่ากันเล็งใส่กันและกัน"
     },
     {
       "id": "34",
-      "content": "Combat Passives and Support Passives require certain Sin Affinities to be chained or their resources owned to activate."
+      "content": "การประชันจะเริ่มต้นขึ้น เมื่อสกิลโจมตีสองสกิลที่มีค่าพลังเท่ากันเล็งใส่กันและกัน"
     }
   ]
 }

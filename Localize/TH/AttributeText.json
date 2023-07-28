@@ -2,39 +2,39 @@
   "dataList": [
     {
       "id": "CRIMSON",
-      "name": "Wrath"
+      "name": "โทสะ"
     },
     {
       "id": "SCARLET",
-      "name": "Lust"
+      "name": "ราคะ"
     },
     {
       "id": "AMBER",
-      "name": "Sloth"
+      "name": "เกียจคร้าน"
     },
     {
       "id": "SHAMROCK",
-      "name": "Glut."
+      "name": "ตะกละ"
     },
     {
       "id": "AZURE",
-      "name": "Gloom"
+      "name": "เศร้าโศก"
     },
     {
       "id": "INDIGO",
-      "name": "Pride"
+      "name": "อัตตา"
     },
     {
       "id": "VIOLET",
-      "name": "Envy"
+      "name": "ริษยา"
     },
     {
       "id": "WHITE",
-      "name": "Mad."
+      "name": "วิกล"
     },
     {
       "id": "BLACK",
-      "name": "Angst"
+      "name": "โศกา"
     }
   ]
 }
