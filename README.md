@@ -16,14 +16,15 @@ LimbusCompany I18N mod
 ### 1. ติดตั้ง ModLoader
    - ดาวน์โหลด ModLoader เวอร์ชั่น v0.6.1 หรือสูงกว่าจาก [MelonLoader](https://github.com/LavaGang/MelonLoader)
    
-   - คลิ๊ก-ขวาที่ชื่อเกม Limbus Company ในคลังของ Steam และคลิ๊ก "จัดการ" - "เปิดหาไฟล์ภายในเครื่อง"  จากนั้น แตกไฟล์ในโฟลเดอร์เกม **โดยที่ไม่ต้องสร้างโฟลเดอร์ใหม่**
+   - คลิ๊ก-ขวาที่ชื่อเกม Limbus Company ในคลังของ Steam และคลิ๊ก "จัดการ" - "เปิดหาไฟล์ภายในเครื่อง"  จากนั้น นำไปแตกไฟล์ในโฟลเดอร์เกม **โดยที่ไม่ต้องสร้างโฟลเดอร์ใหม่**
 ### 2. ติดตั้งฟอนต์
-   - ดาวน์โหลดไฟล์ TMP ฟอนต์ จาก [LLC_ThaiFontAsset![](https://img.shields.io/github/release/1ookilo/LLC_ThaiFontAsset.svg?label=Update%20Time)](https://github.com/1ookilo/LLC_ThaiFontAsset) และแตกไฟล์ในโฟลเดอร์เกม
+   - ดาวน์โหลดไฟล์ TMP ฟอนต์ จาก [LLC_ThaiFontAsset![](https://img.shields.io/github/release/1ookilo/LLC_ThaiFontAsset.svg?label=Update%20Time)](https://github.com/1ookilo/LLC_ThaiFontAsset) และนำไปแตกไฟล์ในโฟลเดอร์เกม
 ### 3. ติดตั้งม็อด i18N
-   - ดาวน์โหลดม็อดตัวเต็มจาก [Release](https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases) และแตกไฟล์ในโฟลเดอร์เกม 
+   - ดาวน์โหลดม็อดตัวเต็มจาก [Release](https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases) และนำไปแตกไฟล์ในโฟลเดอร์เกม 
+   - ถ้าลงเวอร์ชั่นตัวเต็มมากก่อนแล้ว ให้ดาวน์โหลดตัว OTA 
    
 # ลิงค์เพิ่มเติม
-- [ลิงค์โปรเจคแปลใน ParaTranz](https://paratranz.cn/projects/7797)
+- [~~ลิงค์โปรเจคแปลใน ParaTranz~~]() มีปัญหากับการดึงคำแปลจาก ParaTranz อยู่ ยังไม่ได้แก้ หากใครสนใจที่อยากจะแปลตอนนี้ ให้ folk Repo ไปแล้วส่ง pull มาเอาครับ  
   
 # Disclaimer
 - **Using this mod is free.** 
@@ -34,4 +35,3 @@ LimbusCompany I18N mod
 <a href="https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=LocalizeLimbusCompany/LocalizeLimbusCompany" />
 </a>
-
