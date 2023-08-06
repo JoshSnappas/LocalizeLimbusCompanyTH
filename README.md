@@ -31,7 +31,7 @@ LimbusCompany I18N mod
 - **This mod is allowed by Project Moon.** This mod is whitelisted by Project Moon Offical。You can read [`this post`](https://github.com/orgs/LocalizeLimbusCompany/discussions/70) to learn more.
 - **We use MIT License.** Please go to [`LICENSE`](../LICENSE) or [`CN_LICENSE`](./CN_LICENSE) to learn more.
 # Contributors
-## Base Repo
+## Repo ต้นฉบับ
 <a href="https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=LocalizeLimbusCompany/LocalizeLimbusCompany" />
 </a>
