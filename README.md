@@ -6,7 +6,7 @@
 # LocalizeLimbusCompany
 LimbusCompany I18N mod
 
-[![Version](https://img.shields.io/github/release/1ookilo/LocalizeLimbusCompanyTH.svg?label=Version)](../../../releases/latest) [![Localize Limbus Chat Group](https://img.shields.io/badge/Join-FBGroup-blue?logo=facebook)](https://www.facebook.com/groups/904151950781298)
+[![Version](https://img.shields.io/github/release/1ookilo/LocalizeLimbusCompanyTH.svg?label=Version)](https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases/latest) [![Localize Limbus Chat Group](https://img.shields.io/badge/Join-FBGroup-blue?logo=facebook)](https://www.facebook.com/groups/904151950781298)
 
 [简体中文](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany) | [繁體中文](https://github.com/SmallYuanSY/LocalizeLimbusCompany) | [Русский](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS) | ภาษาไทย | [English](./.github/EN_README.md)
 </div>
