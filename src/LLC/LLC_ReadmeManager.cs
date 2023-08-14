@@ -1,12 +1,21 @@
 ﻿using HarmonyLib;
+#if ML
 using Il2Cpp;
 using Il2CppLocalSave;
 using Il2CppMainUI;
 using Il2CppMainUI.NoticeUI;
 using Il2CppServer;
 using Il2CppSimpleJSON;
-using Il2CppSystem.Collections.Generic;
 using Il2CppTMPro;
+#elif BIE
+using LocalSave;
+using MainUI;
+using MainUI.NoticeUI;
+using Server;
+using SimpleJSON;
+using TMPro;
+#endif
+using Il2CppSystem.Collections.Generic;
 using System;
 using System.IO;
 using System.Linq;
@@ -39,9 +48,9 @@ namespace LimbusLocalize
             NoticeUIInstance.btn_eventNotice._onClick.AddListener(eventNotice_onClick);
             NoticeUIInstance.btn_systemNotice._onClick.AddListener(systemNotice_onClick);
             NoticeUIInstance.btn_systemNotice.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
-            NoticeUIInstance.btn_systemNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "อัพเดทปรับปรุง";
+            NoticeUIInstance.btn_systemNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "更新公告";
             NoticeUIInstance.btn_eventNotice.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
-            NoticeUIInstance.btn_eventNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "ประกาศจากผู้พัฒนาม็อด";
+            NoticeUIInstance.btn_eventNotice.GetComponentInChildren<TextMeshProUGUI>(true).text = "公告";
         }
         public static void Open()
         {
@@ -92,7 +101,7 @@ namespace LimbusLocalize
         }
         public static void UpdateNoticeRedDot()
         {
-            _redDot_Notice.gameObject.SetActive(IsValidRedDot());
+            _redDot_Notice?.gameObject.SetActive(IsValidRedDot());
         }
         public static bool IsValidRedDot()
         {
@@ -108,7 +117,7 @@ namespace LimbusLocalize
             }
             return false;
         }
-        #region 公告相关
+#region 公告相关
         [HarmonyPatch(typeof(UserLocalNoticeRedDotModel), nameof(UserLocalNoticeRedDotModel.InitNoticeList))]
         [HarmonyPrefix]
         private static bool InitNoticeList(UserLocalNoticeRedDotModel __instance, List<int> severNoticeList)
@@ -205,6 +214,6 @@ namespace LimbusLocalize
             Application.OpenURL(URL);
             return false;
         }
-        #endregion
+#endregion
     }
 }

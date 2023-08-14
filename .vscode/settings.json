@@ -1,3 +1,3 @@
 {
-    "dotnet.defaultSolution": "src/LimbusLocalize_ml_ilcpp.sln"
+    "dotnet.defaultSolution": "src/LimbusLocalize.sln"
 }

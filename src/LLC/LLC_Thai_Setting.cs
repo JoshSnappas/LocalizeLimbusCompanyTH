@@ -1,9 +1,16 @@
 ﻿using HarmonyLib;
+#if ML
 using Il2Cpp;
 using Il2CppLocalSave;
 using Il2CppMainUI;
-using Il2CppTMPro;
 using MelonLoader;
+using Il2CppTMPro;
+#elif BIE
+using LocalSave;
+using MainUI;
+using BepInEx.Configuration;
+using TMPro;
+#endif
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,7 +19,11 @@ namespace LimbusLocalize
 {
     public static class LLC_Thai_Setting
     {
+#if ML
         public static MelonPreferences_Entry<bool> IsUseChinese = LCB_LLCMod.LLC_Settings.CreateEntry("IsUseChinese", true, null, "是否使用汉化 ( true | false )");
+#elif BIE
+        public static ConfigEntry<bool> IsUseChinese = LCB_LLCMod.LLC_Settings.Bind("LLC Settings", "IsUseChinese", true, "是否使用汉化 ( true | false )");
+#endif
         static bool _isusechinese;
         static Toggle Chinese_Setting;
         [HarmonyPatch(typeof(SettingsPanelGame), nameof(SettingsPanelGame.InitLanguage))]
@@ -27,9 +38,12 @@ namespace LimbusLocalize
                 var cntmp = _languageToggle.GetComponentInChildren<TextMeshProUGUI>(true);
                 cntmp.font = LCB_Thai_Font.tmpthaifonts[1];
                 cntmp.fontMaterial = LCB_Thai_Font.tmpthaifonts[1].material;
+                cntmp.fontSize = 39;
+                cntmp.fontSizeMax = 39;
                 cntmp.text = "ภาษาไทย";
                 Chinese_Setting = _languageToggle;
-                parent.localPosition = new Vector3(parent.localPosition.x - 312f, parent.localPosition.y, parent.localPosition.z);
+                
+                parent.localPosition = new Vector3(parent.localPosition.x - 352f, parent.localPosition.y, parent.localPosition.z);
                 while (__instance._languageToggles.Count > 3)
                     __instance._languageToggles.RemoveAt(__instance._languageToggles.Count - 1);
                 __instance._languageToggles.Add(_languageToggle);

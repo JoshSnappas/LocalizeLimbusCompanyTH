@@ -1,7 +1,11 @@
-﻿using Il2CppSimpleJSON;
-using Il2CppSystem.Threading;
+﻿#if ML
+using Il2CppSimpleJSON;
 using MelonLoader;
-using Semver;
+#elif BIE
+using SimpleJSON;
+using BepInEx.Configuration;
+#endif
+using Il2CppSystem.Threading;
 using System;
 using System.IO;
 using System.Net.Http;
@@ -12,7 +16,11 @@ namespace LimbusLocalize
 {
     public static class LLC_UpdateChecker
     {
+#if ML
         public static MelonPreferences_Entry<bool> AutoUpdate = LCB_LLCMod.LLC_Settings.CreateEntry("AutoUpdate", false, null, "是否从GitHub自动检查并下载更新 ( true | false )");
+#elif BIE
+        public static ConfigEntry<bool> AutoUpdate = LCB_LLCMod.LLC_Settings.Bind("LLC Settings", "AutoUpdate", false, "是否从GitHub自动检查并下载更新 ( true | false )");
+#endif
         public static void StartAutoUpdate()
         {
             if (AutoUpdate.Value)
@@ -24,7 +32,7 @@ namespace LimbusLocalize
         }
         static void CheckModUpdate()
         {
-            UnityWebRequest www = UnityWebRequest.Get("https://api.github.com/repos/1ookilo/LocalizeLimbusCompanyTH/releases");
+            UnityWebRequest www = UnityWebRequest.Get("https://api.github.com/repos/LocalizeLimbusCompany/LocalizeLimbusCompany/releases");
             www.timeout = 4;
             www.SendWebRequest();
             while (!www.isDone)
@@ -36,11 +44,15 @@ namespace LimbusLocalize
                 JSONArray releases = JSONNode.Parse(www.downloadHandler.text).AsArray;
                 string latestReleaseTag = releases[0]["tag_name"].Value;
                 string latest2ReleaseTag = releases.m_List.Count > 1 ? releases[1]["tag_name"].Value : string.Empty;
-                if (SemVersion.Parse(LCB_LLCMod.VERSION) < SemVersion.Parse(latestReleaseTag.Remove(0, 1)))
+                if (Version.Parse(LCB_LLCMod.VERSION) < Version.Parse(latestReleaseTag.Remove(0, 1)))
                 {
+#if ML
                     string updatelog = (latest2ReleaseTag == "v" + LCB_LLCMod.VERSION ? "LimbusLocalize_OTA_" : "LimbusLocalize_") + latestReleaseTag;
+#elif BIE
+                    string updatelog = (latest2ReleaseTag == "v" + LCB_LLCMod.VERSION ? "LimbusLocalize_BIE_OTA_" : "LimbusLocalize_BIE_") + latestReleaseTag;
+#endif
                     Updatelog += updatelog + ".7z ";
-                    string download = "https://github.com/1ookilo/LocalizeLimbusCompanyTH/releases/download/" + latestReleaseTag + "/" + updatelog + ".7z";
+                    string download = "https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany/releases/download/" + latestReleaseTag + "/" + updatelog + ".7z";
                     var dirs = download.Split('/');
                     string filename = LCB_LLCMod.GamePath + "/" + dirs[^1];
                     if (!File.Exists(filename))
@@ -54,7 +66,7 @@ namespace LimbusLocalize
         }
         static void CheckChineseFontAssetUpdate()
         {
-            UnityWebRequest www = UnityWebRequest.Get("https://api.github.com/repos/1ookilo/LLC_ThaiFontAsset/releases/latest");
+            UnityWebRequest www = UnityWebRequest.Get("https://api.github.com/repos/LocalizeLimbusCompany/LLC_ChineseFontAsset/releases/latest");
             string FilePath = LCB_LLCMod.ModPath + "/tmpchinesefont";
             var LastWriteTime = File.Exists(FilePath) ? int.Parse(new FileInfo(FilePath).LastWriteTime.ToString("yyMMdd")) : 0;
             www.SendWebRequest();
@@ -64,9 +76,13 @@ namespace LimbusLocalize
             int latestReleaseTag = int.Parse(latest["tag_name"].Value);
             if (LastWriteTime < latestReleaseTag)
             {
+#if ML
                 string updatelog = "tmpchinesefont_" + latestReleaseTag;
+#elif BIE
+                string updatelog = "tmpchinesefont_BIE_" + latestReleaseTag;
+#endif
                 Updatelog += updatelog + ".7z ";
-                string download = "https://github.com/1ookilo/LLC_ThaiFontAsset/releases/download/" + latestReleaseTag + "/" + updatelog + ".7z";
+                string download = "https://github.com/LocalizeLimbusCompany/LLC_ChineseFontAsset/releases/download/" + latestReleaseTag + "/" + updatelog + ".7z";
                 var dirs = download.Split('/');
                 string filename = LCB_LLCMod.GamePath + "/" + dirs[^1];
                 if (!File.Exists(filename))

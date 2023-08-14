@@ -1,20 +1,31 @@
 ﻿using HarmonyLib;
+#if ML
 using Il2Cpp;
 using Il2CppAddressable;
 using Il2CppSimpleJSON;
 using Il2CppStorySystem;
-using Il2CppSystem.Collections.Generic;
-using Il2CppTMPro;
 using Il2CppUtilityUI;
+using Il2CppTMPro;
+using Il2CppMainUI;
+#elif BIE
+using Addressable;
+using SimpleJSON;
+using StorySystem;
+using UtilityUI;
+using TMPro;
+#endif
+using Il2CppSystem.Collections.Generic;
 using System;
 using System.IO;
 using UnityEngine;
+using System.Reflection.Metadata;
 
 namespace LimbusLocalize
 {
     public static class LCB_Thai_Font
     {
         public static List<TMP_FontAsset> tmpchinesefonts = new();
+        public static List<string> tmpchinesefontnames = new();
         public static List<TMP_FontAsset> tmpthaifonts = new();
         public static List<string> tmpthaifontnames = new();
         #region 字体
@@ -31,13 +42,13 @@ namespace LimbusLocalize
                         UnityEngine.Object.DontDestroyOnLoad(TryCastFontAsset);
                         TryCastFontAsset.hideFlags |= HideFlags.HideAndDontSave;
                         tmpchinesefonts.Add(TryCastFontAsset);
+                        tmpchinesefontnames.Add(TryCastFontAsset.name);
                         return true;
                     }
                 }
             }
             return false;
         }
-
         public static bool AddThaiFont(string path)
         {
             if (File.Exists(path))
@@ -60,54 +71,38 @@ namespace LimbusLocalize
             }
             return false;
         }
-        public static bool GetThaiFonts(string fontname, out TMP_FontAsset fontAsset)
+        public static bool GetChineseFont(string fontname, out TMP_FontAsset fontAsset)
         {
             fontAsset = null;
             if (tmpchinesefonts.Count == 0)
                 return false;
-            if (fontname == "BebasKai SDF")
+            if (fontname == "KOTRA_BOLD SDF" || fontname.StartsWith("Corporate-Logo-Bold") || fontname.StartsWith("HigashiOme-Gothic-C") || fontname == "Pretendard-Regular SDF" || fontname.StartsWith("SCDream") || fontname == "LiberationSans SDF" || fontname == "BebasKai SDF")
             {
-                fontAsset = tmpthaifonts[0];
-                return true;
-            }
-            if (fontname == "Caveat Semibold SDF")
-            {
-                fontAsset = tmpthaifonts[0];
-                return true;
-            }
-            if (fontname == "ExcelsiorSans SDF")
-            {
-                fontAsset = tmpthaifonts[0];
-                return true;
-            }
-            if (fontname.StartsWith("Corporate-Logo-Bold") || fontname == "Mikodacs SDF" || fontname == "KOTRA_BOLD SDF")
-            {
-                fontAsset = tmpthaifonts[0];
-                return true;
-            }
-            if (fontname == "Pretendard-Regular SDF" || fontname.StartsWith("HigashiOme - Gothic - C") || fontname.StartsWith("SCDream"))
-            {
-                fontAsset = tmpthaifonts[1];
+                fontAsset = tmpchinesefonts[0];
                 return true;
             }
             return false;
         }
-        public static bool IsThaiFont(TMP_FontAsset fontAsset)
+        public static bool IsChineseFont(TMP_FontAsset fontAsset)
         {
-            return tmpthaifontnames.Contains(fontAsset.name);
+            return tmpchinesefontnames.Contains(fontAsset.name);
         }
 
         [HarmonyPatch(typeof(TMP_Text), nameof(TMP_Text.font), MethodType.Setter)]
         [HarmonyPrefix]
         private static bool set_font(TMP_Text __instance, ref TMP_FontAsset value)
         {
-            if (IsThaiFont(__instance.m_fontAsset))
+            if (IsChineseFont(__instance.m_fontAsset))
                 return false;
             string fontname = __instance.m_fontAsset.name;
-            if (GetThaiFonts(fontname, out TMP_FontAsset font))
+            if (GetChineseFont(fontname, out TMP_FontAsset font))
                 value = font;
-            value.fallbackFontAssetTable = new List<TMP_FontAsset>();
-            value.fallbackFontAssetTable.Add(tmpchinesefonts[0]);
+
+            if (value.name.Equals("Mikodacs SDF"))
+            {
+                value.fallbackFontAssetTable = new List<TMP_FontAsset>();
+                value.fallbackFontAssetTable.Add(tmpthaifonts[0]);
+            }
 
             return true;
         }
@@ -115,7 +110,7 @@ namespace LimbusLocalize
         [HarmonyPrefix]
         private static void set_fontMaterial(TMP_Text __instance, ref Material value)
         {
-            if (IsThaiFont(__instance.m_fontAsset))
+            if (IsChineseFont(__instance.m_fontAsset))
                 value = __instance.m_fontAsset.material;
         }
         [HarmonyPatch(typeof(TextMeshProLanguageSetter), nameof(TextMeshProLanguageSetter.UpdateTMP))]
@@ -130,18 +125,22 @@ namespace LimbusLocalize
             if (!__instance._text)
                 return false;
             var raw_fontAsset = fontInformation.fontAsset;
-            bool use_th = GetThaiFonts(raw_fontAsset.name, out var th_fontAsset);
+            bool use_cn = GetChineseFont(raw_fontAsset.name, out var cn_fontAsset);
 
-            var fontAsset = use_th ? th_fontAsset : fontInformation.fontAsset;
-            var fontMaterial = use_th ? th_fontAsset.material : fontInformation.fontMaterial ?? fontInformation.fontAsset.material;
+            var fontAsset = use_cn ? cn_fontAsset : fontInformation.fontAsset;
+            var fontMaterial = use_cn ? cn_fontAsset.material : fontInformation.fontMaterial ?? fontInformation.fontAsset.material;
 
             __instance._text.font = fontAsset;
             __instance._text.fontMaterial = fontMaterial;
+
             if (__instance._matSetter)
             {
                 __instance._matSetter.defaultMat = fontMaterial;
                 __instance._matSetter.ResetMaterial();
             }
+
+            __instance._text.font.fallbackFontAssetTable = new List<TMP_FontAsset>();
+            __instance._text.font.fallbackFontAssetTable.Add(tmpthaifonts[1]);
             return false;
         }
         [HarmonyPatch(typeof(TextMeshProLanguageSetter), nameof(TextMeshProLanguageSetter.Awake))]
@@ -155,13 +154,21 @@ namespace LimbusLocalize
                 if(__instance.TryGetComponent<TextMeshProMaterialSetter>(out var textMeshProMaterialSetter))
                     __instance._matSetter= textMeshProMaterialSetter;
         }
+        [HarmonyPatch(typeof(BattleSkillViewUIInfo), nameof(BattleSkillViewUIInfo.Init))]
+        [HarmonyPrefix]
+        private static void BattleSkillViewUIInfoInit(BattleSkillViewUIInfo __instance)
+        {
+            __instance._materialSetter_abText.underlayColor = Color.clear;
+            __instance._materialSetter_skillText.underlayColor = Color.clear;
+        }
+
         [HarmonyPatch(typeof(TextMeshProMaterialSetter), nameof(TextMeshProMaterialSetter.WriteMaterialProperty))]
         [HarmonyPrefix]
         public static bool WriteMaterialProperty(TextMeshProMaterialSetter __instance)
         {
             if (!__instance._fontMaterialInstance)
                 return false;
-            if (!GetThaiFonts(__instance._text.font.name, out _) && !IsThaiFont(__instance._text.font))
+            if (!GetChineseFont(__instance._text.font.name, out _) && !IsChineseFont(__instance._text.font))
                 return true;
 
             Color underlayColor = __instance.underlayColor;
@@ -181,12 +188,21 @@ namespace LimbusLocalize
             return false;
         }
 
-        [HarmonyPatch(typeof(BattleSkillViewUIInfo), nameof(BattleSkillViewUIInfo.Init))]
-        [HarmonyPrefix]
-        private static void BattleSkillViewUIInfoInit(BattleSkillViewUIInfo __instance)
+        [HarmonyPatch(typeof(BattleLyricsContoller), nameof(BattleLyricsContoller.Init))]
+        [HarmonyPostfix]
+        public static void BattleLyricsContollerPatch(BattleLyricsContoller __instance, ref string text, ref float tempo, ref int randGroundIdx, ref bool isPool)
         {
-            __instance._materialSetter_abText.underlayColor = Color.clear;
-            __instance._materialSetter_skillText.underlayColor = Color.clear;
+
+            __instance.tmp.characterSpacing = 5f;
+
+        }
+
+        [HarmonyPatch(typeof(GachaUIPanel), nameof(GachaUIPanel.Initialize))]
+        [HarmonyPostfix]
+        private static void SetDataNameTag(GachaUIPanel __instance)
+        {
+            __instance._pickupNameTag.tmp_title.SetOutlineThickness(0.4f);
+            __instance._pickupNameTag.tmp_characterName.SetOutlineThickness(0.4f);
         }
         #endregion
         #region 载入汉化
@@ -244,6 +260,7 @@ namespace LimbusLocalize
             tm._panicInfo.Init(romoteLocalizeFileList.PanicInfo);
             tm._mentalConditionList.Init(romoteLocalizeFileList.mentalCondition);
             tm._dungeonStartBuffs.Init(romoteLocalizeFileList.DungeonStartBuffs);
+            tm._railwayDungeonBuffText.Init(romoteLocalizeFileList.RailwayDungeonBuff);
 
             tm._abnormalityEventCharDlg.AbEventCharDlgRootInit(romoteLocalizeFileList.abnormalityCharDlgFilePath);
 
@@ -359,7 +376,7 @@ namespace LimbusLocalize
         private static void SetLoginInfo(LoginSceneManager __instance)
         {
             LoadLocal(LOCALIZE_LANGUAGE.EN);
-            __instance.tmp_loginAccount.text = "LimbusLocalizeMod v" + LCB_LLCMod.VERSION;
+            __instance.tmp_loginAccount.text = "LimbusLocalizeTHMod v" + LCB_LLCMod.VERSION;
         }
         private static void Init<T>(this JsonDataList<T> jsonDataList, List<string> jsonFilePathList) where T : LocalizeTextData, new()
         {
@@ -411,7 +428,7 @@ namespace LimbusLocalize
             }
         }
 
-        #endregion
+#endregion
         public static bool TryGetValueEX<TKey, TValue>(this Dictionary<TKey, TValue> dic, TKey key, out TValue value)
         {
             var entries = dic._entries;
