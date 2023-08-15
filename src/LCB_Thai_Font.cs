@@ -13,12 +13,14 @@ using SimpleJSON;
 using StorySystem;
 using UtilityUI;
 using TMPro;
+using MainUI;
 #endif
 using Il2CppSystem.Collections.Generic;
 using System;
 using System.IO;
 using UnityEngine;
 using System.Reflection.Metadata;
+
 
 namespace LimbusLocalize
 {
