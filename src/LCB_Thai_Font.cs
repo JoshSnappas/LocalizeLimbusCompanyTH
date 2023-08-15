@@ -197,13 +197,14 @@ namespace LimbusLocalize
 
         }
 
-        [HarmonyPatch(typeof(GachaUIPanel), nameof(GachaUIPanel.Initialize))]
-        [HarmonyPostfix]
+        [HarmonyPatch(typeof(GachaUIPanel), nameof(GachaUIPanel.SetDataOpen))]
+        [HarmonyPrefix]
         private static void SetDataNameTag(GachaUIPanel __instance)
         {
             __instance._pickupNameTag.tmp_title.SetOutlineThickness(0.4f);
             __instance._pickupNameTag.tmp_characterName.SetOutlineThickness(0.4f);
         }
+
         #endregion
         #region 载入汉化
         private static void LoadRemote2(LOCALIZE_LANGUAGE lang)
