@@ -1,0 +1,116 @@
+{
+  "dataList": [
+    {
+      "id": 1,
+      "personalityid": 10102,
+      "voicefile": 0,
+      "teller": "เซเว่น อี้ซัง",
+      "dialog": "การพลาดพลั้งคงเป็นเพียงความเพ้อฝันในตอนนี้",
+      "usage": "(800101, VERY_HIGH), (800102, VERY_HIGH), (800104, VERY_HIGH), (800105, VERY_HIGH)"
+    },
+    {
+      "id": 2,
+      "personalityid": 10102,
+      "voicefile": 0,
+      "teller": "เซเว่น อี้ซัง",
+      "dialog": "ผมเชื่อว่าผมมีโอกาสเพียงพอจะสำเร็จผล",
+      "usage": "(800101, HIGH), (800102, HIGH), (800104, HIGH), (800105, HIGH) "
+    },
+    {
+      "id": 3,
+      "personalityid": 10102,
+      "voicefile": 0,
+      "teller": "เซเว่น อี้ซัง",
+      "dialog": "หากคุณคิดคำนวณว่าคนผู้หนึ่งจะทำได้ ไม่แน่ว่าคนผู้นั้นก็อาจทำได้สำเร็จ",
+      "usage": "(800101, NORMAL), (800102, NORMAL), (800104, NORMAL), (800105, NORMAL)"
+    },
+    {
+      "id": 4,
+      "personalityid": 10102,
+      "voicefile": 0,
+      "teller": "เซเว่น อี้ซัง",
+      "dialog": "คุณจะยอมรับซึ่งผลลัพธ์อันไม่น่าพึงประสบพบได้รึเปล่า?",
+      "usage": "(800101, LOW), (800102, LOW), (800104, LOW), (800105, LOW)"
+    },
+    {
+      "id": 5,
+      "personalityid": 10102,
+      "voicefile": 0,
+      "teller": "เซเว่น อี้ซัง",
+      "dialog": "ผมรู้สึกว่าสิ่งนี้จะเป็นกิจไร้จุดหมาย",
+      "usage": "(800101, VERY_LOW), (800102, VERY_LOW), (800104, VERY_LOW), (800105, VERY_LOW) "
+    },
+    {
+      "id": 6,
+      "personalityid": 10102,
+      "voicefile": 0,
+      "teller": "เซเว่น อี้ซัง",
+      "dialog": "ผมได้พบซึ่งความเริงรื่น",
+      "usage": "(800101, SUCCESS), (800102, SUCCESS), (800104, SUCCESS), (800105, SUCCESS)"
+    },
+    {
+      "id": 7,
+      "personalityid": 10102,
+      "voicefile": 0,
+      "teller": "เซเว่น อี้ซัง",
+      "dialog": "ผู้คนจักจมสู่ความสิ้นหวัง",
+      "usage": "(800101, FAILURE), (800102, FAILURE), (800104, FAILURE), (800105, FAILURE)"
+    },
+    {
+      "id": 8,
+      "personalityid": 10101,
+      "voicefile": 0,
+      "teller": "อี้ซัง",
+      "dialog": "การพลาดพลั้งคงเป็นเพียงความเพ้อฝันในตอนนี้",
+      "usage": "(800101, VERY_HIGH), (800102, VERY_HIGH), (800104, VERY_HIGH), (800105, VERY_HIGH)"
+    },
+    {
+      "id": 9,
+      "personalityid": 10101,
+      "voicefile": 0,
+      "teller": "อี้ซัง",
+      "dialog": "ผมเชื่อว่าผมมีโอกาสเพียงพอจะสำเร็จผล",
+      "usage": "(800101, HIGH), (800102, HIGH), (800104, HIGH), (800105, HIGH) "
+    },
+    {
+      "id": 10,
+      "personalityid": 10101,
+      "voicefile": 0,
+      "teller": "อี้ซัง",
+      "dialog": "หากคุณคิดคำนวณว่าคนผู้หนึ่งจะทำได้ ไม่แน่ว่าคนผู้นั้นก็อาจทำได้สำเร็จ",
+      "usage": "(800101, NORMAL), (800102, NORMAL), (800104, NORMAL), (800105, NORMAL)"
+    },
+    {
+      "id": 11,
+      "personalityid": 10101,
+      "voicefile": 0,
+      "teller": "อี้ซัง",
+      "dialog": "คุณจะยอมรับซึ่งผลลัพธ์อันไม่น่าพึงประสบพบได้รึเปล่า?",
+      "usage": "(800101, LOW), (800102, LOW), (800104, LOW), (800105, LOW)"
+    },
+    {
+      "id": 12,
+      "personalityid": 10101,
+      "voicefile": 0,
+      "teller": "อี้ซัง",
+      "dialog": "ผมรู้สึกว่าสิ่งนี้จะเป็นกิจไร้จุดหมาย",
+      "usage": "(800101, VERY_LOW), (800102, VERY_LOW), (800104, VERY_LOW), (800105, VERY_LOW) "
+    },
+    {
+      "id": 13,
+      "personalityid": 10101,
+      "voicefile": 0,
+      "teller": "อี้ซัง",
+      "dialog": "ผมได้พบซึ่งความเริงรื่น",
+      "usage": "(800101, SUCCESS), (800102, SUCCESS), (800104, SUCCESS), (800105, SUCCESS)"
+    },
+    {
+      "id": 14,
+      "personalityid": 10101,
+      "voicefile": 0,
+      "teller": "อี้ซัง",
+      "dialog": "ผู้คนจักจมสู่ความสิ้นหวัง",
+      "usage": "(800101, FAILURE), (800102, FAILURE), (800104, FAILURE), (800105, FAILURE)"
+    }
+  ]
+}

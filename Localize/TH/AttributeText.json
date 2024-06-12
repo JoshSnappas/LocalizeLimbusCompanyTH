@@ -1,0 +1,40 @@
+{
+  "dataList": [
+    {
+      "id": "CRIMSON",
+      "name": "โทสะ"
+    },
+    {
+      "id": "SCARLET",
+      "name": "ราคะ"
+    },
+    {
+      "id": "AMBER",
+      "name": "เกียจคร้าน"
+    },
+    {
+      "id": "SHAMROCK",
+      "name": "ตะกละ"
+    },
+    {
+      "id": "AZURE",
+      "name": "เศร้าโศก"
+    },
+    {
+      "id": "INDIGO",
+      "name": "อัตตา"
+    },
+    {
+      "id": "VIOLET",
+      "name": "ริษยา"
+    },
+    {
+      "id": "WHITE",
+      "name": "วิกล"
+    },
+    {
+      "id": "BLACK",
+      "name": "โศกา"
+    }
+  ]
+}

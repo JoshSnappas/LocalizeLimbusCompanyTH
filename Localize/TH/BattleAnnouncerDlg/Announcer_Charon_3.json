@@ -1,0 +1,120 @@
+{
+  "dataList": [
+    {
+      "id": "announcer_cheer_3_1",
+      "dlg": "คารอนไม่ถนัดรอนะ ให้เวลา100วิ"
+    },
+    {
+      "id": "announcer_cheer_3_2",
+      "dlg": "ถ้าสายจะพาเมฟีห์ออกไปแล้วนะ"
+    },
+    {
+      "id": "announcer_specialcheer_3_1",
+      "dlg": "ผู้โดยสารเจ็บปวด , อย่าร้องไห้นะ"
+    },
+    {
+      "id": "announcer_specialcheer_3_2",
+      "dlg": "ทำไมพวกเขาถึงกลายเป็นศัตรูกับเมฟีห์ล่ะ? คารอนเศร้า."
+    },
+    {
+      "id": "announcer_enemy_break_3_1",
+      "dlg": "ศัตรูสั่นไปหมดแล้ว. นี่แหละโอกาศ,ใช่ไหม?"
+    },
+    {
+      "id": "announcer_ally_break_3_1",
+      "dlg": "คารอนบอกให้คาดเข็มขัดแล้วนะ"
+    },
+    {
+      "id": "announcer_killenemy_3_1",
+      "dlg": "เมฟีห์หิวแล้ว. ทำได้ดีมาก ,ใช่ไหม?"
+    },
+    {
+      "id": "announcer_ally_dead_3_1",
+      "dlg": "ผู้โดยสารตายหมดแล้ว อย่าลืมหมุนนาฬิกาทีหลังด้วย"
+    },
+    {
+      "id": "announcer_enemy_adv_3_1",
+      "dlg": "คนเลวชนะ คารอนไปละ"
+    },
+    {
+      "id": "announcer_ally_adv_3_1",
+      "dlg": "โว้โห. ฝั่งนี้ คือ ฝั่งคนชนะ"
+    },
+    {
+      "id": "announcer_danger_3_1",
+      "dlg": "อันตรายถึงตายหรอ? เหมือนเคยได้ยินคำนี้แล้วนะ"
+    },
+    {
+      "id": "announcer_enemy_specialskill_3_1",
+      "dlg": "พื้นกำลังครืนๆ ท้องคารอนก็ครืนๆเหมือนกัน"
+    },
+    {
+      "id": "announcer_enemy_specialgimmick_3_1",
+      "dlg": "ความลึกลับ ไม่บอกว่าจะมีอะไรต่อหรอกนะ"
+    },
+    {
+      "id": "announcer_advatk_physical_3_1",
+      "dlg": "ผู้โดยสาร ไปทุบพวกมันเลย"
+    },
+    {
+      "id": "announcer_disadvatk_physical_3_1",
+      "dlg": "อันนั้นทำอะไรไม่ได้หรอก บื้อจัง"
+    },
+    {
+      "id": "announcer_advatk_attr_3_1",
+      "dlg": "พวกเขาบอกว่า การรู้ความผิดของคุณ เป็นก้าวแรก"
+    },
+    {
+      "id": "announcer_disadvatk_attr_3_1",
+      "dlg": "ยังไม่รู้หรอ ว่าคุณผิดอะไร? ลองดูหนังน้ำเน่าดูสิ"
+    },
+    {
+      "id": "announcer_enemy_specialbuff_3_1",
+      "dlg": "เหมือนพวกนั้นกำลังอารมณ์ดี คารอนเสียใจ"
+    },
+    {
+      "id": "announcer_enemy_specialdebuff_3_1",
+      "dlg": "ลองมองพวกเขาสิ. รู้สึกอยากจะอาเจียนขึ้นมาเลย"
+    },
+    {
+      "id": "announcer_ally_specialbuff_3_1",
+      "dlg": "มีอะไรดีๆเกิดขึ้นกับผู้โดยสารหรอ?"
+    },
+    {
+      "id": "announcer_ally_specialdebuff_3_1",
+      "dlg": "กระเป๋ายาแก้เมาอยู่ใต้ที่นั่ง อย่าอาเจียนใส่ เมฟีห์"
+    },
+    {
+      "id": "announcer_enemy_destroy_3_1",
+      "dlg": "เคล้งคล้าง. ตรงนั้นแตกแล้ว. ไปต่อได้."
+    },
+    {
+      "id": "announcer_enemy_destroy_3_2",
+      "dlg": "ผู้โดยสายเพิ่งพังอันนั้น แต่ไม่มีใครให้จ่ายค่าเสียหาย. งั้นไปต่อ"
+    },
+    {
+      "id": "announcer_round_takebigdmg_3_1",
+      "dlg": "คารอน หมุนๆ"
+    },
+    {
+      "id": "announcer_round_takebigdmg_3_2",
+      "dlg": "เอ๊ะ ดูเจ็บนะ"
+    },
+    {
+      "id": "announcer_round_givebigdmg_3_1",
+      "dlg": "สำเร็จครั้งใหญ่. คารอนตื่นเต้น. ขอร้องเพลงได้ไหม?"
+    },
+    {
+      "id": "announcer_round_givebigdmg_3_2",
+      "dlg": "ว้าว คารอนก็แปลกใจเหมือนกัน"
+    },
+    {
+      "id": "announcer_multikillenemy_3_1",
+      "dlg": "\"ยิงนัดเดียวได้นกสองตัว\" ใช่ไหม? เดี๋ยวคารอนจะลูบหัวให้เป็นรางวัลนะ"
+    },
+    {
+      "id": "announcer_equip_3_1",
+      "dlg": "คารอนมาถึง , ทุกคนก็รื่นเริง"
+    }
+  ]
+}

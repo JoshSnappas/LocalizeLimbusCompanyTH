@@ -1,0 +1,56 @@
+{
+  "dataList": [
+    {
+      "id": "CLEAR_STAGE",
+      "content": "เคลียร์ด่านใดก็ได้ {0} ครั้ง"
+    },
+    {
+      "id": "KILL_ENEMY_ANY",
+      "content": "กำจัดศัตรู {0} ตัว"
+    },
+    {
+      "id": "KILL_ENEMY_ABNORMALITY",
+      "content": "ปราบปรามสิ่งเหนือธรรมชาติ {0} ตัว"
+    },
+    {
+      "id": "SOMEONE_PARTICIPATED_IN_BATTLE",
+      "content": "มี {1} ในการต่อสู้ {0} ครั้ง"
+    },
+    {
+      "id": "MIRROR_DUNGEON_TRY",
+      "content": "เข้าดันเจี้ยนกระจกเงา {0} ครั้ง"
+    },
+    {
+      "id": "MIRROR_DUNGEON_CLEAR",
+      "content": "เคลียร์ดันเจี้ยนกระจกเงา {0} ครั้ง"
+    },
+    {
+      "id": "BATTLEPASS_LEVELUP",
+      "content": "แบทเทิลพาสถึงเลเวล {0}"
+    },
+    {
+      "id": "USE_EGO_20402",
+      "content": "ใช้ เพลิงไฟแห่งไม้ขีดที่ 4 เรียวชู {0} ครั้ง"
+    },
+    {
+      "id": "USE_ANNOUNCER_2",
+      "content": "ใช้เกรเกอร์ในฐานะนักพากย์ {0} ครั้ง"
+    },
+    {
+      "id": "LOGIN_ONCE",
+      "content": "ล็อกอินประจำวัน {0}"
+    },
+    {
+      "id": "LOGIN_MULTIPLE",
+      "content": "ล็อกอินประจำวันสะสม {0}"
+    },
+    {
+      "id": "EXPDUNGEON_CLEAR",
+      "content": "เคลียร์ด่าน EXP {0} ครั้ง"
+    },
+    {
+      "id": "THREADDENGEON_CLEAR",
+      "content": "เคลียร์ด่านด้าย {0} ครั้ง"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "dataList": [
+    {
+      "id": "very-high",
+      "content": "เหนือกว่า"
+    },
+    {
+      "id": "high",
+      "content": "เข้าทาง"
+    },
+    {
+      "id": "normal",
+      "content": "เป็นกลาง"
+    },
+    {
+      "id": "low",
+      "content": "ดิ้นรน"
+    },
+    {
+      "id": "very-low",
+      "content": "หมดหวัง"
+    },
+    {
+      "id": "impossible",
+      "content": "เลือกไม่ได้"
+    },
+    {
+      "id": "event-very-high",
+      "content": "สูงมาก"
+    },
+    {
+      "id": "event-high",
+      "content": "สูง"
+    },
+    {
+      "id": "event-normal",
+      "content": "ธรรมดา"
+    },
+    {
+      "id": "event-low",
+      "content": "ต่ำ"
+    },
+    {
+      "id": "event-very-low",
+      "content": "ต่ำมาก"
+    },
+    {
+      "id": "event-impossible",
+      "content": "เลือกไม่ได้"
+    }
+  ]
+}

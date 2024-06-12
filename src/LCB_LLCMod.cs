@@ -37,19 +37,21 @@ namespace LimbusLocalize
             try
             {
                 Harmony harmony = new(NAME);
-                if (LLC_Chinese_Setting.IsUseChinese.Value)
+                if (LLC_Thai_Setting.IsUseChinese.Value)
                 {
-                    LLC_Manager.InitLocalizes(new DirectoryInfo(ModPath + "/Localize/CN"));
-                    harmony.PatchAll(typeof(LCB_Chinese_Font));
+                    LLC_Manager.InitLocalizes(new DirectoryInfo(ModPath + "/Localize/TH"));
+                    harmony.PatchAll(typeof(LCB_Thai_Font));
                     harmony.PatchAll(typeof(LLC_ReadmeManager));
                     harmony.PatchAll(typeof(LLC_LoadingManager));
                     harmony.PatchAll(typeof(LLC_SpriteUI));
                 }
                 harmony.PatchAll(typeof(LLC_Manager));
-                harmony.PatchAll(typeof(LLC_Chinese_Setting));
-                if (!LCB_Chinese_Font.AddChineseFont(ModPath + "/tmpchinesefont"))
+                harmony.PatchAll(typeof(LLC_Thai_Setting));
+                if (!LCB_Thai_Font.AddChineseFont(ModPath + "/tmpchinesefont"))
                     LogFatalError("You Not Have Chinese Font, Please Read GitHub Readme To Download\n你没有下载中文字体,请阅读GitHub的Readme下载", OpenLLCURL);
-            }
+                if (!LCB_Thai_Font.AddThaiFont(ModPath + "/tmpthaifont"))
+                    LogFatalError("You Don't Have Thai Font, Please Read GitHub Readme To Download\n你没有下载中文字体,请阅读GitHub的Readme下载", OpenLLCURL);
+            }   
             catch (Exception e)
             {
                 LogFatalError("Mod Has Unknown Fatal Error!!!\n模组部分功能出现致命错误,即将打开GitHub,请根据Issues流程反馈", () => { CopyLog(); OpenGamePath(); OpenLLCURL(); });

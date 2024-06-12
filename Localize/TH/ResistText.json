@@ -1,0 +1,28 @@
+{
+  "dataList": [
+    {
+      "id": "resist_weak",
+      "content": "ร้ายแรง"
+    },
+    {
+      "id": "resist_vulnerable",
+      "content": "อ่อนแอ"
+    },
+    {
+      "id": "resist_normal",
+      "content": "ปกติ"
+    },
+    {
+      "id": "resist_endure",
+      "content": "ทนได้"
+    },
+    {
+      "id": "resist_resist",
+      "content": "ไร้ผล"
+    },
+    {
+      "id": "resist_immune",
+      "content": "ต้าน"
+    }
+  ]
+}

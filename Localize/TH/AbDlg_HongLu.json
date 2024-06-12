@@ -1,0 +1,116 @@
+{
+  "dataList": [
+    {
+      "id": 1,
+      "personalityid": 10601,
+      "voiceFile": 0,
+      "teller": "ฮงลู่",
+      "dialog": "นี่มันง่ายอย่างกับกินเค้กข้าวที่คนรับใช้ของผมป้อนให้เลยนี่นา",
+      "usage": "(800101, VERY_HIGH), (800102, VERY_HIGH), (800104, VERY_HIGH), (800105, VERY_HIGH)"
+    },
+    {
+      "id": 2,
+      "personalityid": 10601,
+      "voiceFile": 0,
+      "teller": "ฮงลู่",
+      "dialog": "ผมว่าผมจัดการเรื่องนี้ได้นะ",
+      "usage": "(800101, HIGH), (800102, HIGH), (800104, HIGH), (800105, HIGH) "
+    },
+    {
+      "id": 3,
+      "personalityid": 10601,
+      "voiceFile": 0,
+      "teller": "ฮงลู่",
+      "dialog": "อื้ม เอาล่ะ ผมจะทำตามนั้นแล้วกัน",
+      "usage": "(800101, NORMAL), (800102, NORMAL), (800104, NORMAL), (800105, NORMAL)"
+    },
+    {
+      "id": 4,
+      "personalityid": 10601,
+      "voiceFile": 0,
+      "teller": "ฮงลู่",
+      "dialog": "ผมว่า... นี่มันงานของคนอื่นนะ คุณผู้จัดการเห็นด้วยหรือเปล่า?",
+      "usage": "(800101, LOW), (800102, LOW), (800104, LOW), (800105, LOW)"
+    },
+    {
+      "id": 5,
+      "personalityid": 10601,
+      "voiceFile": 0,
+      "teller": "ฮงลู่",
+      "dialog": "อา ผมเพิ่งจำได้ว่าผมมีธุระด่วนที่ต้องจัดการน่ะ...",
+      "usage": "(800101, VERY_LOW), (800102, VERY_LOW), (800104, VERY_LOW), (800105, VERY_LOW) "
+    },
+    {
+      "id": 6,
+      "personalityid": 10601,
+      "voiceFile": 0,
+      "teller": "ฮงลู่",
+      "dialog": "ฮ่ะ ๆ ไม่ต้องชมผมขนาดนั้นก็ได้",
+      "usage": "(800101, SUCCESS), (800102, SUCCESS), (800104, SUCCESS), (800105, SUCCESS)"
+    },
+    {
+      "id": 7,
+      "personalityid": 10601,
+      "voiceFile": 0,
+      "teller": "ฮงลู่",
+      "dialog": "โอ๊ะ แหม่~ ไม่ต้องโทษตัวเองขนาดนั้นก็ได้ มันก็แค่ไม่ใช่วันของผู้จัดการเท่านั้นเอง",
+      "usage": "(800101, FAILURE), (800102, FAILURE), (800104, FAILURE), (800105, FAILURE)"
+    },
+    {
+      "id": 8,
+      "personalityid": 10602,
+      "voiceFile": 0,
+      "teller": "คุโรคุโมะ ฮงลู่",
+      "dialog": "",
+      "usage": "(800101, VERY_HIGH), (800102, VERY_HIGH), (800104, VERY_HIGH), (800105, VERY_HIGH)"
+    },
+    {
+      "id": 9,
+      "personalityid": 10602,
+      "voiceFile": 0,
+      "teller": "คุโรคุโมะ ฮงลู่",
+      "dialog": "",
+      "usage": "(800101, HIGH), (800102, HIGH), (800104, HIGH), (800105, HIGH) "
+    },
+    {
+      "id": 10,
+      "personalityid": 10602,
+      "voiceFile": 0,
+      "teller": "คุโรคุโมะ ฮงลู่",
+      "dialog": "",
+      "usage": "(800101, NORMAL), (800102, NORMAL), (800104, NORMAL), (800105, NORMAL)"
+    },
+    {
+      "id": 11,
+      "personalityid": 10602,
+      "voiceFile": 0,
+      "teller": "คุโรคุโมะ ฮงลู่",
+      "dialog": "",
+      "usage": "(800101, LOW), (800102, LOW), (800104, LOW), (800105, LOW)"
+    },
+    {
+      "id": 12,
+      "personalityid": 10602,
+      "voiceFile": 0,
+      "teller": "คุโรคุโมะ ฮงลู่",
+      "dialog": "",
+      "usage": "(800101, VERY_LOW), (800102, VERY_LOW), (800104, VERY_LOW), (800105, VERY_LOW) "
+    },
+    {
+      "id": 13,
+      "personalityid": 10602,
+      "voiceFile": 0,
+      "teller": "คุโรคุโมะ ฮงลู่",
+      "dialog": "",
+      "usage": "(800101, SUCCESS), (800102, SUCCESS), (800104, SUCCESS), (800105, SUCCESS)"
+    },
+    {
+      "id": 14,
+      "personalityid": 10602,
+      "voiceFile": 0,
+      "teller": "คุโรคุโมะ ฮงลู่",
+      "dialog": "",
+      "usage": "(800101, FAILURE), (800102, FAILURE), (800104, FAILURE), (800105, FAILURE)"
+    }
+  ]
+}

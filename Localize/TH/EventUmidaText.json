@@ -1,0 +1,44 @@
+{
+  "dataList": [
+    {
+      "id": "umida_stagebutton_not_clear_cp4",
+      "content": "เคลียร์ด่าน 4-54 เพื่อปลดล็อก"
+    },
+    {
+      "id": "umida_stagebutton_normal",
+      "content": "รวบรวมเศษอะไหล่"
+    },
+    {
+      "id": "umida_stagebutton_end_event",
+      "content": "อีเวนท์ปิด"
+    },
+    {
+      "id": "umida_storybutton_before_start",
+      "content": "เคลียร์ด่าน 4.5-1 เพื่อปลดล็อก"
+    },
+    {
+      "id": "umida_storybutton_normal",
+      "content": "รำลึก"
+    },
+    {
+      "id": "umida_exchange_scrap",
+      "content": "กล่องเศษอะไหล่"
+    },
+    {
+      "id": "umida_scrap_guide_title",
+      "content": "เศษอะไหล่ไม่ธรรมดา"
+    },
+    {
+      "id": "umida_scrap_guide_desc",
+      "content": "Rarely, you may obtain <color=#f8c200>[Rare Horseshoe with Bus-modifying Scrap]</color> from clearing Event Stages, Main Story Stages, or Dungeons.\n\n<color=#f8c200>[Rare Horseshoe with Bus-modifying Scrap]</color> is converted to 20 <color=#f8c200>[Bus-modifying Scrap]</color>."
+    },
+    {
+      "id": "umida_rewardpage_desc",
+      "content": "เคลียร์ด่านอีเวนท์ ด่านเนื้อเรื่องหลักหรือดันเจี้ยนเพื่อรับ <color=#f8c200>[เศษอะไหล่ดัดแปลงบัส]</color> คุณสามารถรับรางวัลมากมายได้จาก <color=#f8c200>[กล่องเศษอะไหล่]</color> ตามจำนวนของ <color=#f8c200>[เศษอะไหล่ดัดแปลงบัส]</color> ที่คุณมี"
+    },
+    {
+      "id": "umida_scrap_counter_label",
+      "content": "เศษอะไหล่ที่รวบรวมได้"
+    }
+  ]
+}
