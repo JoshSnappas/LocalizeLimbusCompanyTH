@@ -26,7 +26,7 @@ namespace LimbusLocalize
         static void CheckModUpdate()
         {
             string release_uri = UpdateURI.Value == URI.GitHub ?
-                "https://api.github.com/repos/LocalizeLimbusCompany/LocalizeLimbusCompany/releases/latest"
+                "https://api.github.com/repos/JoshSnappas/LocalizeLimbusCompanyTH/releases/latest"
                 : "https://json.zxp123.eu.org/LatestMod_Release.json";
             UnityWebRequest www = UnityWebRequest.Get(release_uri);
             www.timeout = 4;
@@ -44,7 +44,7 @@ namespace LimbusLocalize
                     string updatelog = "LimbusLocalize_BIE_" + latestReleaseTag;
                     Updatelog += updatelog + ".7z ";
                     string download_uri = UpdateURI.Value == URI.GitHub ?
-                        $"https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany/releases/download/{latestReleaseTag}/{updatelog}.7z"
+                        $"https://github.com/JoshSnappas/LocalizeLimbusCompanyTH/releases/download/{latestReleaseTag}/{updatelog}.7z"
                         : $"https://node.zeroasso.top/d/od/{updatelog}.7z";
                     var dirs = download_uri.Split('/');
                     string filename = LCB_LLCMod.GamePath + "/" + dirs[^1];
@@ -52,7 +52,7 @@ namespace LimbusLocalize
                         DownloadFileAsync(download_uri, filename);
                     UpdateCall = UpdateDel;
                 }
-                LCB_LLCMod.LogWarning("Check Chinese Font Asset Update");
+                LCB_LLCMod.LogWarning("Check Thai Asset Update");
                 Action FontAssetUpdate = CheckChineseFontAssetUpdate;
                 new Thread(FontAssetUpdate).Start();
             }
@@ -60,10 +60,10 @@ namespace LimbusLocalize
         static void CheckChineseFontAssetUpdate()
         {
             string release_uri = UpdateURI.Value == URI.GitHub ?
-                "https://api.github.com/repos/LocalizeLimbusCompany/LLC_ChineseFontAsset/releases/latest"
+                "https://api.github.com/repos/1ookilo/LLC_ThaiFontAsset/releases/latest"
                 : "https://json.zxp123.eu.org/LatestTmp_Release.json";
             UnityWebRequest www = UnityWebRequest.Get(release_uri);
-            string FilePath = LCB_LLCMod.ModPath + "/tmpchinesefont";
+            string FilePath = LCB_LLCMod.ModPath + "/tmpthaifont";
             var LastWriteTime = File.Exists(FilePath) ? int.Parse(TimeZoneInfo.ConvertTime(new FileInfo(FilePath).LastWriteTime, TimeZoneInfo.FindSystemTimeZoneById("China Standard Time")).ToString("yyMMdd")) : 0;
             www.SendWebRequest();
             while (!www.isDone)
@@ -72,10 +72,10 @@ namespace LimbusLocalize
             int latestReleaseTag = int.Parse(latest["tag_name"].Value);
             if (LastWriteTime < latestReleaseTag)
             {
-                string updatelog = "tmpchinesefont_BIE_" + latestReleaseTag;
+                string updatelog = "tmpthaifont_BIE_" + latestReleaseTag;
                 Updatelog += updatelog + ".7z ";
                 string download = UpdateURI.Value == URI.GitHub ?
-                    $"https://github.com/LocalizeLimbusCompany/LLC_ChineseFontAsset/releases/download/{latestReleaseTag}/{updatelog}.7z"
+                    $"https://github.com/1ookilo/LLC_ThaiFontAsset/releases/download/{latestReleaseTag}/{updatelog}.7z"
                     : $"https://node.zeroasso.top/d/od/{updatelog}.7z";
                 var dirs = download.Split('/');
                 string filename = LCB_LLCMod.GamePath + "/" + dirs[^1];

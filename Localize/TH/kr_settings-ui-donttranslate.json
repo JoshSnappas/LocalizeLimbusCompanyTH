@@ -22,27 +22,27 @@
     },
     {
       "id": "mainui_settings_download",
-      "content": "Download"
+      "content": "ดาวน์โหลด"
     },
     {
       "id": "mainui_settings_download_complete",
-      "content": "Download Complete"
+      "content": "ดาวน์โหลดเสร็จสิ้น"
     },
     {
       "id": "mainui_settings_video_resource",
-      "content": "Video Resources"
+      "content": "ทรัพยากรวิดีโอ"
     },
     {
       "id": "mainui_settings_audio_resource",
-      "content": "Audio Resources"
+      "content": "ทรัพยากรเสียง"
     },
     {
       "id": "mainui_settings_animation_resource",
-      "content": "Animation Resources"
+      "content": "ทรัพยากรอนิเมชัน"
     },
     {
       "id": "mainui_settings_ego_presentation",
-      "content": "E.G.O Animation"
+      "content": "อนิเมชัน E.G.O"
     },
     {
       "id": "mainui_settings_on",
@@ -54,11 +54,11 @@
     },
     {
       "id": "mainui_settings_play_once_per_day",
-      "content": "Once per Day"
+      "content": "วันละครั้ง"
     },
     {
       "id": "mainui_settings_resolution",
-      "content": "Resolution"
+      "content": "ความละเอียดของภาพ"
     },
     {
       "id": "mainui_settings_resolution_windowded",
@@ -66,31 +66,31 @@
     },
     {
       "id": "mainui_settings_resolution_fullscreen",
-      "content": "Fullscreen"
+      "content": "เต็มจอ"
     },
     {
       "id": "mainui_settings_texquality",
-      "content": "Texture Quality"
+      "content": "คุณภาพเท็กซ์เจอร์"
     },
     {
       "id": "mainui_settings_resolution_warning",
-      "content": "Higher resolutions may cause the device to heat and consume additional power."
+      "content": "ความละเอียดที่สูงขึ้นอาจทำให้อุปกรณ์เกิดอุณหภูมิและกินพลังงานเพิ่มเติมได้"
     },
     {
       "id": "mainui_settings_fps_warning",
-      "content": "Higher framerates may cause the device to heat and consume additional power."
+      "content": "เฟรมเรทที่สูงขึ้นอาจทำให้อุปกรณ์เกิดอุณหภูมิและกินพลังงานเพิ่มเติมได้"
     },
     {
       "id": "mainui_settings_low",
-      "content": "Low"
+      "content": "ต่ำ"
     },
     {
       "id": "mainui_settings_middle",
-      "content": "Medium"
+      "content": "ปานกลาง"
     },
     {
       "id": "mainui_settings_high",
-      "content": "High"
+      "content": "สูง"
     },
     {
       "id": "mainui_settings_postprocessing",
@@ -106,7 +106,7 @@
     },
     {
       "id": "mainui_settings_ppdesc",
-      "content": "Controls camera effects in battle. Affects game performance."
+      "content": "ควบคุมเอฟเฟคกล้องในระหว่างการต่อสู้ ส่งผลต่อประสิทธิภาพของเกม"
     },
     {
       "id": "mainui_settings_antialiasing",
@@ -114,11 +114,11 @@
     },
     {
       "id": "mainui_settings_clear",
-      "content": "Reset"
+      "content": "รีเซ็ทการตั้งค่า"
     },
     {
       "id": "mainui_settings_clear_ask",
-      "content": "Reset everything to default?"
+      "content": "รีเซ็ทการตั้งค่ากลับสู่ค่าเริ่มต้น?"
     },
     {
       "id": "mainui_settings_render_acceleration",
@@ -134,7 +134,7 @@
     },
     {
       "id": "mainui_settings_sound_voice",
-      "content": "Voice"
+      "content": "เสียงพากย์"
     },
     {
       "id": "mainui_settings_sound_battle_announcer",
@@ -142,7 +142,7 @@
     },
     {
       "id": "mainui_settings_notice_enkephalin_full",
-      "content": "Enkephalin Recovery"
+      "content": "ฟื้นฟู Enkephalin"
     },
     {
       "id": "mainui_settings_notice_ads",
@@ -166,15 +166,15 @@
     },
     {
       "id": "connect_to_google_account",
-      "content": "Link with Google"
+      "content": "ลิงค์กับ Google"
     },
     {
       "id": "connect_to_apple_account",
-      "content": "Link with Apple"
+      "content": "ลิงค์กับ Apple"
     },
     {
       "id": "explain_sucession",
-      "content": "If you close the account, all gameplay and purchase data will be deleted."
+      "content": "หากคุณปิดบัญชีนี้ ข้อมูลเกมเพลย์และการธุรกรรมทั้งหมดจะถูกลบ"
     },
     {
       "id": "explain_sucession_remain_days",

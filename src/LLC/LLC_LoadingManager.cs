@@ -2,6 +2,7 @@
 using HarmonyLib;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 
 namespace LimbusLocalize
@@ -33,8 +34,8 @@ namespace LimbusLocalize
             if (!RandomLoadText.Value)
                 return;
             var loadingText = __instance._loadingText;
-            loadingText.font = LCB_Chinese_Font.tmpchinesefonts[0];
-            loadingText.fontMaterial = LCB_Chinese_Font.tmpchinesefonts[0].material;
+            loadingText.font = LCB_Thai_Font.tmpthaifonts[0];
+            loadingText.fontMaterial = LCB_Thai_Font.tmpthaifonts[0].material;
             loadingText.fontSize = 40;
             int random = Random.Range(0, 100);
             if (random < 25)

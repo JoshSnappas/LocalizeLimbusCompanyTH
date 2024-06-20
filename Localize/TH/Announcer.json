@@ -2,27 +2,51 @@
   "dataList": [
     {
       "id": 1,
-      "name": "ดันเต้"
+      "name": "Dante"
     },
     {
       "id": 2,
-      "name": "เกรเกอร์"
+      "name": "Gregor"
     },
     {
       "id": 3,
-      "name": "คารอน"
+      "name": "Charon"
     },
     {
       "id": 4,
-      "name": "ซินแคลร์"
+      "name": "Sinclair"
     },
     {
       "id": 5,
-      "name": "โรดิอน"
+      "name": "Rodion"
     },
     {
       "id": 6,
-      "name": "อี้ซัง"
+      "name": "Yi Sang"
+    },
+    {
+      "id": 7,
+      "name": "Effie/Saude"
+    },
+    {
+      "id": 8,
+      "name": "Ishmael"
+    },
+    {
+      "id": 9,
+      "name": "Yuri"
+    },
+    {
+      "id": 10,
+      "name": "Malkuth"
+    },
+    {
+      "id": 11,
+      "name": "Pierre/Jack"
+    },
+    {
+      "id": 12,
+      "name": "Angela"
     }
   ]
 }

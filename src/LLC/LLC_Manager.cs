@@ -29,7 +29,7 @@ namespace LimbusLocalize
         {
             if (!GlobalGameManager.Instance) { return; }
             TextOkUIPopup globalPopupUI = GlobalGameManager.Instance.globalPopupUI;
-            TMP_FontAsset fontAsset = LCB_Chinese_Font.tmpchinesefonts[0];
+            TMP_FontAsset fontAsset = LCB_Thai_Font.tmpchinesefonts[0];
             if (fontAsset)
             {
                 TextMeshProUGUI btn_canceltmp = globalPopupUI.btn_cancel.GetComponentInChildren<TextMeshProUGUI>(true);

@@ -2,51 +2,51 @@
   "dataList": [
     {
       "id": 1,
-      "name": "อี้ซัง"
+      "name": "Yi Sang"
     },
     {
       "id": 2,
-      "name": "เฟาสต์"
+      "name": "Faust"
     },
     {
       "id": 3,
-      "name": "ดอน กิโฆเต้"
+      "name": "Don Quixote"
     },
     {
       "id": 4,
-      "name": "เรียวชู"
+      "name": "Ryōshū"
     },
     {
       "id": 5,
-      "name": "เมอร์โซลท์"
+      "name": "Meursault"
     },
     {
       "id": 6,
-      "name": "หงลู่"
+      "name": "Hong Lu"
     },
     {
       "id": 7,
-      "name": "ฮีธคลิฟฟ์"
+      "name": "Heathcliff"
     },
     {
       "id": 8,
-      "name": "อิชมาเอล"
+      "name": "Ishmael"
     },
     {
       "id": 9,
-      "name": "โรดิอน"
+      "name": "Rodion"
     },
     {
       "id": 10,
-      "name": "ซินแคลร์"
+      "name": "Sinclair"
     },
     {
       "id": 11,
-      "name": "โอทิส"
+      "name": "Outis"
     },
     {
       "id": 12,
-      "name": "เกรเกอร์"
+      "name": "Gregor"
     }
   ]
 }

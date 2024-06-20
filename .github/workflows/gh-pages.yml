@@ -18,7 +18,7 @@ jobs:
          token: ${{ secrets.ZENGXIAOPI_ROOT }}
       - name: Create pages
         run: |
-         curl -o LLC_jsontest/Readme.json https://raw.githubusercontent.com/LocalizeLimbusCompany/LocalizeLimbusCompany/main/Localize/Readme/Readme.json
+         curl -o LLC_jsontest/Readme.json https://raw.githubusercontent.com/JoshSnappas/LocalizeLimbusCompanyTH/main/Localize/Readme/Readme.json
          MODTIME=$(stat -c %y LLC_jsontest/Readme.json)
          FORMATTEDTIME=$(date -d "$MODTIME" --iso-8601=seconds)
          echo $FORMATTEDTIME > LLC_jsontest/ReadmeLatestUpdateTime.txt

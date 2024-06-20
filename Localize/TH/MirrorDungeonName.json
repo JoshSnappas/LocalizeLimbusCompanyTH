@@ -2,23 +2,47 @@
   "dataList": [
     {
       "id": "mirrordungeon_name_1",
-      "content": "Mirror of the Beginning"
+      "content": "กระจกแห่งจุดเริ่มต้น"
     },
     {
       "id": "mirrordungeon_name_2",
-      "content": "Mirror of Mirrors"
+      "content": "กระจกแห่งกระจก"
     },
     {
       "id": "mirrordungeon_name_1_0",
-      "content": "Mirror of the Beginning"
+      "content": "กระจกแห่งจุดเริ่มต้น"
     },
     {
       "id": "mirrordungeon_name_2_0",
-      "content": "Mirror of Mirrors - Normal"
+      "content": "กระจกแห่งกระจก - ปานกลาง"
     },
     {
       "id": "mirrordungeon_name_2_1",
-      "content": "Mirror of Mirrors - Hard"
+      "content": "กระจกแห่งกระจก - ยาก"
+    },
+    {
+      "id": "mirrordungeon_name_3",
+      "content": "กระจกแห่งทะเลสาป"
+    },
+    {
+      "id": "mirrordungeon_name_3_0",
+      "content": "กระจกแห่งทะเลสาป - ปานกลาง"
+    },
+    {
+      "id": "mirrordungeon_name_3_1",
+      "content": "กระจกแห่งทะเลสาป - ยาก"
+    },
+    {
+      "id": "mirrordungeon_name_4",
+      "content": "กระจกแห่งวุธเธอริง"
+    },
+    {
+      "id": "mirrordungeon_name_4_0",
+      "content": "กระจกแห่งวุธเธอริง - ซิมูเลชั่น"
+    },
+    {
+      "id": "mirrordungeon_name_4_1",
+      "content": "กระจกแห่งวุธเธอริง - ริทอร์เนลโล"
     }
   ]
 }

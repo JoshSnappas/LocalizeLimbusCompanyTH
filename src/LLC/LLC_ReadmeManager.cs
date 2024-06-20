@@ -10,6 +10,7 @@ using System.IO;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UObject = UnityEngine.Object;
 
@@ -37,14 +38,14 @@ namespace LimbusLocalize
         }
         public static void UIInitialize()
         {
-            Action _close = Close;
+            Action _close = () => { Close(); };
             NoticeUIInstance._popupPanel.closeEvent.AddListener(_close);
             NoticeUIInstance._arrowScroll.Initialize();
             NoticeUIInstance._titleViewManager.Initialized();
             NoticeUIInstance._contentViewManager.Initialized();
             NoticeUIInstance.btn_back._onClick.AddListener(_close);
-            Action eventNotice_onClick = NoticeUIInstance.EventTapClickEvent;
-            Action systemNotice_onClick = NoticeUIInstance.SystemTapClickEvent;
+            Action eventNotice_onClick = () => { NoticeUIInstance.EventTapClickEvent(); };
+            Action systemNotice_onClick = () => { NoticeUIInstance.SystemTapClickEvent(); };
             NoticeUIInstance.btn_eventNotice._onClick.AddListener(eventNotice_onClick);
             NoticeUIInstance.btn_systemNotice._onClick.AddListener(systemNotice_onClick);
             NoticeUIInstance.btn_systemNotice.GetComponentInChildren<UITextDataLoader>(true).enabled = false;
@@ -57,9 +58,9 @@ namespace LimbusLocalize
             NoticeUIInstance.Open();
             NoticeUIInstance._popupPanel.Open();
             List<Notice> notices = ReadmeList;
-            Func<Notice, bool> findsys = (x) => x.noticeType == NOTICE_TYPE.System;
+            Func<Notice, bool> findsys = (Notice x) => x.noticeType == NOTICE_TYPE.System;
             NoticeUIInstance._systemNotices = notices.FindAll(findsys);
-            Func<Notice, bool> findeve = (x) => x.noticeType == NOTICE_TYPE.Event;
+            Func<Notice, bool> findeve = (Notice x) => x.noticeType == NOTICE_TYPE.Event;
             NoticeUIInstance._eventNotices = notices.FindAll(findeve);
             NoticeUIInstance.EventTapClickEvent();
             NoticeUIInstance.btn_eventNotice.Cast<UISelectedButton>().SetSelected(true);
@@ -68,7 +69,7 @@ namespace LimbusLocalize
         {
             ReadmeSprites = new();
 
-            foreach (FileInfo fileInfo in new DirectoryInfo(LCB_LLCMod.ModPath + "/Localize/Readme").GetFiles().Where(f => f.Extension is ".jpg" or ".png"))
+            foreach (FileInfo fileInfo in new DirectoryInfo(LCB_LLCMod.ModPath + "/Localize/Readme").GetFiles().Where(f => f.Extension == ".jpg" || f.Extension == ".png"))
             {
                 Texture2D texture2D = new(2, 2);
                 ImageConversion.LoadImage(texture2D, File.ReadAllBytes(fileInfo.FullName));
@@ -153,7 +154,10 @@ namespace LimbusLocalize
             _redDot_Notice = UIButtonInstance.gameObject.GetComponentInChildren<RedDotWriggler>(true);
             UpdateNoticeRedDot();
             UIButtonInstance._onClick.RemoveAllListeners();
-            Action onClick = Open;
+            Action onClick = delegate
+            {
+                Open();
+            };
             UIButtonInstance._onClick.AddListener(onClick);
             UIButtonInstance.transform.SetSiblingIndex(1);
             var spriteSetting = new ButtonSprites()
