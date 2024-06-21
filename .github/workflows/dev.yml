@@ -2,6 +2,8 @@ name: 开发版
 on:
   workflow_dispatch:
   push:
+    branches:
+      - 'master'  
     paths:
       - 'src/**'
 jobs:
