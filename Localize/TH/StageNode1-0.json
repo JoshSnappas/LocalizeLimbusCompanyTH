@@ -2,27 +2,27 @@
   "dataList": [
     {
       "id": "10001",
-      "title": "The Panther, Lion, and Wolf",
-      "desc": "In a black, dusky forest, I lost the way.",
-      "place": "A Dark Forest"
+      "title": "เสือดำ ราชสีห์ และหมาป่า",
+      "desc": "ภายในป่าทมิฬอันมืดมิด ฉันได้หลงทาง",
+      "place": "ป่าทมิฬ"
     },
     {
       "id": "10002",
-      "title": "Introductions",
-      "desc": "When I awoke, I was on a peculiar bus. The man who introduced himself as “Vergilius” showed me to the twelve Sinners I’ll be overseeing as their new manager…",
-      "place": "A Dark Forest"
+      "title": "แนะนำตัว",
+      "desc": "เมื่อฉันได้ตื่น ฉันก็อยู่บนรถบัสแสนประหลาด ชายที่แนะนำตัวเองว่า “เจอร์จิลเลียส” ได้โชว์ซินเนอร์ทั้งสิบสองคนที่ฉันต้องดูแลในฐานะผู้จัดการของพวกเขา…",
+      "place": "ป่าทมิฬ"
     },
     {
       "id": "10003",
-      "title": "Hit the Road",
-      "desc": "I’m starting to get used to fighting alongside these Sinners. Though, whether they’re used to my presence is another story…",
-      "place": "A Dark Forest"
+      "title": "ออกเดินทาง",
+      "desc": "ฉันเริ่มคุ้นชินกับการต่อสู้เคียงข้างเหล่าซินเนอร์แล้ว แต่พวกเขาจะชินกับฉันด้วยไหมก็อีกเรื่อง…",
+      "place": "ป่าทมิฬ"
     },
     {
       "id": "10004",
-      "title": "Possibilities",
-      "desc": "Various possibilities emerged from the Mirror. Faust says it’s my job to take care of them. Just who was I in the past, and how did I get myself roped into this…?",
-      "place": "A Dark Forest"
+      "title": "ความเป็นไปได้",
+      "desc": "หลากหลายความเป็นไปได้ผุดออกมาจากกระจก เฟาสต์บอกว่ามันเป็นหน้าที่ของฉันที่จะต้องจัดการพวกมัน ฉันเป็นใครกันแน่ในอดีต และฉันไปทำอะไรไว้ถึงได้มาอยู่ในจุดๆ นี้กัน…?",
+      "place": "ป่าทมิฬ"
     }
   ]
 }

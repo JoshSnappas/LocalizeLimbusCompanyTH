@@ -147,7 +147,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target’s SP is below 0, inflict 1 Fragile"
+                  "desc": "[OnSucceedAttack] If target’s SP is below 0, inflict 1 Fragile next turn"
                 }
               ]
             }
@@ -176,7 +176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] If target’s SP is below 0, inflict 1 Fragile"
+                  "desc": "[OnSucceedAttack] If target’s SP is below 0, inflict 1 Fragile next turn"
                 }
               ]
             }
@@ -246,14 +246,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1 to Count of effect applied by the last Coin"
+                  "desc": "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1 to Count of effect applied by the last Coin"
+                  "desc": "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
                 }
               ]
             },
@@ -277,14 +277,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1 to Count of effect applied by the last Coin"
+                  "desc": "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] +1 to Count of effect applied by the last Coin"
+                  "desc": "[OnSucceedAttack] +1 to the value of effect applied by the last Coin"
                 }
               ]
             },
@@ -552,7 +552,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Deal +70% damage on Critical Hit"
+                  "desc": "+70% Damage on Critical Hit"
                 }
               ]
             }
@@ -731,7 +731,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 3 Charge to inflict 4 Bind next turn"
+                  "desc": "[OnSucceedAttack] Spend 3 Charge Count to inflict 4 Bind next turn"
                 }
               ]
             }
@@ -746,7 +746,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 3 Charge to inflict 4 Bind next turn"
+                  "desc": "[OnSucceedAttack] Spend 3 Charge Count to inflict 4 Bind next turn"
                 }
               ]
             }
@@ -767,7 +767,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 3 Charge to inflict 4 Bind next turn"
+                  "desc": "[OnSucceedAttack] Spend 3 Charge Count to inflict 4 Bind next turn"
                 }
               ]
             }
@@ -788,7 +788,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 5 Charge to inflict 2 Attack Power Down next turn; Inflict 3 Paralyze"
+                  "desc": "[OnSucceedAttack] Spend 5 Charge Count to inflict 2 Attack Power Down next turn; Inflict 3 Paralyze"
                 }
               ]
             }
@@ -804,7 +804,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Spend 5 Charge to inflict 2 Attack Power Down next turn; Inflict 3 Paralyze"
+                  "desc": "[OnSucceedAttack] Spend 5 Charge Count to inflict 2 Attack Power Down next turn; Inflict 3 Paralyze"
                 }
               ]
             }
@@ -1788,7 +1788,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply +3 Bleed Count "
+                  "desc": "[OnSucceedAttack] Inflict +3 Bleed Count "
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Inflict 2 Damage Down"
@@ -1923,7 +1923,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 }
               ]
             }
@@ -1932,12 +1932,12 @@
         {
           "level": 2,
           "name": "Nailing Fist",
-          "desc": "[WhenUse] Gain 3 Defense Level Up next turn",
+          "desc": "[WhenUse] Gain 3 Defense Power Up next turn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 }
               ]
             }
@@ -2229,7 +2229,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Evade",
+          "name": "Guard",
           "desc": "",
           "coinlist": [
             {}
@@ -2622,7 +2622,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Guard",
+          "name": "Evade",
           "desc": "",
           "coinlist": [
             {}
@@ -3080,7 +3080,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 }
               ]
             }
@@ -3501,7 +3501,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor; Inflict 1 Blunt Fragility"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst; Inflict 1 Blunt Fragility"
                 }
               ]
             }
@@ -3655,7 +3655,7 @@
         {
           "level": 3,
           "name": "Mind Whip",
-          "desc": "Spend all Charge\nAt less than 10 Charge Count, target a random unit for an unopposed attack",
+          "desc": "Spend all Charge\nIf at less than 10 Charge Count at Combat Start, target a random unit for an unopposed attack",
           "coinlist": [
             {
               "coindescs": [
@@ -3702,7 +3702,7 @@
         {
           "level": 4,
           "name": "Mind Whip",
-          "desc": "Spend 8 Charge\nAt less than 8 Charge Count, target a random unit for an unopposed attack",
+          "desc": "Spend 8 Charge\nIf at less than 8 Charge Count at Combat Start, target a random unit for an unopposed attack",
           "coinlist": [
             {
               "coindescs": [
@@ -4109,7 +4109,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 }
               ]
             },
@@ -4144,7 +4144,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 }
               ]
             },
@@ -4402,7 +4402,7 @@
         {
           "level": 4,
           "name": "Sharp Edge",
-          "desc": "At 4+ Poise, Coin Power +3",
+          "desc": "At 4+ Poise, Coin Power +2",
           "coinlist": [
             {
               "coindescs": [
@@ -5176,12 +5176,12 @@
         {
           "level": 3,
           "name": "Strong Strike",
-          "desc": "[WhenUse] Give 1 Protection to the ally with the least HP",
+          "desc": "[WhenUse] Give 1 Protection to the ally with the least HP next turn",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 Blunt Fragility"
@@ -5198,10 +5198,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If target has 5+ Tremor upon Tremor Burst, gain 2 Protection next turn"
+                  "desc": "[OnSucceedAttack] If target has 5+ Tremor upon [VibrationExplosion], gain 2 Protection next turn"
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict 2 Blunt Fragility"
@@ -5618,7 +5618,7 @@
         {
           "level": 4,
           "name": "Draw of the Sword",
-          "desc": "At 5+ Poise, Coin Power +3",
+          "desc": "At 5+ Poise, Coin Power +1",
           "coinlist": [
             {
               "coindescs": [
@@ -8322,7 +8322,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 }
               ]
             }
@@ -8336,7 +8336,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 },
                 {
                   "desc": "+20% Damage to targets with 5+ Nails"
@@ -8353,7 +8353,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst"
                 },
                 {
                   "desc": "+30% damage to targets with 5+ Nails"
@@ -8551,8 +8551,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor\nAt 3+ Charge Count, reuse this Coin if it lands Heads (Up to 2 times)\nIf the Coin is reused twice, burst Tremor after inflicting it\nAfter bursting Tremor, reduce Tremor Count by 1",
-                  "summary": "[OnSucceedAttack] Burst Tremor.\nReuse Coin if conditions are met; Inflict +2 Tremor if reused.\nIf the Coin is reused twice, burst Tremor then reduce Tremor Count"
+                  "desc": "[OnSucceedAttack] Inflict 2 Tremor\nAt 3+ Charge Count, reuse this Coin if it lands Heads (Up to 2 times)\nIf the Coin is reused twice, inflict Tremor, then trigger Tremor Burst\nAfter Tremor Burst, reduce Tremor Count by 1",
+                  "summary": "[OnSucceedAttack] Trigger Tremor Burst.\nReuse Coin if conditions are met; Inflict +2 Tremor if reused.\nIf the Coin is reused twice, trigger Tremor Burst, then reduce Tremor Count"
                 }
               ]
             }
@@ -8573,8 +8573,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor\nAt 3+ Charge Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more Tremor each time the Coin is reused\nIf the Coin is reused twice, burst Tremor after inflicting it\nAfter bursting Tremor, reduce Tremor Count by 1",
-                  "summary": "[OnSucceedAttack] Burst Tremor.\nReuse Coin if conditions are met; Inflict +2 Tremor if reused.\nIf the Coin is reused twice, burst Tremor then reduce Tremor Count"
+                  "desc": "[OnSucceedAttack] Inflict 2 Tremor\nAt 3+ Charge Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more Tremor each time the Coin is reused\nIf the Coin is reused twice, inflict Tremor, then trigger Tremor Burst\nAfter Tremor Burst, reduce Tremor Count by 1",
+                  "summary": "[OnSucceedAttack] Trigger Tremor Burst.\nReuse Coin if conditions are met; Inflict +2 Tremor if reused.\nIf the Coin is reused twice, trigger Tremor Burst, then reduce Tremor Count"
                 }
               ]
             }
@@ -8595,8 +8595,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 Tremor\nAt 3+ Charge Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more Tremor each time the Coin is reused\nIf the Coin is reused twice, burst Tremor after inflicting it\nAfter bursting Tremor, reduce Tremor Count by 1",
-                  "summary": "[OnSucceedAttack] Burst Tremor.\nReuse Coin if conditions are met; Inflict +2 Tremor if reused.\nIf the Coin is reused twice, burst Tremor then reduce Tremor Count"
+                  "desc": "[OnSucceedAttack] Inflict 2 Tremor\nAt 3+ Charge Count, reuse this Coin if it lands Heads (Up to 2 times)\nInflict 2 more Tremor each time the Coin is reused\nIf the Coin is reused twice, inflict Tremor, then trigger Tremor Burst\nAfter Tremor Burst, reduce Tremor Count by 1",
+                  "summary": "[OnSucceedAttack] Trigger Tremor Burst\nReuse Coin if conditions are met; Inflict +2 Tremor if reused.\nIf the Coin is reused twice, trigger Tremor Burst, then reduce Tremor Count"
                 }
               ]
             }
@@ -8625,14 +8625,14 @@
                   "desc": "[OnSucceedAttackHead] Inflict 2 Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor\nAfter bursting Tremor, reduce Tremor Count by 1"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst.\nAfter Tremor Burst, reduce Tremor Count by 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor\nAfter bursting Tremor, reduce Tremor Count by 1"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst.\nAfter Tremor Burst, reduce Tremor Count by 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] If target is Staggered, deal 25% of damage dealt as bonus damage"
@@ -8824,8 +8824,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor\nWhen bursting Tremor, reduce Tremor Count by 3, then spend all Charge to further raise Stagger Threshold by (Charge Count x 5)% (Max 50%)",
-                  "summary": "[OnSucceedAttack] Burst Tremor, then reduce Tremor Count by 3; Spend Charge to further raise Stagger Threshold"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nWhen triggering Tremor Burst, reduce Tremor Count by 3, then spend all Charge Count to further raise Stagger Threshold by (Charge Count x 5)% (Max 50%)",
+                  "summary": "[OnSucceedAttack] Trigger Tremor Burst, then reduce Tremor Count by 3; Spend Charge Count to further raise Stagger Threshold"
                 }
               ]
             }
@@ -8869,8 +8869,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor\nWhen bursting Tremor, reduce Tremor Count by 3, then spend all Charge to further raise Stagger Threshold by (Charge Count x 5)% (Max 50%)",
-                  "summary": "[OnSucceedAttack] Burst Tremor, then reduce Tremor Count by 3; Spend Charge to further raise Stagger Threshold"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nWhen triggering Tremor Burst, reduce Tremor Count by 3, then spend all Charge Count to further raise Stagger Threshold by (Charge Count x 5)% (Max 50%)",
+                  "summary": "[OnSucceedAttack] Trigger Tremor Burst, then reduce Tremor Count by 3; Spend Charge Count to further raise Stagger Threshold"
                 }
               ]
             }
@@ -9011,7 +9011,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor, then reduce Tremor Count by 2;\nSpend up to 4 Charge to inflict Rupture Count equal to Charge Count spent"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst, then reduce Tremor Count by 2;\nSpend up to 4 Charge Count to inflict Rupture Count equal to Charge Count spent"
                 }
               ]
             },
@@ -9045,7 +9045,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor, then reduce Tremor Count by 2;\nSpend up to 4 Charge to inflict Rupture Count equal to Charge Count spent"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst, then reduce Tremor Count by 2;\nSpend up to 4 Charge Count to inflict Rupture Count equal to Charge Count spent"
                 }
               ]
             },
@@ -9180,7 +9180,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Burst Tremor"
+                  "desc": "[OnSucceedAttackTail] Trigger Tremor Burst"
                 }
               ]
             }
@@ -9212,7 +9212,7 @@
                   "desc": "Spend 5 Sinking to deal +20% damage"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Burst Tremor"
+                  "desc": "[OnSucceedAttackTail] Trigger Tremor Burst"
                 }
               ]
             }
@@ -9244,7 +9244,7 @@
                   "desc": "Spend 5 Sinking to deal +20% damage"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Burst Tremor"
+                  "desc": "[OnSucceedAttackTail] Trigger Tremor Burst"
                 }
               ]
             }
@@ -9707,7 +9707,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor\nAfter bursting Tremor, reduce Tremor Count by 4. Inflict 5 Rupture"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nAfter triggering Tremor Burst, reduce Tremor Count by 4. Inflict 5 Rupture"
                 }
               ]
             }
@@ -9721,7 +9721,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Burst Tremor\nAfter bursting Tremor, reduce Tremor Count by 4. Inflict 5 Rupture"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst\nAfter triggering Tremor Burst, reduce Tremor Count by 4. Inflict 5 Rupture"
                 }
               ]
             }
@@ -10530,10 +10530,10 @@
                   "desc": "[OnSucceedAttack] Inflict +1 Bleed Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge. Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count; Inflict +1 Bleed Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 3 Charge. Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttack] Spend 3 Charge Count; Inflict +1 Bleed Count"
                 }
               ]
             },
@@ -10543,10 +10543,10 @@
                   "desc": "[OnSucceedAttack] Inflict +1 Bleed Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge. Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count; Inflict +1 Bleed Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 3 Charge. Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttack] Spend 3 Charge Count; Inflict +1 Bleed Count"
                 }
               ]
             },
@@ -10564,10 +10564,10 @@
                   "desc": "[OnSucceedAttack] Inflict +1 Bleed Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge. Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count; Inflict +1 Bleed Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 3 Charge. Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttack] Spend 3 Charge Count; Inflict +1 Bleed Count"
                 }
               ]
             },
@@ -10577,10 +10577,10 @@
                   "desc": "[OnSucceedAttack] Inflict +1 Bleed Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 2 Charge. Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttack] Spend 2 Charge Count; Inflict +1 Bleed Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Spend 3 Charge. Inflict +1 Bleed Count"
+                  "desc": "[OnSucceedAttack] Spend 3 Charge Count; Inflict +1 Bleed Count"
                 }
               ]
             },
@@ -10697,7 +10697,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Gain +2 Poise Count"
                 }
               ]
             },
@@ -10712,7 +10712,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +1 Poise Count"
+                  "desc": "[OnSucceedAttack] Gain +2 Poise Count"
                 }
               ]
             },
@@ -10902,7 +10902,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Declared Duel"
+                  "desc": "[OnSucceedAttack] Inflict [DuelDeclaration_DonQuixote]"
                 }
               ]
             },
@@ -10917,7 +10917,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict Declared Duel"
+                  "desc": "[OnSucceedAttack] Inflict [DuelDeclaration_DonQuixote]"
                 }
               ]
             },
@@ -10950,6 +10950,556 @@
           "coinlist": [
             {}
           ]
+        }
+      ]
+    },
+    {
+      "id": 1070601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Intuition",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Intuition",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 Rupture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Intuition",
+          "desc": "If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u>, Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 Rupture"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 Rupture"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "The Wrap-up",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 Rupture Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "The Wrap-up",
+          "desc": "[WinDuel] Inflict +1 Rupture Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 Defense Level Down next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 Rupture Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "The Wrap-up",
+          "desc": "[WinDuel] Inflict +1 Rupture Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Defense Level Down next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 Rupture Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Forensics",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +3 Rupture Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                },
+                {
+                  "desc": "[EnemyKill] Inflict +2 Rupture Count against the enemy with the lowest Rupture Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Forensics",
+          "desc": "If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u>, Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +3 Rupture Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 1 Rupture"
+                },
+                {
+                  "desc": "[EnemyKill] Inflict +2 Rupture Count against the enemy with the lowest Rupture Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1070604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Guard",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Predictive Analysis",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Predictive Analysis",
+          "desc": "If target has 3+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u>, Coin Power +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Predictive Analysis",
+          "desc": "Coin Power +1 for every 3 Rupture on target (Max 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Dissect Target",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Inflict 3 Rupture"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u>, inflict Weakness Analyzed next turn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Dissect Target",
+          "desc": "If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u>, Coin Power +1\n[WinDuel] Inflict +3 Rupture Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u>, inflict Weakness Analyzed next turn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Dissect Target",
+          "desc": "Coin Power +1 for every 6 Rupture on target (Max 2)\n[WinDuel] Inflict +3 Rupture Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] If target has 6+ <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Rupture</color></link></u>, inflict Weakness Analyzed next turn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Profiling",
+          "desc": "[WhenUse] Deal +10% damage for every 3 Rupture on target (Max 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] If target is Staggered or defeated, gain 1 Haste, 1 Slash Power Up next turn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Profiling",
+          "desc": "[WhenUse] Deal +10% damage for every 3 Rupture on target (Max 50%)\n[WinDuel] Inflict +2 Rupture Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 Rupture"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] If target is Staggered or defeated, gain 1 Haste, 1 Slash Power Up next turn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Let's Wrap It Up",
+          "desc": "[WhenUse] Gain 1 Haste next turn (3 times per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Let's Wrap It Up",
+          "desc": "[WhenUse] Gain 1 Haste next turn (3 times per turn)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 999901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Heated Puncture",
+          "desc": "Unobservable"
+        }
+      ]
+    },
+    {
+      "id": 999902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Scorching Incision",
+          "desc": "Unobservable"
+        }
+      ]
+    },
+    {
+      "id": 999903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Following the Flow",
+          "desc": "Unobservable"
+        }
+      ]
+    },
+    {
+      "id": 999904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "I Shall Open the Path",
+          "desc": "Unobservable"
+        }
+      ]
+    },
+    {
+      "id": 999905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Silence",
+          "desc": "Unobservable"
+        }
+      ]
+    },
+    {
+      "id": 999906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "?",
+          "desc": "Unobservable"
+        }
+      ]
+    },
+    {
+      "id": 999907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "?",
+          "desc": "Unobservable"
+        }
+      ]
+    },
+    {
+      "id": 999908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "?",
+          "desc": "Unobservable"
+        }
+      ]
+    },
+    {
+      "id": 999909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "?",
+          "desc": "Unobservable"
         }
       ]
     }
