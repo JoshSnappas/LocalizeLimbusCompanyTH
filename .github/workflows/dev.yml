@@ -1,4 +1,4 @@
-name: 开发版
+name: Dev
 on:
   workflow_dispatch:
   push:

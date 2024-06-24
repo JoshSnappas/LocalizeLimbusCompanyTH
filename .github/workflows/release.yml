@@ -1,9 +1,9 @@
-name: 释放
+name: Release
 on:
   workflow_dispatch:
     inputs:
       version:
-        description: '版本号'   
+        description: 'version'   
 jobs:
   release:
     runs-on: windows-latest
@@ -41,7 +41,7 @@ jobs:
       - name: 触发工作流
         uses: benc-uk/workflow-dispatch@v1
         with:
-          token: ${{ secrets.ZENGXIAOPI_ROOT }}
+          token: ${{ secrets.LimbusLocalizeTH }}
           workflow: update_api.yml
-          repo: ZengXiaoPi/LLC_jsontest
+          repo: JoshSnappas/LLC_jsontest
           ref: main

@@ -1,4 +1,4 @@
-name: 公告热更新
+name: Build
 
 on:
   push:
@@ -13,9 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-         repository: 'ZengXiaoPi/LLC_jsontest'
+         repository: 'JoshSnappas/LLC_jsontest'
          path: LLC_jsontest
-         token: ${{ secrets.ZENGXIAOPI_ROOT }}
+         token: ${{ secrets.LimbusLocalizeTH }}
       - name: Create pages
         run: |
          curl -o LLC_jsontest/Readme.json https://raw.githubusercontent.com/JoshSnappas/LocalizeLimbusCompanyTH/main/Localize/Readme/Readme.json
@@ -27,4 +27,4 @@ jobs:
          git config --global user.name 'github-actions[bot]'
          git add .
          git commit -m "Update LLC Readme"
-         git push https://github-actions[bot]:${{ secrets.ZENGXIAOPI_ROOT }}@github.com/ZengXiaoPi/LLC_jsontest
+         git push https://github-actions[bot]:${{ secrets.LimbusLocalizeTH }}@github.com/JoshSnappas/LLC_jsontest
