@@ -6,13 +6,13 @@
         {
           "level": 1,
           "name": "Patrolling",
-          "desc": "[DefeatDuel] Gain 2 Defense Level Up",
+          "desc": "[DefeatDuel] ได้รับ 2 Defense Level Up",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 2 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttackHead] ได้รับ 2 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -21,13 +21,13 @@
         {
           "level": 2,
           "name": "Patrolling",
-          "desc": "[DefeatDuel] Gain 3 Defense Level Up",
+          "desc": "[DefeatDuel] ได้รับ 3 Defense Level Up",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 2 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -36,13 +36,13 @@
         {
           "level": 4,
           "name": "Patrolling",
-          "desc": "[WhenUse] Gain +2 Aggro to this Skill Slot next turn\n[DefeatDuel] Gain 3 Defense Level Up",
+          "desc": "[WhenUse] ได้รับ +2 Aggro ในช่องสกิลนี้ในเทิร์นถัดไป\n[DefeatDuel] ได้รับ 3 Defense Level Up",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 2 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -56,26 +56,26 @@
         {
           "level": 1,
           "name": "Client Protection",
-          "desc": "[WhenUse] Apply 2 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)",
+          "desc": "[WhenUse] มอบ 2 Defense Level Up แก่พันธมิตรที่มี %HP ต่ำที่สุด (3 ครั้งต่อเทิร์น)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttackHead] ได้รับ 1 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttackHead] ได้รับ 1 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttackHead] ได้รับ 1 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -84,26 +84,26 @@
         {
           "level": 2,
           "name": "Client Protection",
-          "desc": "[WhenUse] Apply 3 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)\nAt 5+ Defense Level Up, Clash Power +1",
+          "desc": "[WhenUse] มอบ 3 Defense Level Up แก่พันธมิตรที่มี %HP ต่ำที่สุด (3 ครั้งต่อเทิร์น)\nในขณะที่มี 5+ Defense Level Up, Clash Power +1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 1 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 1 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 1 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -112,26 +112,26 @@
         {
           "level": 4,
           "name": "Client Protection",
-          "desc": "[WhenUse] Apply 4 Defense Level Up to the ally with the lowest HP percentage (3 times per turn)\nAt 5+ Defense Level Up, Clash Power +2",
+          "desc": "[WhenUse] มอบ 4 Defense Level Up แก่พันธมิตรที่มี %HP ต่ำที่สุด (3 ครั้งต่อเทิร์น)\nในขณะที่มี 5+ Defense Level Up, Clash Power +2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 1 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 1 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 Defense Level Up next turn"
+                  "desc": "[OnSucceedAttack] ได้รับ 1 Defense Level Up ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -145,13 +145,13 @@
         {
           "level": 3,
           "name": "Law and Order",
-          "desc": "At 5+ Defense Level Up, Coin Power +1\n[WinDuel] Heal 2 HP",
+          "desc": "ในขณะที่มี 5+ Defense Level Up, Coin Power +1\n[WinDuel] ฟิ้นฟู 2 HP",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "Apply 1 Haste and 2 Defense Level Up to the ally with the lowest HP percentage next turn"
+                  "desc": "มอบ 1 Haste และ 2 Defense Level Up แก่พันธมิตรที่มี %HP ต่ำที่สุดในเทิร์นถัดไป"
                 }
               ]
             }
@@ -160,16 +160,16 @@
         {
           "level": 4,
           "name": "Law and Order",
-          "desc": "At 5+ Defense Level Up, Coin Power +1\n[WinDuel] Heal 4 HP",
+          "desc": "ในขณะที่มี 5+ Defense Level Up, Coin Power +1\n[WinDuel] ฟิ้นฟู 4 HP",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "Apply 1 Haste and 2 Defense Level Up to the ally with the lowest HP percentage next turn"
+                  "desc": "มอบ 1 Haste และ 2 Defense Level Up แก่พันธมิตรที่มี %HP ต่ำที่สุดในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "If the ally is a Zwei Association Fixer, apply an additional 1 Haste, 1 Defense Level Up"
+                  "desc": "หากพันธมิตรเป็นฟิกเซอร์จาก Zwei Association, มอบ 1 Haste, 1 Defense Level Up เพิ่มเติม"
                 }
               ]
             }
@@ -191,7 +191,7 @@
         {
           "level": 4,
           "name": "Guard",
-          "desc": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+          "desc": "[WhenUse] ได้รับ +3 Aggro ในช่องสกิลนี้ในเทิร์นถัดไป",
           "coinlist": [
             {}
           ]
@@ -204,15 +204,15 @@
         {
           "level": 1,
           "name": "Contracting Straight-jacket",
-          "desc": "[WhenUse] Gain +3 Tremor Count",
+          "desc": "[WhenUse] ได้รับ +3 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 Tremor Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 Tremor Count"
+                  "desc": "[OnSucceedAttack] มอบ +2 Tremor Count"
                 }
               ]
             }
@@ -221,15 +221,15 @@
         {
           "level": 2,
           "name": "Contracting Straight-jacket",
-          "desc": "[WhenUse] Gain +3 Tremor Count",
+          "desc": "[WhenUse] ได้รับ +3 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 Tremor Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] มอบ +3 Tremor Count"
                 }
               ]
             }
@@ -238,15 +238,15 @@
         {
           "level": 4,
           "name": "Contracting Straight-jacket",
-          "desc": "[WhenUse] Gain +3 Tremor Count\n[DefeatDuel] Gain +3 Tremor Count",
+          "desc": "[WhenUse] ได้รับ +3 Tremor Count\n[DefeatDuel] ได้รับ +3 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +3 Tremor Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 Tremor Count"
+                  "desc": "[OnSucceedAttack] มอบ +3 Tremor Count"
                 }
               ]
             }
@@ -260,12 +260,12 @@
         {
           "level": 1,
           "name": "Metallic Ringing",
-          "desc": "[WhenUse] Gain +4 Tremor Count",
+          "desc": "[WhenUse] ได้รับ +4 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Offense Level Down next turn"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Offense Level Down ในเทิร์นถัดไป"
                 }
               ]
             },
@@ -273,7 +273,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 Tremor"
+                  "desc": "[OnSucceedAttack] มอบ 4 Tremor"
                 }
               ]
             }
@@ -282,15 +282,15 @@
         {
           "level": 2,
           "name": "Metallic Ringing",
-          "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill\n[WhenUse] Gain +4 Tremor Count",
+          "desc": "[StartBattle] ใช้ 5 Tremor Count เพื่อรับ +1 Atk Weight แก่สกิลนี้\n[WhenUse] ได้รับ +4 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +1 Tremor Count"
+                  "desc": "[OnSucceedAttackHead] ได้รับ +1 Tremor Count"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Offense Level Down next turn"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Offense Level Down ในเทิร์นถัดไป"
                 }
               ]
             },
@@ -298,10 +298,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Tremor"
+                  "desc": "[OnSucceedAttack] มอบ 5 Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 1 Plus Coin Drop next turn"
+                  "desc": "[OnSucceedAttackHead] มอบ 1 Plus Coin Drop ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -310,15 +310,15 @@
         {
           "level": 4,
           "name": "Metallic Ringing",
-          "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill\n[WhenUse] Gain +4 Tremor Count",
+          "desc": "[StartBattle] ใช้ 5 Tremor Count เพื่อรับ +1 Atk Weight แก่สกิลนี้\n[WhenUse] ได้รับ +4 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain +1 Tremor Count"
+                  "desc": "[OnSucceedAttackHead] ได้รับ +1 Tremor Count"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Offense Level Down next turn"
+                  "desc": "[OnSucceedAttack] มอบ 1 Offense Level Down ในเทิร์นถัดไป"
                 }
               ]
             },
@@ -326,10 +326,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 Tremor"
+                  "desc": "[OnSucceedAttack] มอบ 5 Tremor"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Plus Coin Drop next turn"
+                  "desc": "[OnSucceedAttack] มอบ 1 Plus Coin Drop ในเทิร์นถัดไป"
                 }
               ]
             }
@@ -343,26 +343,26 @@
         {
           "level": 3,
           "name": "Unleashed Violence",
-          "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill (Max +2)\n[DefeatDuel] Lose 20 SP\nDeal 3% more Damage for every type of negative effect on target (Max 15%)\n[EnemyKill] Gain +2 Tremor Count",
+          "desc": "[StartBattle] ใช้ 5 Tremor Count เพื่อรับ +1 Atk Weight แก่สกิลนี้ (สูงสุด +2)\n[DefeatDuel] สูญเสีย 20 SP\nดาเมจ +3% ต่อจำนวนสถานะผิดปกติบนตัวเป้าหมาย (สูงสุด 15%)\n[EnemyKill] ได้รับ +2 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 20% of the final Stagger Threshold Raised by Tremor Burst. (Max 13)"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 20% of the final Stagger Raised by Tremor Burst. (Max 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 20% of the final Stagger Threshold Raised by Tremor Burst. (Max 13)"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 20% of the final Stagger Raised by Tremor Burst. (Max 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 20% of the final Stagger Threshold Raised by Tremor Burst. (Max 13)\nReduce Tremor Count by 3"
+                  "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 20% of the final Stagger Raised by Tremor Burst. (Max 13)\nReduce Tremor Count by 3"
                 }
               ]
             }
@@ -371,26 +371,26 @@
         {
           "level": 4,
           "name": "Unleashed Violence",
-          "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill (Max +2)\n[DefeatDuel] Lose 20 SP\nDeal 6% more Damage for every type of negative effect on target (Max 30%)\n[EnemyKill] Gain +2 Tremor Count",
+          "desc": "[StartBattle] ใช้ 5 Tremor Count and ได้รับ +1 Atk Weight for this Skill (Max +2)\n[DefeatDuel] Lose 20 SP\nดาเมจ +6% ต่อจำนวนสถานะผิดปกติบนตัวเป้าหมาย (Max 30%)\n[EnemyKill] ได้รับ +2 Tremor Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 30% of the final Stagger Threshold Raised by Tremor Burst. (Max 20)"
+                  "desc": "[OnSucceedAttack] ทำการ Tremor Burst, \nจากนั้นทำดาเมจ Wrath เป็น 30% ของขีด Stagger ที่ถูกดึงขึ้นจากผลของการ Tremor Burst (สูงสุด 20)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 30% of the final Stagger Threshold Raised by Tremor Burst. (Max 20)"
+                  "desc": "[OnSucceedAttack] ทำการ Tremor Burst, \nจากนั้นทำดาเมจ Wrath เป็น 30% ของขีด Stagger ที่ถูกดึงขึ้นจากผลของการ Tremor Burst (สูงสุด 20)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 30% of the final Stagger Threshold Raised by Tremor Burst. (Max 20)\nReduce Tremor Count by 3"
+                  "desc": "[OnSucceedAttack] ทำการ Tremor Burst, \nจากนั้นทำดาเมจ Wrath เป็น 30% ของขีด Stagger ที่ถูกดึงขึ้นจากผลของการ Tremor Burst (สูงสุด 20)\nลด Tremor Count ลง 3"
                 }
               ]
             }
@@ -404,7 +404,7 @@
         {
           "level": 1,
           "name": "Gathering Spite",
-          "desc": "[WhenUse] Gain +3 Tremor Count",
+          "desc": "[WhenUse] ได้รับ +3 Tremor Count",
           "coinlist": [
             {}
           ]
@@ -412,7 +412,7 @@
         {
           "level": 4,
           "name": "Gathering Spite",
-          "desc": "[WhenUse] Gain +6 Tremor Count",
+          "desc": "[WhenUse] ได้รับ +6 Tremor Count",
           "coinlist": [
             {}
           ]
@@ -425,14 +425,14 @@
         {
           "level": 1,
           "name": "Moonlit Blade Dance",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] ได้รับ +2 [Breath] Count",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 1 [RedApricotBlossom]"
                 }
               ]
             }
@@ -441,20 +441,20 @@
         {
           "level": 2,
           "name": "Moonlit Blade Dance",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] ได้รับ +2 [Breath] Count",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttackHead] ได้รับ 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 1 [RedApricotBlossom]"
                 }
               ]
             }
@@ -463,20 +463,20 @@
         {
           "level": 4,
           "name": "Moonlit Blade Dance",
-          "desc": "<style=\"highlight\">At 5+ [Breath], Coin Power +1</style>\n[WhenUse] Gain +2 [Breath] Count",
+          "desc": "<style=\"highlight\">ในขณะที่มี 5+ [Breath], Coin Power +1</style>\n[WhenUse] ได้รับ +2 [Breath] Count",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Gain 1 [Breath]"
+                  "desc": "[OnSucceedAttackHead] ได้รับ 1 [Breath]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 1 [RedApricotBlossom]"
                 }
               ]
             }
@@ -490,19 +490,19 @@
         {
           "level": 1,
           "name": "Acupuncture",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] ได้รับ +2 [Breath] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +1 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +1 [Breath] Count"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 2 [RedApricotBlossom]"
                 }
               ]
             }
@@ -511,25 +511,25 @@
         {
           "level": 2,
           "name": "Acupuncture",
-          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "desc": "[WhenUse] ได้รับ +2 [Breath] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +2 [Breath] Count"
                 },
                 {
-                  "desc": "+30% Damage on Critical Hit"
+                  "desc": "ดาเมจ +30% เมื่อคริ"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
+                  "desc": "[OnSucceedAttack] มอบ 1 Bind ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 2 [RedApricotBlossom]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -538,25 +538,25 @@
         {
           "level": 4,
           "name": "Acupuncture",
-          "desc": "<style=\"highlight\">At 7+ [Breath], Coin Power +1\n</style>[WhenUse] Gain +2 [Breath] Count",
+          "desc": "<style=\"highlight\">ในขณะที่มี 7+ [Breath], Coin Power +1\n</style>[WhenUse] ได้รับ +2 [Breath] Count",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +2 [Breath] Count"
+                  "desc": "[OnSucceedAttack] ได้รับ +2 [Breath] Count"
                 },
                 {
-                  "desc": "+30% Damage on Critical Hit"
+                  "desc": "ดาเมจ +30% เมื่อคริ"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 Bind next turn"
+                  "desc": "[OnSucceedAttack] มอบ 1 Bind ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 2 [RedApricotBlossom]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -570,19 +570,19 @@
         {
           "level": 3,
           "name": "Red Plum Blossoms Scatter",
-          "desc": "Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)",
+          "desc": "Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then ได้รับ [Breath] equal to the [Breath] Count consumed. (Max 10)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 5 [RedApricotBlossom]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 5 [RedApricotBlossom]"
                 }
               ]
             }
@@ -591,25 +591,25 @@
         {
           "level": 4,
           "name": "Red Plum Blossoms Scatter",
-          "desc": "Deal +3% more damage for every [RedApricotBlossom] on target\n<style=\"highlight\">Coin Power +1 for every 7 [Breath] on self (Max 3)</style>\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)\n<style=\"highlight\">This Skill does not consume [RedApricotBlossom] On Crit</style>",
+          "desc": "Deal +3% more damage for every [RedApricotBlossom] on target\n<style=\"highlight\">Coin Power +1 for every 7 [Breath] on self (Max 3)</style>\n[WinDuel] Consume half the [Breath] Count on self, then ได้รับ [Breath] equal to the [Breath] Count consumed. (Max 10)\n<style=\"highlight\">This Skill does not consume [RedApricotBlossom] On Crit</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 5 [RedApricotBlossom]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] If the target has 10 [RedApricotBlossom], inflict 1 [SlashTakeDamageUp]"
+                  "desc": "[CriticalOnSucceedAttack] If the target has 10 [RedApricotBlossom], มอบ 1 [SlashTakeDamageUp]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]"
+                  "desc": "[CriticalOnSucceedAttack] มอบ 5 [RedApricotBlossom]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] If the target has 10 [RedApricotBlossom], inflict 1 [SlashTakeDamageUp]"
+                  "desc": "[CriticalOnSucceedAttack] If the target has 10 [RedApricotBlossom], มอบ 1 [SlashTakeDamageUp]"
                 }
               ]
             }
@@ -623,7 +623,7 @@
         {
           "level": 1,
           "name": "Redirect",
-          "desc": "[WhenUse] For every 4 [Breath] on self, gain Final Power +1 (Max 3)",
+          "desc": "[WhenUse] For every 4 [Breath] on self, ได้รับ Final Power +1 (Max 3)",
           "coinlist": [
             {}
           ]
@@ -631,7 +631,7 @@
         {
           "level": 4,
           "name": "Redirect",
-          "desc": "[WhenUse] For every 4 [Breath] on self, gain Final Power +1 (Max 5)",
+          "desc": "[WhenUse] For every 4 [Breath] on self, ได้รับ Final Power +1 (Max 5)",
           "coinlist": [
             {}
           ]
@@ -650,7 +650,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttackHead] มอบ 2 [Sinking]"
                 }
               ]
             }
@@ -665,7 +665,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] มอบ 2 [Sinking]"
                 }
               ]
             }
@@ -680,7 +680,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Sinking]"
+                  "desc": "[OnSucceedAttack] มอบ 2 [Sinking]"
                 }
               ]
             }
@@ -700,7 +700,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttackHead] มอบ +2 [Sinking] Count"
                 }
               ]
             }
@@ -715,7 +715,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] มอบ +2 [Sinking] Count"
                 }
               ]
             }
@@ -730,7 +730,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] มอบ +3 [Sinking] Count"
                 }
               ]
             }
@@ -749,7 +749,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] มอบ +3 [Sinking] Count"
                 }
               ]
             },
@@ -758,10 +758,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EchoOfMansion] next turn"
+                  "desc": "[OnSucceedAttack] มอบ 2 [EchoOfMansion] ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has [EchoOfMansion], inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] If the target has [EchoOfMansion], มอบ +3 [Sinking] Count"
                 }
               ]
             }
@@ -775,7 +775,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] มอบ +3 [Sinking] Count"
                 }
               ]
             },
@@ -784,10 +784,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [EchoOfMansion] next turn"
+                  "desc": "[OnSucceedAttack] มอบ 2 [EchoOfMansion] ในเทิร์นถัดไป"
                 },
                 {
-                  "desc": "[OnSucceedAttack] If the target has [EchoOfMansion], inflict +3 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] If the target has [EchoOfMansion], มอบ +3 [Sinking] Count"
                 }
               ]
             }

@@ -86,7 +86,7 @@
     },
     {
       "id": 10102,
-      "title": "Seven Association\nSouth Section 6",
+      "title": "Seven Assoc.\nSouth Section 6",
       "name": "Yi Sang",
       "nameWithTitle": "Yi Sang",
       "desc": "Yi Sang’s 2nd Identity"
@@ -107,14 +107,14 @@
     },
     {
       "id": 10402,
-      "title": "Seven Association\nSouth Section 6",
+      "title": "Seven Assoc.\nSouth Section 6",
       "name": "Ryōshū",
       "nameWithTitle": "Ryōshū",
       "desc": "Ryōshū’s 2nd Identity"
     },
     {
       "id": 10502,
-      "title": "Liu Association\nSouth Section 6",
+      "title": "Liu Assoc.\nSouth Section 6",
       "name": "Meursault",
       "nameWithTitle": "Meursault",
       "desc": "Meursault’s 2nd Identity"
@@ -128,7 +128,7 @@
     },
     {
       "id": 10702,
-      "title": "Shi Association\nSouth Section 5",
+      "title": "Shi Assoc.\nSouth Section 5",
       "name": "Heathcliff",
       "nameWithTitle": "Heathcliff",
       "desc": "Heathcliff’s 2nd Identity"
@@ -156,14 +156,14 @@
     },
     {
       "id": 11102,
-      "title": "Blade Lineage\nCutthroat",
+      "title": "Blade Lineage\nSalsu",
       "name": "Outis",
       "nameWithTitle": "Outis",
       "desc": "Outis’s 2nd Identity"
     },
     {
       "id": 11202,
-      "title": "Liu Association\nSouth Section 6",
+      "title": "Liu Assoc.\nSouth Section 6",
       "name": "Gregor",
       "nameWithTitle": "Gregor",
       "desc": "Gregor’s 2nd Identity"
@@ -212,7 +212,7 @@
     },
     {
       "id": 10803,
-      "title": "Shi Association\nSouth Section 5",
+      "title": "Shi Assoc.\nSouth Section 5",
       "name": "Ishmael",
       "nameWithTitle": "Ishmael",
       "desc": "Ishmael’s 3rd Identity"
@@ -226,7 +226,7 @@
     },
     {
       "id": 11003,
-      "title": "Zwei Association\nSouth Section 6",
+      "title": "Zwei Assoc.\nSouth Section 6",
       "name": "Sinclair",
       "nameWithTitle": "Sinclair",
       "desc": "Sinclair’s 3rd Identity"
@@ -261,7 +261,7 @@
     },
     {
       "id": 10303,
-      "title": "Shi Association\nSouth Section 5 Director",
+      "title": "Shi Assoc.\nSouth Section 5 Director",
       "name": "Don Quixote",
       "nameWithTitle": "Don Quixote",
       "desc": "Don Quixote’s 3rd Identity"
@@ -296,14 +296,14 @@
     },
     {
       "id": 11104,
-      "title": "Seven Association\nSouth Section 6 Director",
+      "title": "Seven Assoc.\nSouth Section 6 Director",
       "name": "Outis",
       "nameWithTitle": "Outis",
       "desc": "Outis’s 4th Identity"
     },
     {
       "id": 10604,
-      "title": "Liu Association\nSouth Section 5",
+      "title": "Liu Assoc.\nSouth Section 5",
       "name": "Hong Lu",
       "nameWithTitle": "Hong Lu",
       "desc": "Hong Lu’s 4th Identity"
@@ -394,7 +394,7 @@
     },
     {
       "id": 10806,
-      "title": "Liu Association\nSouth Section 4",
+      "title": "Liu Assoc.\nSouth Section 4",
       "name": "Ishmael",
       "nameWithTitle": "Ishmael",
       "desc": "Ishmael’s 6th Identity"
@@ -408,14 +408,14 @@
     },
     {
       "id": 10906,
-      "title": "Zwei Association\nSouth Section 5",
+      "title": "Zwei Assoc.\nSouth Section 5",
       "name": "Rodion",
       "nameWithTitle": "Rodion",
       "desc": "Rodion’s 6th Identity"
     },
     {
       "id": 10305,
-      "title": "Cinq Association\nSouth Section 5 Director",
+      "title": "Cinq Assoc.\nSouth Section 5 Director",
       "name": "Don Quixote",
       "nameWithTitle": "Don Quixote",
       "desc": "Don Quixote’s 5th Identity"
@@ -436,17 +436,311 @@
     },
     {
       "id": 11206,
-      "title": "Zwei Association\nSouth Section 4",
+      "title": "Zwei Assoc.\nSouth Section 4",
       "name": "Gregor",
       "nameWithTitle": "Gregor",
       "desc": "Gregor’s 6th Identity"
     },
     {
       "id": 10205,
-      "title": "Zwei Association\nSouth Section 4",
+      "title": "Zwei Assoc.\nSouth Section 4",
       "name": "Faust",
       "nameWithTitle": "Faust",
       "desc": "Faust’s 5th Identity"
+    },
+    {
+      "id": 10405,
+      "title": "W Corp. L3\nCleanup Agent",
+      "name": "Ryōshū",
+      "nameWithTitle": "Ryōshū",
+      "desc": "Ryōshū’s 5th Identity"
+    },
+    {
+      "id": 10606,
+      "title": "W Corp. L2\nCleanup Agent",
+      "name": "Hong Lu",
+      "nameWithTitle": "Hong Lu",
+      "desc": "Hong Lu’s 6th Identity"
+    },
+    {
+      "id": 10206,
+      "title": "Seven Assoc.\nSouth Section 4",
+      "name": "Faust",
+      "nameWithTitle": "Faust",
+      "desc": "Faust’s 6th Identity"
+    },
+    {
+      "id": 10706,
+      "title": "Seven Assoc.\nSouth Section 4",
+      "name": "Heathcliff",
+      "nameWithTitle": "Heathcliff",
+      "desc": "Heathcliff’s 6th Identity"
+    },
+    {
+      "id": 10105,
+      "title": "Molar Office\nFixer",
+      "name": "Yi Sang",
+      "nameWithTitle": "Yi Sang",
+      "desc": "Yi Sang's 5th Identity"
+    },
+    {
+      "id": 11105,
+      "title": "Molar Office\nFixer",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis's 5th Identity"
+    },
+    {
+      "id": 10907,
+      "title": "Dieci Assoc.\nSouth Section 4",
+      "name": "Rodion",
+      "nameWithTitle": "Rodion",
+      "desc": "Rodion's 7th Identity"
+    },
+    {
+      "id": 10207,
+      "title": "Lobotomy E.G.O::Regret",
+      "name": "Faust",
+      "nameWithTitle": "Faust",
+      "desc": "Faust’s 7th Identity"
+    },
+    {
+      "id": 10607,
+      "title": "Hook Office\nFixer",
+      "name": "Hong Lu",
+      "nameWithTitle": "Hong Lu",
+      "desc": "Hong Lu's 7th Identity"
+    },
+    {
+      "id": 10106,
+      "title": "W Corp. L3\nCleanup Agent",
+      "name": "Yi Sang",
+      "nameWithTitle": "Yi Sang",
+      "desc": "Yi Sang's 6th Identity"
+    },
+    {
+      "id": 11207,
+      "title": "Twinhook Pirates\nFirst Mate",
+      "name": "Gregor",
+      "nameWithTitle": "Gregor",
+      "desc": "Gregor's 7th Identity"
+    },
+    {
+      "id": 10406,
+      "title": "LCCB\nAssistant Manager",
+      "name": "Ryōshū",
+      "nameWithTitle": "Ryōshū",
+      "desc": "Ryōshū’s 6th Identity"
+    },
+    {
+      "id": 10306,
+      "title": "The Middle\nLittle Sister",
+      "name": "Don Quixote",
+      "nameWithTitle": "Don Quixote",
+      "desc": "Don Quixote’s 6th Identity"
+    },
+    {
+      "id": 10507,
+      "title": "The Middle\nLittle Brother",
+      "name": "Meursault",
+      "nameWithTitle": "Meursault",
+      "desc": "Meursault’s 7th Identity"
+    },
+    {
+      "id": 10707,
+      "title": "The Pequod\nHarpooneer",
+      "name": "Heathcliff",
+      "nameWithTitle": "Heathcliff",
+      "desc": "Heathcliff's 7th Identity"
+    },
+    {
+      "id": 10107,
+      "title": "The Pequod\nFirst Mate",
+      "name": "Yi Sang",
+      "nameWithTitle": "Yi Sang",
+      "desc": "Yi Sang's 7th Identity"
+    },
+    {
+      "id": 11008,
+      "title": "Cinq Assoc.\nSouth Section 4 Director",
+      "name": "Sinclair",
+      "nameWithTitle": "Sinclair",
+      "desc": "Sinclair’s 8th Identity"
+    },
+    {
+      "id": 11106,
+      "title": "Cinq Assoc.\nSouth Section 4",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis's 6th Identity"
+    },
+    {
+      "id": 11107,
+      "title": "Lobotomy E.G.O::Magic Bullet",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis's 7th Identity"
+    },
+    {
+      "id": 10307,
+      "title": "Lobotomy E.G.O::Lantern",
+      "name": "Don Quixote",
+      "nameWithTitle": "Don Quixote",
+      "desc": "Don Quixote’s 7th Identity"
+    },
+    {
+      "id": 10608,
+      "title": "Dieci Assoc.\nSouth Section 4",
+      "name": "Hong Lu",
+      "nameWithTitle": "Hong Lu",
+      "desc": "Hong Lu's 8th Identity"
+    },
+    {
+      "id": 10108,
+      "title": "Dieci Assoc.\nSouth Section 4",
+      "name": "Yi Sang",
+      "nameWithTitle": "Yi Sang",
+      "desc": "Yi Sang's 8th Identity"
+    },
+    {
+      "id": 10808,
+      "title": "The Pequod\nCaptain",
+      "name": "Ishmael",
+      "nameWithTitle": "Ishmael",
+      "desc": "Ishmael’s 8th Identity"
+    },
+    {
+      "id": 10508,
+      "title": "Blade Lineage\nMentor",
+      "name": "Meursault",
+      "nameWithTitle": "Meursault",
+      "desc": "Meursault’s 8th Identity"
+    },
+    {
+      "id": 10208,
+      "title": "Blade Lineage\nSalsu",
+      "name": "Faust",
+      "nameWithTitle": "Faust",
+      "desc": "Faust’s 8th Identity"
+    },
+    {
+      "id": 10308,
+      "title": "Blade Lineage\nSalsu",
+      "name": "Don Quixote",
+      "nameWithTitle": "Don Quixote",
+      "desc": "Don Quixote’s 8th Identity"
+    },
+    {
+      "id": 11208,
+      "title": "Kurokumo Clan\nCaptain",
+      "name": "Gregor",
+      "nameWithTitle": "Gregor",
+      "desc": "Gregor's 8th Identity"
+    },
+    {
+      "id": 10908,
+      "title": "Liu Assoc.\nSouth Section 4 Director",
+      "name": "Rodion",
+      "nameWithTitle": "Rodion",
+      "desc": "Rodion's 8th Identity"
+    },
+    {
+      "id": 10407,
+      "title": "Liu Assoc.\nSouth Section 4",
+      "name": "Ryōshū",
+      "nameWithTitle": "Ryōshū",
+      "desc": "Ryōshū's 7th Identity"
+    },
+    {
+      "id": 10708,
+      "title": "Öufi Assoc.\nSouth Section 3",
+      "name": "Heathcliff",
+      "nameWithTitle": "Heathcliff",
+      "desc": "Heathcliff's 8th Identity"
+    },
+    {
+      "id": 11108,
+      "title": "Wuthering Heights\nChief Butler",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis's 8th Identity"
+    },
+    {
+      "id": 10509,
+      "title": "Dead Rabbits\nBoss",
+      "name": "Meursault",
+      "nameWithTitle": "Meursault",
+      "desc": "Meursault’s 9th Identity"
+    },
+    {
+      "id": 11209,
+      "title": "Edgar Family\nHeir",
+      "name": "Gregor",
+      "nameWithTitle": "Gregor",
+      "desc": "Gregor's 9th Identity"
+    },
+    {
+      "id": 10209,
+      "title": "Wuthering Heights\nButler",
+      "name": "Faust",
+      "nameWithTitle": "Faust",
+      "desc": "Faust's 9th Identity"
+    },
+    {
+      "id": 9999,
+      "title": "The Red Gaze",
+      "name": "Vergilius",
+      "nameWithTitle": "",
+      "desc": ""
+    },
+    {
+      "id": 10408,
+      "title": "Edgar Family\nChief Butler",
+      "name": "Ryōshū",
+      "nameWithTitle": "Ryōshū",
+      "desc": "Ryōshū's 8th Identity"
+    },
+    {
+      "id": 10809,
+      "title": "Edgar Family\nButler",
+      "name": "Ishmael",
+      "nameWithTitle": "Ishmael",
+      "desc": "Ishmael’s 9th Identity"
+    },
+    {
+      "id": 11009,
+      "title": "Dawn Office\nFixer",
+      "name": "Sinclair",
+      "nameWithTitle": "Sinclair",
+      "desc": "Sinclair's 9th Identity"
+    },
+    {
+      "id": 10109,
+      "title": "The Ring Pointillist\nStudent",
+      "name": "Yi Sang",
+      "nameWithTitle": "Yi Sang",
+      "desc": "Yi Sang's 9th Identity"
+    },
+    {
+      "id": 11109,
+      "title": "The Ring Pointillist\nStudent",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis's 9th Identity"
+    },
+    {
+      "id": 10609,
+      "title": "District 20\nYurodivy",
+      "name": "Hong Lu",
+      "nameWithTitle": "Hong Lu",
+      "desc": "Hong Lu's 9th Identity"
+    },
+    {
+      "id": 10409,
+      "title": "District 20\nYurodivy",
+      "name": "Ryōshū",
+      "nameWithTitle": "Ryōshū",
+      "desc": "Ryōshū's 9th Identity"
     }
   ]
 }

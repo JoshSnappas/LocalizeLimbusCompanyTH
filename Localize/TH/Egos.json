@@ -234,6 +234,131 @@
       "id": 20604,
       "name": "Soda",
       "desc": "Hong Lu’s E.G.O Gear"
+    },
+    {
+      "id": 21004,
+      "name": "Lantern",
+      "desc": "Sinclair’s E.G.O Gear"
+    },
+    {
+      "id": 20704,
+      "name": "Ya Śūnyatā Tad Rūpam",
+      "desc": "Heathcliff’s E.G.O Gear"
+    },
+    {
+      "id": 20505,
+      "name": "Regret",
+      "desc": "Meursault’s E.G.O Gear"
+    },
+    {
+      "id": 20605,
+      "name": "Effervescent Corrosion",
+      "desc": "Hong Lu’s E.G.O Gear"
+    },
+    {
+      "id": 20205,
+      "name": "9:2",
+      "desc": "Faust’s E.G.O Gear"
+    },
+    {
+      "id": 20406,
+      "name": "Blind Obsession",
+      "desc": "Ryōshū’s E.G.O Gear"
+    },
+    {
+      "id": 20805,
+      "name": "Blind Obsession",
+      "desc": "Ishmael’s E.G.O Gear"
+    },
+    {
+      "id": 20904,
+      "name": "Effervescent Corrosion",
+      "desc": "Rodion’s E.G.O Gear"
+    },
+    {
+      "id": 21005,
+      "name": "9:2",
+      "desc": "Sinclair’s E.G.O Gear"
+    },
+    {
+      "id": 20905,
+      "name": "Pursuance",
+      "desc": "Rodion’s E.G.O Gear"
+    },
+    {
+      "id": 20705,
+      "name": "Holiday",
+      "desc": "Heathcliff’s E.G.O Gear"
+    },
+    {
+      "id": 21105,
+      "name": "Holiday",
+      "desc": "Outis’s E.G.O Gear"
+    },
+    {
+      "id": 20305,
+      "name": "Wishing Cairn",
+      "desc": "Don Quixote’s E.G.O Gear"
+    },
+    {
+      "id": 21205,
+      "name": "Garden of Thorns",
+      "desc": "Gregor’s E.G.O Gear"
+    },
+    {
+      "id": 21206,
+      "name": "Bygone Days",
+      "desc": "Gregor’s E.G.O Gear"
+    },
+    {
+      "id": 20106,
+      "name": "Bygone Days",
+      "desc": "Yi Sang’s E.G.O Gear"
+    },
+    {
+      "id": 20306,
+      "name": "Electric Screaming",
+      "desc": "Don Quixote’s E.G.O Gear"
+    },
+    {
+      "id": 20506,
+      "name": "Electric Screaming",
+      "desc": "Meursault’s E.G.O Gear"
+    },
+    {
+      "id": 21106,
+      "name": "Binds",
+      "desc": "Outis’s E.G.O Gear"
+    },
+    {
+      "id": 20706,
+      "name": "Binds",
+      "desc": "Heathcliff’s E.G.O Gear"
+    },
+    {
+      "id": 20806,
+      "name": "Wingbeat",
+      "desc": "Ishmael’s E.G.O Gear"
+    },
+    {
+      "id": 20906,
+      "name": "Sanguine Desire",
+      "desc": "Rodion’s E.G.O Gear"
+    },
+    {
+      "id": 20606,
+      "name": "Cavernous Wailing",
+      "desc": "Hong Lu’s E.G.O Gear"
+    },
+    {
+      "id": 21006,
+      "name": "Cavernous Wailing",
+      "desc": "Sinclair’s E.G.O Gear"
+    },
+    {
+      "id": 20206,
+      "name": "Everlasting",
+      "desc": "Faust’s E.G.O Gear"
     }
   ]
 }

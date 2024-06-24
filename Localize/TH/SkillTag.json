@@ -2,19 +2,19 @@
   "dataList": [
     {
       "id": "OnSucceedAttack",
-      "name": "[On Hit]"
+      "name": "[โจมตีโดน]"
     },
     {
       "id": "WhenUse",
-      "name": "[On Use]"
+      "name": "[เมื่อใช้]"
     },
     {
       "id": "WinDuel",
-      "name": "[Clash Win]"
+      "name": "[แคลชชนะ]"
     },
     {
       "id": "BeforeAttack",
-      "name": "[Before Attack]"
+      "name": "[ก่อนโจมตี]"
     },
     {
       "id": "Wide",
@@ -34,7 +34,7 @@
     },
     {
       "id": "CantIdentify",
-      "name": "[Indiscriminate]"
+      "name": "[ไม่สนเป้าหมาย]"
     },
     {
       "id": "CRIMSON",
@@ -74,27 +74,27 @@
     },
     {
       "id": "EndSkill",
-      "name": "[After Attack]"
+      "name": "[หลังโจมตี]"
     },
     {
       "id": "StartBattle",
-      "name": "[Combat Start]"
+      "name": "[เริ่มต่อสู้]"
     },
     {
       "id": "DefeatDuel",
-      "name": "[Clash Lose]"
+      "name": "[แคลชแพ้]"
     },
     {
       "id": "OnSucceedAttackHead",
-      "name": "[Heads Hit]"
+      "name": "[ออกหัว]"
     },
     {
       "id": "OnSucceedAttackTail",
-      "name": "[Tails Hit]"
+      "name": "[ออกก้อย]"
     },
     {
       "id": "OnSucceedEvade",
-      "name": "[On Evade]"
+      "name": "[หลบ]"
     },
     {
       "id": "AlwaysUse",
@@ -102,87 +102,87 @@
     },
     {
       "id": "CantDuel",
-      "name": "[Unclashable]"
+      "name": "[แคลชไม่ได้]"
     },
     {
       "id": "EnemyKill",
-      "name": "[On Kill]"
+      "name": "[ฆ่า]"
     },
     {
       "id": "EnemyKillFail",
-      "name": "[Failed Kill]"
+      "name": "[ฆ่าล้มเหลว]"
     },
     {
       "id": "ReUse",
-      "name": "[On Reuse]"
+      "name": "[เมื่อใช้ซ้ำ]"
     },
     {
       "id": "ReUseOnSucceedAttackHead",
-      "name": "[Reuse - Heads Hit]"
+      "name": "[ใช้ซ้ำ - ออกหัว]"
     },
     {
       "id": "CriticalOnSucceedAttack",
-      "name": "[On Crit]"
+      "name": "[เมื่อคริ]"
     },
     {
       "id": "StartDuel",
-      "name": "[Clash Start]"
+      "name": "[เริ่มแคลช]"
     },
     {
       "id": "EndBattle",
-      "name": "[Turn End]"
+      "name": "[จบการต่อสู้]"
     },
     {
       "id": "OnDefeatEvade",
-      "name": "[Failed Evade]"
+      "name": "[หลบพลาด]"
     },
     {
       "id": "EndSkillHead",
-      "name": "[Heads Attack End]"
+      "name": "[จบการโจมตีออกหัว]"
     },
     {
       "id": "EndSkillTail",
-      "name": "[Tails Attack End]"
+      "name": "[จบการโจมตีออกก้อย]"
     },
     {
       "id": "WinDuelAttackHead",
-      "name": "[Heads Hit after Clash Win]"
+      "name": "[ออกหัวหลังแคลชชนะ]"
     },
     {
       "id": "WinDuelAttack",
-      "name": "[Hit after Clash Win]"
+      "name": "[โจมตีโดนหลังแคลชชนะ]"
     },
     {
       "id": "CriticalActivated",
-      "name": "[On Crit]"
+      "name": "[เมื่อคริ]"
     },
     {
       "id": "CriticalEndSkill",
-      "name": "[Crit Attack End]"
+      "name": "[จบการโจมตีคริ]"
     },
     {
       "id": "CantChangeTarget",
-      "name": "[Target Fixed]"
+      "name": "[บังคับเล็ง]"
     },
     {
       "id": "TurnStartBattle",
-      "name": "[Turn Start]"
+      "name": "[เริ่มเทิร์น]"
     },
     {
       "id": "EndSkillAll",
-      "name": "[Skill End]"
+      "name": "[จบสกิล]"
     },
     {
       "id": "WhenUse_Force",
-      "name": "<color=#26cfff>[On Use]</color>"
+      "name": "<color=#26cfff>[เมื่อใช้]</color>"
     },
     {
       "id": "StartBattle_Force",
-      "name": "<color=#93f13e>[Combat Start]</color>"
+      "name": "<color=#93f13e>[เริ่มต่อสู้]</color>"
     },
     {
       "id": "TargetKill",
-      "name": "[On Target Kill]"
-    }
-  ]
+      "name": "[เมื่อเป้าหมายตาย]"
+    }  
+  ] 
 }
